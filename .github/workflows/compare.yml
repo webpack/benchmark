@@ -15,17 +15,19 @@ on:
 jobs:
   bench:
     strategy:
-      case:
-        - minimal
-        - esbuild-three
-      scenario:
-        - development-default-build
-        - development-cached-build
-        - development-cached-pnp-build
-        - production-default-build
-        - production-cached-build
-        - production-source-map-build
-        - production-source-map-cached-build
+      fail-fast: false
+      matrix:
+        case:
+          - minimal
+          - esbuild-three
+        scenario:
+          - development-default-build
+          - development-cached-build
+          - development-cached-pnp-build
+          - production-default-build
+          - production-cached-build
+          - production-source-map-build
+          - production-source-map-cached-build
     runs-on: ubuntu-latest
     steps:
       - name: Use Node.js
