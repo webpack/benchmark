@@ -1,0 +1,10 @@
+{
+  "name": "webpack-benchmark",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Run benchmarks for webpack.",
+  "repository": "https://github.com/webpack/benchmark",
+  "author": "Tobias Koppers <tobias.koppers@googlemail.com>",
+  "license": "MIT",
+  "private": true
+}

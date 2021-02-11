@@ -1,0 +1,44 @@
+name: Compare
+
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: "Base webpack version (git)"
+        default: "v5.21.2"
+        required: true
+      current:
+        description: "current webpack version (git)"
+        default: "master"
+        required: true
+
+jobs:
+  bench:
+    strategy:
+      case:
+        - minimal
+        - esbuild-three
+      scenario:
+        - development-default-build
+        - development-cached-build
+        - development-cached-pnp-build
+        - production-default-build
+        - production-cached-build
+        - production-source-map-build
+        - production-source-map-cached-build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: yarn-${{ matrix.case }}-${{ github.event.inputs.name }}
+          restore-keys: |
+            yarn-${{ matrix.case }}-
+            yarn-
+      - run: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
