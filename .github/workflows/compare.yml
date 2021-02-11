@@ -17,6 +17,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        base:
+          - "${{ github.event.inputs.base }}"
+        current:
+          - "${{ github.event.inputs.current }}"
         case:
           - minimal
           - esbuild-three
@@ -30,6 +34,7 @@ jobs:
           - production-source-map-cached-build
     runs-on: ubuntu-latest
     steps:
+      - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -40,7 +45,7 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-${{ matrix.case }}-${{ github.event.inputs.name }}
+          key: yarn-${{ matrix.case }}-${{ github.event.inputs.base }}
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
