@@ -28,6 +28,7 @@ jobs:
           - development-default-build
           - development-cached-build
           - development-cached-pnp-build
+          - development-cached-rebuild
           - production-default-build
           - production-cached-build
           - production-source-map-build
