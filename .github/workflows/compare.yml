@@ -23,6 +23,7 @@ jobs:
           - "${{ github.event.inputs.current }}"
         case:
           - minimal
+          - common-libs
           - esbuild-three
         scenario:
           - development-default-build
