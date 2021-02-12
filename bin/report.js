@@ -50,17 +50,22 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 	const cases = new Set(diffs.map((d) => d.case));
 	const scenarios = new Set(diffs.map((d) => d.scenario));
 
-	console.log("# By scenario");
-	console.log();
-	for (const scenario of scenarios) {
-		output(`## ${scenario}`, { scenarioFilter: scenario });
+	if (scenarios.size > 1) {
+		console.log();
+		console.log("# By scenario");
+		console.log();
+		for (const scenario of scenarios) {
+			output(`## ${scenario}`, { scenarioFilter: scenario });
+		}
 	}
-	console.log();
 
-	console.log("# By case");
-	console.log();
-	for (const caseName of cases) {
-		output(`## ${caseName}`, { caseFilter: caseName });
+	if (cases.size > 1) {
+		console.log();
+		console.log("# By case");
+		console.log();
+		for (const caseName of cases) {
+			output(`## ${caseName}`, { caseFilter: caseName });
+		}
 	}
 })().catch((err) => {
 	process.exitCode = 1;
