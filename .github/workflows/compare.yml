@@ -34,7 +34,7 @@ jobs:
           - production-cached-build
           - production-source-map-build
           - production-source-map-cached-build
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
       - uses: actions/checkout@v2
