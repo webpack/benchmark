@@ -4,3 +4,4 @@ cases/**/yarn.lock
 *.log
 .cache
 .yarn
+/output
