@@ -30,10 +30,10 @@ jobs:
           - development-cached-build
           - development-cached-pnp-build
           - development-cached-rebuild
-          # - production-default-build
-          # - production-cached-build
-          # - production-source-map-build
-          # - production-source-map-cached-build
+          - production-default-build
+          - production-cached-build
+          - production-source-map-build
+          - production-source-map-cached-build
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
