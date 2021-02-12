@@ -17,7 +17,7 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 
 (async () => {
 	const diff = await compare(caseName, scenarioName, {
-		runs: 20,
+		runs: 30,
 		verboseSetup: true,
 		baselineDependencies: {
 			webpack: `webpack/webpack#${baseline}`,
@@ -26,10 +26,10 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 			webpack: `webpack/webpack#${current}`,
 		},
 	});
-	console.log(formatDiffTable(diff, true));
+	console.log(formatDiffTable(diff, { colors: true, verbose: true }));
 	await mkdir(resolve(rootDir, "output"), { recursive: true });
 	await writeFile(
-		resolve(rootDir, `output/${caseName}-${scenarioName}.json`),
+		resolve(rootDir, `output/${caseName}_${scenarioName}.json`),
 		JSON.stringify(diff, null, 2)
 	);
 })().catch((err) => {

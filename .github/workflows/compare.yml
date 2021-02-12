@@ -23,12 +23,12 @@ jobs:
           - "${{ github.event.inputs.current }}"
         case:
           - minimal
-          # - esbuild-three
+          - esbuild-three
         scenario:
           - development-default-build
           - development-cached-build
-          # - development-cached-pnp-build
-          # - development-cached-rebuild
+          - development-cached-pnp-build
+          - development-cached-rebuild
           # - production-default-build
           # - production-cached-build
           # - production-source-map-build
@@ -59,6 +59,7 @@ jobs:
     needs: [bench]
     runs-on: ubuntu-latest
     steps:
+      - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -68,4 +69,4 @@ jobs:
         with:
           name: compare-results
           path: output
-      - run: ls -l output
+      - run: node bin/report.js
