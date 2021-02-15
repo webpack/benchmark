@@ -13,8 +13,8 @@ const [
 	,
 	caseName = "minimal",
 	scenarioName = "development-build",
-	baseline = "webpack@webpack/webpack#v5.22.0",
-	current = "webpack@webpack/webpack#v5.22.0",
+	baseline = "",
+	current = "",
 ] = process.argv;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
@@ -34,6 +34,7 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 		resolve(rootDir, `output/${caseName}_${scenarioName}.json`),
 		JSON.stringify(diff, null, 2)
 	);
+	process.exitCode = diff.stats.lowHigh < 1 || diff.stats.highLow > 1 ? 1 : 0;
 })().catch((err) => {
 	process.exitCode = 1;
 	console.error(err.stack);

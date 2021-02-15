@@ -51,13 +51,17 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
       - uses: actions/upload-artifact@v2
         with:
           name: compare-results
           path: output
   report:
     needs: [bench]
+    if: ${{ always() }}
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}

@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   basic:
@@ -31,7 +32,15 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: node bin/verify-stability.js ${{ matrix.case }} ${{ matrix.scenario }}
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }}
+      - uses: actions/upload-artifact@v2
+        with:
+          name: compare-results
+          path: output
+
   complete:
     needs: [basic]
     strategy:
@@ -65,4 +74,27 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: node bin/verify-stability.js ${{ matrix.case }} ${{ matrix.scenario }}
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }}
+      - uses: actions/upload-artifact@v2
+        with:
+          name: compare-results
+          path: output
+
+  report:
+    needs: [basic, complete]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - uses: actions/download-artifact@v2
+        with:
+          name: compare-results
+          path: output
+      - run: node bin/report.js
