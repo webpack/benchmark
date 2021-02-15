@@ -26,7 +26,7 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 	console.log(formatResultTable(result, { colors: true, verbose: true }));
 	console.log();
 	console.log(formatDiffTable(diff, { colors: true, verbose: true }));
-	process.exitCode = diff.stats.lowHigh < 1 || diff.stats.highLow > 1;
+	process.exitCode = diff.stats.lowHigh < 1 || diff.stats.highLow > 1 ? 1 : 0;
 })().catch((err) => {
 	process.exitCode = 1;
 	console.error(err.stack);
