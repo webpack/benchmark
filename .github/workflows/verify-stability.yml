@@ -1,0 +1,42 @@
+name: Compare
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        case:
+          - common-libs
+          - esbuild-three
+        scenario:
+          - development-build
+          - development-build+persistent-cache
+          - development-build+pnp
+          - development-rebuild
+          - production-build
+          - production-build+no-minimize
+          - production-build+no-minimize+no-concatenation
+          - production-build+persistent-cache
+          - production-build+source-map+persistent-cache
+    runs-on: linux-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: yarn-${{ matrix.case }}-${{ github.event.inputs.base }}
+          restore-keys: |
+            yarn-${{ matrix.case }}-
+            yarn-
+      - run: node bin/verify-stability.js ${{ matrix.case }} ${{ matrix.scenario }}
