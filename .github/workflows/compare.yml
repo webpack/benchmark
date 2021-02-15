@@ -30,6 +30,7 @@ jobs:
           - development-build+pnp
           - development-rebuild
           - production-build
+          - production-build+source-map
           - production-build+no-minimize
           - production-build+no-minimize+no-concatenation
           - production-build+persistent-cache
@@ -54,6 +55,7 @@ jobs:
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3
+          timeout_minutes: 25
           command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
       - uses: actions/upload-artifact@v2
         with:
