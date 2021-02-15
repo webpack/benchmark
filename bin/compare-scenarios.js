@@ -8,9 +8,8 @@ const [
 	,
 	,
 	caseName = "minimal",
-	scenarioName = "development-default-build",
-	baseline = "v5.0.0",
-	current = "master",
+	baseline = "development-default-build",
+	scenarioName = "development-cached-build",
 ] = process.argv;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
@@ -19,19 +18,14 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 	const { diff, result } = await compare(caseName, scenarioName, {
 		runs: 30,
 		verboseSetup: true,
-		baselineDependencies: {
-			webpack: `webpack/webpack#${baseline}`,
-		},
-		dependencies: {
-			webpack: `webpack/webpack#${current}`,
-		},
+		baselineScenario: baseline,
 	});
 	console.log(formatResultTable(result, { colors: true, verbose: true }));
 	console.log();
 	console.log(formatDiffTable(diff, { colors: true, verbose: true }));
 	await mkdir(resolve(rootDir, "output"), { recursive: true });
 	await writeFile(
-		resolve(rootDir, `output/${caseName}_${scenarioName}.json`),
+		resolve(rootDir, `output/${caseName}.json`),
 		JSON.stringify(diff, null, 2)
 	);
 })().catch((err) => {

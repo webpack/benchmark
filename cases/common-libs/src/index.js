@@ -1,7 +1,10 @@
 import "./babel-runtime";
+import * as core from "@material-ui/core";
+import * as lab from "@material-ui/lab";
+import * as icons from "@material-ui/icons";
+console.log(core, lab, icons);
 import "acorn";
 import "classnames";
-import "core-js";
 import * as dateFn from "date-fns";
 import * as dateFnEsm from "date-fns/esm";
 console.log(dateFn, dateFnEsm);

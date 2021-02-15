@@ -22,19 +22,19 @@ jobs:
         current:
           - "${{ github.event.inputs.current }}"
         case:
-          - minimal
           - common-libs
           - esbuild-three
         scenario:
-          - development-default-build
-          - development-cached-build
-          - development-cached-pnp-build
-          - development-cached-rebuild
-          - production-default-build
-          - production-cached-build
-          - production-source-map-build
-          - production-source-map-cached-build
-    runs-on: windows-latest
+          - development-build
+          - development-build+persistent-cache
+          - development-build+pnp
+          - development-rebuild
+          - production-build
+          - production-build+no-minimize
+          - production-build+no-minimize+no-concatenation
+          - production-build+persistent-cache
+          - production-build+source-map+persistent-cache
+    runs-on: linux-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
       - uses: actions/checkout@v2
