@@ -15,7 +15,7 @@ jobs:
           - esbuild-three
         scenario:
           - development-build
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
@@ -49,7 +49,7 @@ jobs:
           - production-build+no-minimize+no-concatenation
           - production-build+persistent-cache
           - production-build+source-map+persistent-cache
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js

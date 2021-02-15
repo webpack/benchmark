@@ -34,7 +34,7 @@ jobs:
           - production-build+no-minimize+no-concatenation
           - production-build+persistent-cache
           - production-build+source-map+persistent-cache
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
       - uses: actions/checkout@v2
