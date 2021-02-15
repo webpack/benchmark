@@ -1,4 +1,4 @@
-name: Compare
+name: Verify Stability
 
 on:
   push:
