@@ -8,8 +8,8 @@ const [
 	,
 	,
 	caseName = "minimal",
-	baseline = "development-default-build",
-	scenarioName = "development-cached-build",
+	baseline = "development-build",
+	scenarioName = "development-build+persistent-cache",
 ] = process.argv;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");

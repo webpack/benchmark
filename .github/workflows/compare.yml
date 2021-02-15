@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       base:
-        description: "Base webpack version (git)"
-        default: "v5.21.2"
+        description: "Base versions (dep@version, comma-separated)"
+        default: "webpack@webpack/webpack#v5.21.2"
         required: true
       current:
-        description: "current webpack version (git)"
-        default: "master"
+        description: "current versions (dep@version, comma-separated)"
+        default: "webpack@webpack/webpack#master"
         required: true
 
 jobs:

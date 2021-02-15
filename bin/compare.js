@@ -1,5 +1,9 @@
 import compare from "../lib/compare.js";
-import { formatDiffTable, formatResultTable } from "../lib/utils.js";
+import {
+	formatDiffTable,
+	formatResultTable,
+	parseDependencies,
+} from "../lib/utils.js";
 import { mkdir, writeFile } from "fs/promises";
 import { resolve } from "path";
 import { fileURLToPath } from "url";
@@ -8,9 +12,9 @@ const [
 	,
 	,
 	caseName = "minimal",
-	scenarioName = "development-default-build",
-	baseline = "v5.0.0",
-	current = "master",
+	scenarioName = "development-build",
+	baseline = "webpack@webpack/webpack#v5.22.0",
+	current = "webpack@webpack/webpack#v5.22.0",
 ] = process.argv;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
@@ -19,12 +23,8 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 	const { diff, result } = await compare(caseName, scenarioName, {
 		runs: 30,
 		verboseSetup: true,
-		baselineDependencies: {
-			webpack: `webpack/webpack#${baseline}`,
-		},
-		dependencies: {
-			webpack: `webpack/webpack#${current}`,
-		},
+		baselineDependencies: parseDependencies(baseline),
+		dependencies: parseDependencies(current),
 	});
 	console.log(formatResultTable(result, { colors: true, verbose: true }));
 	console.log();
