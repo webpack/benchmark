@@ -7,7 +7,8 @@ import { promisify } from "util";
 
 const ncp = promisify(ncpCallback);
 
-const [, , name] = process.argv;
+const [, , name, token] = process.argv;
+const GITHUB_ACTOR = process.env.GITHUB_ACTOR;
 
 if (!name) throw new Error("name argument missing");
 
@@ -33,7 +34,9 @@ const dirExist = async (p) => {
 			"--single-branch",
 			"--depth",
 			"1",
-			"https://github.com/webpack/benchmark",
+			token
+				? `https://${GITHUB_ACTOR}:${token}@github.com/webpack/benchmark.git`
+				: "https://github.com/webpack/benchmark",
 			".gh-pages",
 		]);
 	}
