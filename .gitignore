@@ -7,3 +7,4 @@ cases/**/yarn.lock
 .yarnrc.yml
 .pnp.js
 /output
+.gh-pages

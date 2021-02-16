@@ -32,6 +32,7 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
+      - run: yarn
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3
@@ -76,6 +77,7 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
+      - run: yarn
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3

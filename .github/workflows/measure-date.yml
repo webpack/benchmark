@@ -1,26 +1,17 @@
-name: Compare
+name: Measure date
 
 on:
   workflow_dispatch:
     inputs:
-      base:
-        description: "Base versions (dep@version, comma-separated) or date"
-        default: "webpack@webpack/webpack#v5.21.2"
+      date:
+        description: "Date to measure (yyyy-mm-dd)"
+        default: "2021-01-01"
         required: true
-      current:
-        description: "current versions (dep@version, comma-separated) or date"
-        default: "webpack@webpack/webpack#master"
-        required: true
-
 jobs:
   bench:
     strategy:
       fail-fast: false
       matrix:
-        base:
-          - "${{ github.event.inputs.base }}"
-        current:
-          - "${{ github.event.inputs.current }}"
         case:
           - common-libs
           - esbuild-three
@@ -37,7 +28,7 @@ jobs:
           - production-build+source-map+persistent-cache
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
+      - run: echo ${{ github.event.inputs.date }}
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -48,33 +39,39 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-${{ matrix.case }}-${{ github.event.inputs.base }}
+          key: yarn-${{ matrix.case }}-${{ github.event.inputs.date }}
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
       - run: yarn
-      - uses: nick-invision/retry@v2.4.0
-        with:
-          max_attempts: 3
-          timeout_minutes: 25
-          command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
+      - run: node bin/measure-mean.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
       - uses: actions/upload-artifact@v2
         with:
-          name: compare-results
+          name: measure-results
           path: output
-  report:
+  upload:
     needs: [bench]
     if: ${{ always() }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
+      - run: echo ${{ github.event.inputs.date }}
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      - id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: yarn-upload-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-upload-
+            yarn-
+      - run: yarn
       - uses: actions/download-artifact@v2
         with:
-          name: compare-results
+          name: measure-results
           path: output
-      - run: node bin/report.js
+      - run: node bin/upload.js ${{ github.event.inputs.date }}
