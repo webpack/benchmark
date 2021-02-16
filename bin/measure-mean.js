@@ -11,6 +11,8 @@ const [
 	date = undefined,
 ] = process.argv;
 
+const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
+
 (async () => {
 	const result = await measure(caseName, scenarioName, {
 		runs: 30,
