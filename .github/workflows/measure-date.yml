@@ -43,8 +43,16 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: yarn
-      - run: node bin/measure-mean.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 15
+          command: node bin/measure-mean.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
       - uses: actions/upload-artifact@v2
         with:
           name: measure-results
@@ -69,7 +77,11 @@ jobs:
           restore-keys: |
             yarn-upload-
             yarn-
-      - run: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
       - uses: actions/download-artifact@v2
         with:
           name: measure-results

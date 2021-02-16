@@ -32,7 +32,11 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3
@@ -77,7 +81,11 @@ jobs:
           restore-keys: |
             yarn-${{ matrix.case }}-
             yarn-
-      - run: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3
@@ -107,7 +115,11 @@ jobs:
           restore-keys: |
             yarn-report-
             yarn-
-      - run: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
       - uses: actions/download-artifact@v2
         with:
           name: compare-results
