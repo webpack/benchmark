@@ -4,4 +4,6 @@ cases/**/yarn.lock
 *.log
 .cache
 .yarn
+.yarnrc.yml
+.pnp.js
 /output

@@ -3,11 +3,12 @@
   "scripts": {
     "bench:setup": "ncp src/base src/copy1 --clobber && ncp src/base src/copy2 --clobber && ncp src/base src/copy3 --clobber && ncp src/base src/copy4 --clobber && ncp src/base src/copy5 --clobber && ncp src/base src/copy6 --clobber && ncp src/base src/copy7 --clobber && ncp src/base src/copy8 --clobber && ncp src/base src/copy9 --clobber && ncp src/base src/copy10 --clobber"
   },
+  "dependenciesDate": "2021-02-15",
   "dependencies": {
-    "webpack": "^5.21.2",
+    "ncp": "^2.0.0",
     "webpack-cli": "^4.5.0"
   },
   "devDependencies": {
-    "ncp": "^2.0.0"
+    "webpack": "*"
   }
 }

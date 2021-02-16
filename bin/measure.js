@@ -5,6 +5,7 @@ const [
 	,
 	caseName = "minimal",
 	scenarioName = "development-default-build",
+	date = undefined,
 ] = process.argv;
 
 (async () => {
@@ -13,6 +14,7 @@ const [
 			verbose: true,
 			verboseSetup: true,
 			noStatistics: true,
+			date,
 		})
 	);
 })().catch((err) => console.error(err.stack));

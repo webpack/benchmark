@@ -1,7 +1,10 @@
 {
   "name": "minimal",
+  "dependenciesDate": "2021-02-15",
   "dependencies": {
-    "webpack": "^5.21.2",
     "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack": "*"
   }
 }

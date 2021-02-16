@@ -1,5 +1,6 @@
 {
   "name": "common-libs",
+  "dependenciesDate": "2021-02-15",
   "dependencies": {
     "@babel/runtime": "^7.12.13",
     "@material-ui/core": "^4.11.3",
@@ -19,8 +20,10 @@
     "underscore": "^1.12.0",
     "uuid": "^8.3.2",
     "vue": "^2.6.12",
-    "webpack": "^5.21.2",
-    "webpack-cli": "^4.5.0",
-    "zone.js": "^0.11.3"
+    "zone.js": "^0.11.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack": "*"
   }
 }
