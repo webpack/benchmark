@@ -2,6 +2,7 @@ import measure from "../lib/measure.js";
 import { formatResultTable } from "../lib/utils.js";
 import { mkdir, writeFile } from "fs/promises";
 import { resolve } from "path";
+import { fileURLToPath } from "url";
 
 const [
 	,
