@@ -23,4 +23,7 @@ const [
 		resolve(rootDir, `output/${caseName}_${scenarioName}.json`),
 		JSON.stringify(diff, null, 2)
 	);
-})().catch((err) => console.error(err.stack));
+})().catch((err) => {
+	process.exitCode = 1;
+	console.error(err.stack);
+});

@@ -17,4 +17,7 @@ const [
 			date,
 		})
 	);
-})().catch((err) => console.error(err.stack));
+})().catch((err) => {
+	process.exitCode = 1;
+	console.error(err.stack);
+});
