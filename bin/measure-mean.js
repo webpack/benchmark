@@ -24,7 +24,7 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 	await mkdir(resolve(rootDir, "output"), { recursive: true });
 	await writeFile(
 		resolve(rootDir, `output/${caseName}_${scenarioName}.json`),
-		JSON.stringify(diff, null, 2)
+		JSON.stringify(result, null, 2)
 	);
 })().catch((err) => {
 	process.exitCode = 1;
