@@ -45,7 +45,6 @@
     const chart = new Chart("chart", {
         type: 'line',
         data: {
-            labels: [],
             datasets: []
         },
         options: {
@@ -56,6 +55,12 @@
                 yAxes: [{
                     ticks: {
                         // beginAtZero: true
+                    }
+                }],
+                xAxes: [{
+                    type: 'time',
+                    time: {
+                        unit: 'day'
                     }
                 }]
             }
@@ -81,13 +86,6 @@
     const updateChart = (inputDatasets) => {
         const datasets = [];
         const oldDatasets = chart.data.datasets.reverse();
-        const labelsSet = new Set();
-        for(const ds of inputDatasets) {
-            for(const entry of ds.entries) {
-                labelsSet.add(entry.date);
-            }
-        }
-        const labels = Array.from(labelsSet).sort();
         let i = 0;
         for(const ds of inputDatasets) {
             const base = ds.entries.reduce((sum, entry) => sum + (entry.data && entry.data.base), 0) / ds.entries.length;
@@ -115,18 +113,18 @@
             }
             const datasetLow = Object.assign(oldDatasets.pop() || {}, {
                 label: ds.name + " (low)",
-                data: labels.map(label => {
-                    const entry = ds.entries.find(entry => entry.date === label);
-                    return entry && entry.data.low * scale(entry);
-                }),
+                data: ds.entries.map(entry => ({
+                    x: new Date(entry.date),
+                    y: entry.data.low * scale(entry)
+                })),
                 ...style
             })
             const datasetHigh = Object.assign(oldDatasets.pop() || {}, {
                 label: ds.name + " (high)",
-                data: labels.map(label => {
-                    const entry = ds.entries.find(entry => entry.date === label);
-                    return entry && entry.data.high * scale(entry);
-                }),
+                data:  ds.entries.map(entry => ({
+                    x: new Date(entry.date),
+                    y: entry.data.high * scale(entry)
+                })),
                 ...style
             })
             datasets.push(datasetLow);
@@ -134,7 +132,6 @@
             i++;
         }
         Object.assign(chart.data, {
-            labels,
             datasets
         });
         chart.update();
