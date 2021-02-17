@@ -5,11 +5,11 @@ on:
     inputs:
       case:
         description: "Case to measure"
-        default: "common-lib"
+        default: "common-libs"
         required: true
       scenario:
         description: "Scenario to measure"
-        default: "common-lib"
+        default: "development-build"
         required: true
 jobs:
   bench:
