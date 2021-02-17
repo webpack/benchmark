@@ -13,7 +13,7 @@
         return () => {
             lastContext.cancelled = true;
             lastContext = { cancelled: false };
-            promise = promise.then(() => fn(lastContext));
+            promise = promise.then(() => fn(lastContext)).catch(e => console.error(e.stack));
         }
     }
 
@@ -90,7 +90,8 @@
         const labels = Array.from(labelsSet).sort();
         let i = 0;
         for(const ds of inputDatasets) {
-            const base = ds.entries.reduce((sum, entry) => sum + entry.data.base, 0) / ds.entries.length;
+            const base = ds.entries.reduce((sum, entry) => sum + (entry.data && entry.data.base), 0) / ds.entries.length;
+            if(isNaN(base)) continue;
             const scale = /( size| memory)$/.test(ds.name) ? () => 1 : entry => base / entry.data.base;
             const style = {
                 cubicInterpolationMode: "monotone",
@@ -215,7 +216,10 @@
             }
         }
 
-        updateChart([...data && data.datasets || [], ...(compareTestCase || compareScenario || compareMetric) && compareData && compareData.datasets || []]);
+        updateChart([
+            ...data && data.datasets || [],
+            ...(compareTestCase || compareScenario || compareMetric) && compareData && compareData.metrics.has(compareMetric || metric) && compareData.datasets || []
+        ]);
     });
     
     caseSelect.addEventListener("change", update);
