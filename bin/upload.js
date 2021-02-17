@@ -41,7 +41,7 @@ const dirExist = async (p) => {
 		]);
 	}
 	process.chdir(targetDir);
-	for (let i = 0; i < 3; i++) {
+	for (let i = 0; i < 21; i++) {
 		try {
 			await run("git", ["reset", "--hard", "origin/gh-pages"]);
 			await run("git", ["pull", "--rebase"]);
@@ -89,7 +89,7 @@ const dirExist = async (p) => {
 			await new Promise((resolve) =>
 				setTimeout(resolve, Math.random() * 30000)
 			);
-			if (i === 2) throw e;
+			if (i === 20) throw e;
 		}
 	}
 })().catch((err) => {
