@@ -54,8 +54,6 @@ jobs:
           - "2021-02-05"
           - "2021-02-10"
           - "2021-02-15"
-          - "2021-02-20"
-          - "2021-02-25"
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ matrix.date }}
