@@ -86,6 +86,9 @@ const dirExist = async (p) => {
 			await run("git", ["push"]);
 			break;
 		} catch (e) {
+			await new Promise((resolve) =>
+				setTimeout(resolve, Math.random() * 30000)
+			);
 			if (i === 2) throw e;
 		}
 	}
