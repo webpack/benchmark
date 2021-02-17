@@ -41,45 +41,53 @@ const dirExist = async (p) => {
 		]);
 	}
 	process.chdir(targetDir);
-	for (let i = 0; i < 2; i++) {
-		await run("git", ["reset", "--hard"]);
-		await run("git", ["pull", "--rebase"]);
-
-		console.log("== copy output files ==");
-		const indexFile = resolve(targetDir, "results", "index.txt");
-		const files = new Set((await readFile(indexFile, "utf-8")).split("\n"));
-		files.delete("");
-		await ncp(resolve(rootDir, "output"), resolve(targetDir, "results", name), {
-			filter: (filename) => {
-				if (filename.endsWith(".json")) {
-					files.add(
-						`${name}/${relative(resolve(rootDir, "output"), filename).replace(
-							/\\/g,
-							"/"
-						)}`
-					);
-				}
-				return true;
-			},
-		});
-
-		console.log("== update index.txt ==");
-		await writeFile(
-			indexFile,
-			Array.from(files, (f) => `${f}\n`).join("") + "\n"
-		);
-
-		console.log("== commit ==");
-		await run("git", ["add", `results/${name}/*.json`, "results/index.txt"]);
+	for (let i = 0; i < 3; i++) {
 		try {
-			await run("git", ["commit", "-m", `"add ${name} results"`]);
-		} catch {
-			break;
-		}
+			await run("git", ["reset", "--hard"]);
+			await run("git", ["pull", "--rebase"]);
 
-		console.log("== push ==");
-		await run("git", ["push"]);
-		break;
+			console.log("== copy output files ==");
+			const indexFile = resolve(targetDir, "results", "index.txt");
+			const files = new Set((await readFile(indexFile, "utf-8")).split("\n"));
+			files.delete("");
+			await ncp(
+				resolve(rootDir, "output"),
+				resolve(targetDir, "results", name),
+				{
+					filter: (filename) => {
+						if (filename.endsWith(".json")) {
+							files.add(
+								`${name}/${relative(
+									resolve(rootDir, "output"),
+									filename
+								).replace(/\\/g, "/")}`
+							);
+						}
+						return true;
+					},
+				}
+			);
+
+			console.log("== update index.txt ==");
+			await writeFile(
+				indexFile,
+				Array.from(files, (f) => `${f}\n`).join("") + "\n"
+			);
+
+			console.log("== commit ==");
+			await run("git", ["add", `results/${name}/*.json`, "results/index.txt"]);
+			try {
+				await run("git", ["commit", "-m", `"add ${name} results"`]);
+			} catch {
+				break;
+			}
+
+			console.log("== push ==");
+			await run("git", ["push"]);
+			break;
+		} catch (e) {
+			if (i === 2) throw e;
+		}
 	}
 })().catch((err) => {
 	process.exitCode = 1;
