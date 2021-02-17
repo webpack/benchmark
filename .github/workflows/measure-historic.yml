@@ -1,0 +1,90 @@
+name: Measure historic data
+
+on:
+  workflow_dispatch:
+    inputs:
+      case:
+        description: "Case to measure"
+        default: "common-lib"
+        required: true
+      scenario:
+        description: "Scenario to measure"
+        default: "common-lib"
+        required: true
+jobs:
+  bench:
+    strategy:
+      fail-fast: false
+      matrix:
+        date:
+          - 2020-01-01
+          - 2020-02-01
+          - 2020-03-01
+          - 2020-04-01
+          - 2020-05-01
+          - 2020-06-01
+          - 2020-07-01
+          - 2020-08-01
+          - 2020-09-01
+          - 2020-10-01
+          - 2020-10-05
+          - 2020-10-10
+          - 2020-10-15
+          - 2020-10-20
+          - 2020-10-25
+          - 2020-11-01
+          - 2020-11-05
+          - 2020-11-10
+          - 2020-11-15
+          - 2020-11-20
+          - 2020-11-25
+          - 2020-12-01
+          - 2020-12-05
+          - 2020-12-10
+          - 2020-12-15
+          - 2020-12-20
+          - 2020-12-25
+          - 2021-01-01
+          - 2021-01-05
+          - 2021-01-10
+          - 2021-01-15
+          - 2021-01-20
+          - 2021-01-25
+          - 2021-02-01
+          - 2021-02-05
+          - 2021-02-10
+          - 2021-02-15
+          - 2021-02-20
+          - 2021-02-25
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ matrix.date }}
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: yarn-${{ github.event.inputs.case }}-${{ matrix.date }}
+          restore-keys: |
+            yarn-${{ github.event.inputs.case }}-
+            yarn-
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
+      - uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 30
+          command: node bin/measure-mean-normalized.js ${{ github.event.inputs.case }} ${{ github.event.inputs.scenario }} ${{ matrix.date }}
+      - name: Setup git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: node bin/upload.js ${{ matrix.date }} ${{ secrets.GITHUB_TOKEN }}
