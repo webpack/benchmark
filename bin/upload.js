@@ -43,7 +43,7 @@ const dirExist = async (p) => {
 	process.chdir(targetDir);
 	for (let i = 0; i < 3; i++) {
 		try {
-			await run("git", ["reset", "--hard"]);
+			await run("git", ["reset", "--hard", "origin/gh-pages"]);
 			await run("git", ["pull", "--rebase"]);
 
 			console.log("== copy output files ==");
