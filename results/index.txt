@@ -90,4 +90,5 @@
 2020-10-20/esbuild-three_production-build+source-map.json
 2020-11-10/esbuild-three_production-build+source-map.json
 2020-11-01/esbuild-three_production-build+source-map.json
+2020-11-05/esbuild-three_production-build+source-map.json
 
