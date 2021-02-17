@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+            }
+            main {
+                box-sizing: border-box;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+            }
+            .chart-container {
+                flex: 1;
+                overflow: hidden;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>webpack/benchmark</h1>
+            <section class="controls">
+                <label>Test case: <select id="case-select">
+                    <option>Loading...</option>
+                </select></label>
+                <label>Scenario: <select id="scenario-select">
+                    <option>Loading...</option>
+                </select></label>
+                <label>Metric: <select id="metric-select">
+                </select></label>
+                <br>
+                <label>Compare with test case: <select id="compare-case-select">
+                    <option value="">-</option>
+                </select></label>
+                <label>Scenario: <select id="compare-scenario-select">
+                    <option value="">-</option>
+                </select></label>
+                <label>Metric: <select id="compare-metric-select">
+                    <option value="">-</option>
+                </select></label>
+            </section>
+            <div class="chart-container">
+                <canvas id="chart" width="400" height="400"></canvas>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
