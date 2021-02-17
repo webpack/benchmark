@@ -239,4 +239,5 @@
 2020-12-10/esbuild-three_development-build+persistent-cache.json
 2020-12-20/esbuild-three_development-build+persistent-cache.json
 2020-12-25/esbuild-three_development-build+persistent-cache.json
+2021-01-01/esbuild-three_development-build+persistent-cache.json
 
