@@ -51,8 +51,8 @@ jobs:
       - uses: nick-invision/retry@v2.4.0
         with:
           max_attempts: 3
-          timeout_minutes: 15
-          command: node bin/measure-mean.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
+          timeout_minutes: 30
+          command: node bin/measure-mean-normalized.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
       - uses: actions/upload-artifact@v2
         with:
           name: measure-results
