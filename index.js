@@ -152,7 +152,7 @@
                 })
             }
             const datasetLow = createDataset(ds.name + " (low)", entry => entry.data.low);
-            const datasetHigh = createDataset(ds.name + " (high)", entry => entry.data.low);
+            const datasetHigh = createDataset(ds.name + " (high)", entry => entry.data.high);
             datasets.push(datasetLow);
             datasets.push(datasetHigh);
             i++;
