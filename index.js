@@ -181,14 +181,14 @@
         const dates = scenarios.get(scenario);
         if(!dates) return;
         const metrics = new Set();
-        const entries = await Promise.all(dates.map(async date => {
+        const entries = (await Promise.all(dates.map(async date => {
             const data = await loadFile(`results/${date}/${testCase}_${scenario}.json`);
             for(const m of Object.keys(data)) metrics.add(m)
             return {
                 date,
                 data: data[metric]
             };
-        }));
+        }))).filter(entry => entry.data !== undefined);
         return {
             datasets: [{ name: `${testCase} ${scenario} ${metric}`, entries}],
             metrics
