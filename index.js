@@ -20,7 +20,7 @@
     const index = await (await fetch("results/index.txt")).text();
 
     const testCases = new Map();
-    const allScenarios = new Set();
+    const allScenariosSet = new Set();
     const allDatesSet = new Set();
 
     for(const indexLine of index.split("\n")) {
@@ -28,7 +28,7 @@
         if(!match) continue;
         const testCase = match[2];
         const scenario = match[3];
-        allScenarios.add(scenario);
+        allScenariosSet.add(scenario);
         const date = match[1];
         const scenarios = provide(testCases, testCase, () => new Map());
         const dates = provide(scenarios, scenario, () => []);
@@ -38,6 +38,7 @@
     }
 
     const allDates = Array.from(allDatesSet).sort();
+    const allScenarios = Array.from(allScenariosSet).sort();
 
     const caseSelect = document.querySelector("#case-select");
     const compareCaseSelect = document.querySelector("#compare-case-select");
