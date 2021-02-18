@@ -1,1 +1,5 @@
-export const args = ["--no-optimization-concatenate-modules"];
+export const config = (content) => `${content}
+
+module.exports.optimization = module.exports.optimization || {};
+module.exports.optimization.concatenateModules = false;
+`;
