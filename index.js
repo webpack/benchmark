@@ -59,6 +59,10 @@
                 }],
                 xAxes: [{
                     type: 'time',
+                    ticks: {
+                        min: new Date("2020-01-01"),
+                        max: new Date()
+                    },
                     time: {
                         unit: 'day'
                     }
@@ -116,7 +120,7 @@
                 data: ds.entries.map(entry => ({
                     x: new Date(entry.date),
                     y: entry.data.low * scale(entry)
-                })),
+                })).reverse(),
                 ...style
             })
             const datasetHigh = Object.assign(oldDatasets.pop() || {}, {
@@ -124,7 +128,7 @@
                 data:  ds.entries.map(entry => ({
                     x: new Date(entry.date),
                     y: entry.data.high * scale(entry)
-                })),
+                })).reverse(),
                 ...style
             })
             datasets.push(datasetLow);
