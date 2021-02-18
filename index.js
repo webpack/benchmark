@@ -21,6 +21,7 @@
 
     const testCases = new Map();
     const allScenarios = new Set();
+    const allDatesSet = new Set();
 
     for(const indexLine of index.split("\n")) {
         const match = /^([^/]+)\/([^_]+)_(.+).json/.exec(indexLine);
@@ -33,7 +34,10 @@
         const dates = provide(scenarios, scenario, () => []);
         dates.push(date),
         dates.sort();
+        allDatesSet.add(date);
     }
+
+    const allDates = Array.from(allDatesSet).sort();
 
     const caseSelect = document.querySelector("#case-select");
     const compareCaseSelect = document.querySelector("#compare-case-select");
@@ -51,10 +55,11 @@
             responsive: true,
             maintainAspectRatio: false,
             aspectRatio: 0,
+            spanGaps: true,
             scales: {
                 yAxes: [{
                     ticks: {
-                        // beginAtZero: true
+                        beginAtZero: true
                     }
                 }],
                 xAxes: [{
@@ -69,6 +74,17 @@
                 }]
             }
         }
+    });
+
+    document.querySelector("#relative").addEventListener("change", e => {
+        const axisTicks = chart.options.scales.yAxes[0].ticks;
+        axisTicks.beginAtZero = !e.target.checked;
+        chart.update();
+    });
+    document.querySelector("#recent").addEventListener("change", e => {
+        const axisTicks = chart.options.scales.xAxes[0].ticks;
+        axisTicks.min = e.target.checked ? new Date(Date.now() - 60 * 24 * 60 * 60 * 1000): new Date("2020-01-01");
+        update();
     });
 
     while(caseSelect.hasChildNodes()) caseSelect.removeChild(caseSelect.firstChild);
@@ -89,6 +105,7 @@
 
     const updateChart = (inputDatasets) => {
         const datasets = [];
+        const min = chart.options.scales.xAxes[0].ticks.min;
         const oldDatasets = chart.data.datasets.reverse();
         let i = 0;
         for(const ds of inputDatasets) {
@@ -115,22 +132,27 @@
                 ][i % 6],
                 borderWidth: 1
             }
-            const datasetLow = Object.assign(oldDatasets.pop() || {}, {
-                label: ds.name + " (low)",
-                data: ds.entries.map(entry => ({
-                    x: new Date(entry.date),
-                    y: entry.data.low * scale(entry)
-                })).reverse(),
-                ...style
-            })
-            const datasetHigh = Object.assign(oldDatasets.pop() || {}, {
-                label: ds.name + " (high)",
-                data:  ds.entries.map(entry => ({
-                    x: new Date(entry.date),
-                    y: entry.data.high * scale(entry)
-                })).reverse(),
-                ...style
-            })
+            const createDataset = (label, fn) => {
+                let lastValidEntry;
+                return Object.assign(oldDatasets.pop() || {}, {
+                    label,
+                    data: allDates.slice().reverse().map(date => {
+                        const outside = new Date(date).getTime() < min.getTime();
+                        let entry = ds.entries.find(entry => entry.date === date);
+                        if(outside && lastValidEntry && entry) entry = lastValidEntry;
+                        const x = new Date(date);
+                        if(entry) {
+                            if(!lastValidEntry || !outside) lastValidEntry = entry;
+                            return { x, y: fn(entry) * scale(entry) };
+                        } else {
+                            return { x, y: undefined };
+                        }
+                    }),
+                    ...style
+                })
+            }
+            const datasetLow = createDataset(ds.name + " (low)", entry => entry.data.low);
+            const datasetHigh = createDataset(ds.name + " (high)", entry => entry.data.low);
             datasets.push(datasetLow);
             datasets.push(datasetHigh);
             i++;
