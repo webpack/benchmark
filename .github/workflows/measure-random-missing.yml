@@ -2,7 +2,7 @@ name: Measure random missing data point
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 jobs:
   bench:
