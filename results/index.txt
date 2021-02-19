@@ -1019,4 +1019,5 @@
 2021-01-05/esbuild-three_development-build+persistent-cache+pnp.json
 2020-03-01/esbuild-three_development-build+persistent-cache.json
 2021-01-10/esbuild-three_development-build+persistent-cache+pnp.json
+2020-08-01/esbuild-three_production-build+source-map+persistent-cache.json
 
