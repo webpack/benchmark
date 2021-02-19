@@ -1056,4 +1056,5 @@
 2020-12-20/esbuild-three_development-build+persistent-cache+pnp.json
 2020-10-25/esbuild-three_production-build+no-minimize.json
 2020-12-11/esbuild-three_production-build+persistent-cache+pnp.json
+2020-12-25/esbuild-three_development-build+persistent-cache+pnp.json
 
