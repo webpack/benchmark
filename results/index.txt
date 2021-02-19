@@ -1068,4 +1068,5 @@
 2021-2-18/common-libs_development-build+persistent-cache.json
 2020-05-01/common-libs_production-build+no-minimize+no-concatenation.json
 2020-09-01/common-libs_production-build+no-concatenation.json
+2020-10-01/common-libs_development-build+persistent-cache.json
 
