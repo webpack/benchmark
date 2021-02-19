@@ -1127,4 +1127,5 @@
 2021-2-18/common-libs_production-build+no-minimize.json
 2021-01-20/esbuild-three_production-build+no-minimize.json
 2020-01-01/common-libs_production-build+no-concatenation.json
+2020-11-05/esbuild-three_development-build+persistent-cache+pnp.json
 
