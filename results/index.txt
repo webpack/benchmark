@@ -1066,4 +1066,5 @@
 2021-01-11/common-libs_production-build+persistent-cache+pnp.json
 2021-2-19/common-libs_production-build.json
 2021-2-18/common-libs_development-build+persistent-cache.json
+2020-05-01/common-libs_production-build+no-minimize+no-concatenation.json
 
