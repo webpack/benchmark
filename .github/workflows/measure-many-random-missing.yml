@@ -1,0 +1,74 @@
+name: Measure many random missing data points
+
+on:
+  workflow_dispatch:
+jobs:
+  bench:
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        a:
+          - "0"
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+          - "7"
+          - "8"
+          - "9"
+        b:
+          - "0"
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+          - "7"
+          - "8"
+          - "9"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Yarn
+        uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 5
+          command: yarn
+      - name: Find missing data point
+        id: missing
+        run: node bin/random-missing.js ${{ secrets.GITHUB_TOKEN }}
+      - name: Print Result
+        run: echo ${{ steps.missing.outputs.case }} ${{ steps.missing.outputs.scenario }} ${{ steps.missing.outputs.date }}
+      - name: Yarn Cache Dir
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Yarn Cache
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: yarn-${{ steps.missing.outputs.case }}-${{ steps.missing.outputs.date }}
+          restore-keys: |
+            yarn-${{ steps.missing.outputs.case }}-
+            yarn-
+      - name: Measure
+        uses: nick-invision/retry@v2.4.0
+        with:
+          max_attempts: 3
+          timeout_minutes: 30
+          command: node bin/measure-mean-normalized.js ${{ steps.missing.outputs.case }} ${{ steps.missing.outputs.scenario }} ${{ steps.missing.outputs.date }}
+      - name: Setup git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Upload result
+        run: node bin/upload.js ${{ steps.missing.outputs.date }} ${{ secrets.GITHUB_TOKEN }}
