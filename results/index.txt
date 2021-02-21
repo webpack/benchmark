@@ -1295,4 +1295,5 @@
 2020-10-10/rome_development-build.json
 2020-11-05/rome_development-build.json
 2020-11-15/rome_production-build+persistent-cache.json
+2020-01-01/rome_production-build+no-minimize.json
 
