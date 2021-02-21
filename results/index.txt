@@ -1570,4 +1570,5 @@
 2020-10-20/esbuild-three_production-build+no-minimize+no-concatenation.json
 2021-2-19/rome_development-build.json
 2020-08-01/rome_production-build+no-concatenation.json
+2021-02-10/rome_production-build+no-minimize.json
 
