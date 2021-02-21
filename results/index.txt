@@ -1485,4 +1485,5 @@
 2021-01-15/esbuild-three_production-build+no-minimize+no-concatenation.json
 2021-01-01/rome_development-build+pnp.json
 2021-01-05/rome_production-build+source-map+persistent-cache.json
+2021-01-15/rome_development-build+persistent-cache+pnp.json
 
