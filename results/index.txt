@@ -1603,4 +1603,5 @@
 2020-09-01/rome_development-rebuild+unsafe-cache.json
 2020-11-01/rome_production-build+source-map.json
 2021-01-20/rome_production-build+no-minimize+no-concatenation.json
+2020-08-01/rome_production-build+no-minimize.json
 
