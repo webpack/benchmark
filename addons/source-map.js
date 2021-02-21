@@ -4,9 +4,9 @@ export const args = ["--devtool", "source-map"];
 
 export const setup = async (options) => {
 	await alterFile("tsconfig.json", (content) => {
-		return content.replace(
-			/("compilerOptions": \{)/,
-			'$1\n    "sourceMap": true,'
+		return (
+			content &&
+			content.replace(/("compilerOptions": \{)/, '$1\n    "sourceMap": true,')
 		);
 	});
 };
