@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "es2019",
+    "module": "esnext",
+    "baseUrl": "."
+  },
+  "include": [
+    "./src/index.ts"
+  ],
+  "paths": {
+    "@internal/*": [
+      "src/rome/internal/*"
+    ],
+    "@internal/virtual-*": [
+      "src/rome/internal/virtual-packages/*"
+    ],
+    "rome": [
+      "src/rome/internal/virtual-packages/rome"
+    ]
+  }
+}

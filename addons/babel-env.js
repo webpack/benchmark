@@ -13,8 +13,8 @@ export const config = (content) => `${content}
 
 module.exports.module = module.exports.module || {};
 module.exports.module.rules = module.exports.module.rules || [];
-module.exports.module.rules.push({
-	test: /\.js$/,
+module.exports.module.rules.unshift({
+	test: /\.(js|tsx?)$/,
 	use: {
 		loader: "babel-loader",
 		options: {

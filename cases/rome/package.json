@@ -1,0 +1,16 @@
+{
+  "name": "minimal",
+  "dependenciesDate": "2021-02-15",
+  "dependencies": {
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*"
+  },
+  "scripts": {
+    "bench:setup": "node -e \"try { require('fs').statSync('src/rome') } catch { process.exitCode = 1 }\" || git clone --single-branch --branch v10.0.4-beta https://github.com/romejs/rome src/rome"
+  },
+  "rebuildChangeFile": "src/index.ts"
+}
