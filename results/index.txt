@@ -1668,4 +1668,5 @@
 2021-02-05/rome_development-rebuild+unsafe-cache.json
 2020-12-05/rome_production-build+no-concatenation.json
 2021-01-15/rome_development-build+babel-env.json
+2020-11-25/rome_production-build+source-map+persistent-cache.json
 
