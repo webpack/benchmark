@@ -5,6 +5,7 @@ export const packageJson = (json) => {
 		"@babel/preset-env": "*",
 		"babel-loader": "*",
 		"core-js": "*",
+		"regenerator-runtime": "*",
 	});
 	return json;
 };
