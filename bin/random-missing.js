@@ -47,7 +47,9 @@ const dirExist = async (p) => {
 	const testCases = new Set();
 	const scenarios = new Set();
 	const dates = new Set([
-		`${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`,
+		`${d.getFullYear()}-${`0${d.getMonth() + 1}`.slice(
+			-2
+		)}-${`0${d.getDate()}`.slice(-2)}`,
 	]);
 	const existing = new Set();
 	for (const indexLine of index.split("\n")) {
