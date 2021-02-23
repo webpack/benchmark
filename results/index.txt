@@ -1700,4 +1700,5 @@
 2021-02-20/common-libs_production-build+persistent-cache+pnp.json
 2021-02-10/rome_production-build+no-minimize+no-concatenation.json
 2020-10-11/common-libs_production-build+no-concatenation.json
+2020-07-01/common-libs_production-build+no-minimize.json
 
