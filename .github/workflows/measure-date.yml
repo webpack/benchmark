@@ -15,15 +15,14 @@ jobs:
         case:
           - common-libs
           - esbuild-three
+          - rome
         scenario:
           - development-build
           - development-build+persistent-cache
-          - development-build+pnp
           - development-rebuild
           - production-build
           - production-build+source-map
           - production-build+no-minimize
-          - production-build+no-minimize+no-concatenation
           - production-build+persistent-cache
           - production-build+source-map+persistent-cache
     runs-on: ubuntu-latest
