@@ -1776,4 +1776,5 @@
 2021-02-22/common-libs_production-build+no-concatenation.json
 2020-11-20/rome_production-build+source-map.json
 2021-02-21/common-libs_development-rebuild+unsafe-cache.json
+2020-10-05/rome_production-build+no-minimize.json
 
