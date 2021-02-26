@@ -1852,4 +1852,5 @@
 2021-02-16/rome_development-build+pnp.json
 2021-02-24/rome_production-build+no-concatenation.json
 2020-11-10/rome_production-build+source-map+persistent-cache.json
+2020-12-01/rome_production-build+persistent-cache+pnp.json
 
