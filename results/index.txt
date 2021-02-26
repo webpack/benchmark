@@ -1876,4 +1876,5 @@
 2021-02-22/common-libs_production-build.json
 2020-03-01/rome_development-rebuild+unsafe-cache.json
 2020-09-01/rome_production-build+no-concatenation.json
+2020-01-01/rome_production-build+no-concatenation.json
 
