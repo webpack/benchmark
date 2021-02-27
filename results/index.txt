@@ -1898,4 +1898,5 @@
 2021-02-25/common-libs_production-build+no-concatenation.json
 2020-05-01/rome_development-build+babel-env.json
 2020-11-25/rome_development-build+babel-env.json
+2021-01-10/rome_development-build+persistent-cache+pnp.json
 
