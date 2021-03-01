@@ -3,7 +3,7 @@ import { resolve, relative } from "path";
 import { fileURLToPath } from "url";
 import { runCommand } from "../lib/utils.js";
 
-const [, , token] = process.argv;
+const [, , token, pow] = process.argv;
 const GITHUB_ACTOR = process.env.GITHUB_ACTOR;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
@@ -67,7 +67,7 @@ const dirExist = async (p) => {
 	const missing = [];
 	for (const testCase of testCases) {
 		for (const scenario of scenarios) {
-			for (const date of dates) {
+			for (const date of Array.from(dates).sort()) {
 				if (!existing.has(`${date}/${testCase}_${scenario}`)) {
 					missing.push({
 						testCase,
@@ -85,7 +85,8 @@ const dirExist = async (p) => {
 		return;
 	}
 	console.log(`${missing.length} missing entries`);
-	const selected = missing[Math.floor(Math.random() * missing.length)];
+	const selected =
+		missing[Math.floor(Math.pow(Math.random(), pow || 1) * missing.length)];
 	console.log(`::set-output name=case::${selected.testCase}`);
 	console.log(`::set-output name=scenario::${selected.scenario}`);
 	console.log(`::set-output name=date::${selected.date}`);

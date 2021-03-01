@@ -22,7 +22,7 @@ jobs:
           command: yarn
       - name: Find missing data point
         id: missing
-        run: node bin/random-missing.js ${{ secrets.GITHUB_TOKEN }}
+        run: node bin/random-missing.js ${{ secrets.GITHUB_TOKEN }} 3
       - name: Print Result
         run: echo ${{ steps.missing.outputs.case }} ${{ steps.missing.outputs.scenario }} ${{ steps.missing.outputs.date }}
       - name: Yarn Cache Dir
