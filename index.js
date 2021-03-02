@@ -59,7 +59,35 @@
             spanGaps: true,
             scales: {
                 yAxes: [{
+                    id: 'time-axis',
+                    display: 'auto',
                     ticks: {
+                        callback(value, index, values) {
+                            if(values[0] > 10000) return `${value / 1000} s`;
+                            return `${value} ms`;
+                        },
+                        beginAtZero: true
+                    }
+                }, {
+                    id: 'size-axis',
+                    display: 'auto',
+                    ticks: {
+                        callback(value, index, values) {
+                            if(values[0] > 10000000) return `${value / 1000000} MB`;
+                            if(values[0] > 10000) return `${value / 1000} kB`;
+                            return `${value} B`;
+                        },
+                        beginAtZero: true
+                    }
+                }, {
+                    id: 'memory-axis',
+                    display: 'auto',
+                    ticks: {
+                        callback(value, index, values) {
+                            if(values[0] > 10000000) return `${value / 1000000} MB`;
+                            if(values[0] > 10000) return `${value / 1000} kB`;
+                            return `${value} B`;
+                        },
                         beginAtZero: true
                     }
                 }],
@@ -78,8 +106,9 @@
     });
 
     document.querySelector("#relative").addEventListener("change", e => {
-        const axisTicks = chart.options.scales.yAxes[0].ticks;
-        axisTicks.beginAtZero = !e.target.checked;
+        for(const axis of chart.options.scales.yAxes) {
+            axis.ticks.beginAtZero = !e.target.checked;
+        }
         chart.update();
     });
     document.querySelector("#recent").addEventListener("change", e => {
@@ -112,7 +141,9 @@
         for(const ds of inputDatasets) {
             const base = ds.entries.reduce((sum, entry) => sum + (entry.data && entry.data.base), 0) / ds.entries.length;
             if(isNaN(base)) continue;
-            const scale = /( size| memory)$/.test(ds.name) ? () => 1 : entry => base / entry.data.base;
+            const sizeType = / size$/.test(ds.name)
+            const memoryType = / memory$/.test(ds.name)
+            const scale = sizeType || memoryType ? () => 1 : entry => base / entry.data.base;
             const style = {
                 cubicInterpolationMode: "monotone",
                 backgroundColor: [
@@ -137,6 +168,7 @@
                 let lastValidEntry;
                 return Object.assign(oldDatasets.pop() || {}, {
                     label,
+                    yAxisID: sizeType ? "size-axis" : memoryType ? "memory-axis" : "time-axis",
                     data: allDates.slice().reverse().map(date => {
                         const outside = new Date(date).getTime() < min.getTime();
                         let entry = ds.entries.find(entry => entry.date === date);
