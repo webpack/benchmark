@@ -2100,4 +2100,5 @@
 2020-04-01/rome_production-build+source-map.json
 2021-01-11/rome_production-build+no-minimize+no-concatenation.json
 2021-02-25/common-libs_production-build+source-map.json
+2021-01-25/rome_production-build+persistent-cache+pnp.json
 
