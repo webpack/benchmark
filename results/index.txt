@@ -2242,4 +2242,5 @@
 2021-03-05/common-libs_production-build+no-minimize.json
 2021-03-08/common-libs_development-build.json
 2021-02-27/rome_development-rebuild.json
+2021-03-07/esbuild-three_development-build+persistent-cache+pnp.json
 
