@@ -2512,4 +2512,5 @@
 2021-03-14/esbuild-three_production-build+source-map+persistent-cache.json
 2021-03-15/rome_development-rebuild+unsafe-cache.json
 2021-03-15/esbuild-three_development-build.json
+2021-03-15/rome_production-build+persistent-cache.json
 
