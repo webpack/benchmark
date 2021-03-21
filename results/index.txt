@@ -3016,4 +3016,5 @@
 2021-03-20/esbuild-three_production-build+source-map+persistent-cache.json
 2021-03-15/esbuild-three_development-build+persistent-cache.json
 2021-03-21/rome_production-build+no-minimize.json
+2021-03-21/esbuild-three_production-build+persistent-cache+pnp.json
 
