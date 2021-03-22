@@ -3042,4 +3042,5 @@
 2021-03-22/common-libs_development-build+persistent-cache.json
 2020-02-01/common-libs-chunks_development-rebuild+unsafe-cache.json
 2021-03-18/common-libs-chunks_production-build+no-concatenation.json
+2021-03-22/common-libs_development-build+persistent-cache+pnp.json
 
