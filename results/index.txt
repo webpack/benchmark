@@ -3278,4 +3278,5 @@
 2021-03-12/esbuild-three_production-build.json
 2021-03-09/esbuild-three_production-build+no-minimize.json
 2021-01-10/common-libs-chunks_production-build+no-minimize+no-concatenation.json
+2021-03-10/esbuild-three_production-build+persistent-cache+pnp.json
 
