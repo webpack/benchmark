@@ -3396,4 +3396,5 @@
 2021-03-03/common-libs-chunks_production-build+no-concatenation.json
 2021-03-30/rome_development-build.json
 2021-03-11/rome_production-build+source-map.json
+2021-03-30/rome_production-build+source-map+persistent-cache.json
 
