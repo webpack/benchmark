@@ -3716,4 +3716,5 @@
 2021-03-13/common-libs-chunks_development-build+babel-env.json
 2021-04-02/common-libs-chunks_production-build+no-concatenation.json
 2021-03-20/common-libs-chunks_development-rebuild.json
+2020-10-01/common-libs-chunks_development-build+persistent-cache.json
 
