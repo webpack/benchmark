@@ -33,6 +33,7 @@ jobs:
           - production-build+source-map
           - production-build+no-minimize
           - production-build+persistent-cache
+          - production-build+initial-persistent-cache
           - production-build+source-map+persistent-cache
     runs-on: ubuntu-latest
     steps:
