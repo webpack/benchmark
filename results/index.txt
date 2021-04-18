@@ -4519,4 +4519,5 @@
 2021-04-18/rome_development-build+pnp.json
 2021-04-16/common-libs_development-rebuild+unsafe-cache.json
 2021-02-24/common-libs-chunks_development-build+babel-env.json
+2021-04-16/rome_development-build+persistent-cache.json
 
