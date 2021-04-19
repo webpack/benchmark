@@ -90,6 +90,17 @@
                         },
                         beginAtZero: true
                     }
+                }, {
+                    id: 'percentage-axis',
+                    display: 'auto',
+                    ticks: {
+                        callback(value, index, values) {
+                            if(value < 100) return `${value} %`;
+                            if(value > 100) return `+${value - 100} %`;
+                            return `current`;
+                        },
+                        beginAtZero: true
+                    }
                 }],
                 xAxes: [{
                     type: 'time',
@@ -105,6 +116,7 @@
         }
     });
 
+    let percentage = false;
     document.querySelector("#relative").addEventListener("change", e => {
         for(const axis of chart.options.scales.yAxes) {
             axis.ticks.beginAtZero = !e.target.checked;
@@ -116,6 +128,10 @@
         axisTicks.min = e.target.checked ? new Date(Date.now() - 60 * 24 * 60 * 60 * 1000): new Date("2020-01-01");
         update();
     });
+    document.querySelector("#percentage").addEventListener("change", e => {
+        percentage = e.target.checked;
+        update();
+    });
 
     while(caseSelect.hasChildNodes()) caseSelect.removeChild(caseSelect.firstChild);
     for(const testCase of testCases.keys()) {
@@ -124,7 +140,12 @@
         caseSelect.appendChild(option);
         compareCaseSelect.appendChild(option.cloneNode(true));
     }
-    
+    {
+        const option = document.createElement("option");
+        option.innerText = option.value = "all";
+        caseSelect.appendChild(option);
+    }
+
     while(scenarioSelect.hasChildNodes()) scenarioSelect.removeChild(scenarioSelect.firstChild);
     for(const scenario of allScenarios) {
         const option = document.createElement("option");
@@ -140,10 +161,15 @@
         let i = 0;
         for(const ds of inputDatasets) {
             const base = ds.entries.reduce((sum, entry) => sum + (entry.data && entry.data.base), 0) / ds.entries.length;
+            const lastEntry = ds.entries[ds.entries.length - 1];
             if(isNaN(base)) continue;
             const sizeType = / size$/.test(ds.name)
             const memoryType = / memory$/.test(ds.name)
-            const scale = sizeType || memoryType ? () => 1 : entry => base / entry.data.base;
+            let scale = sizeType || memoryType ? () => 1 : entry => base / entry.data.base;
+            if(percentage) {
+                const old = scale;
+                scale = (entry, fn) => old(entry, fn) / (fn(lastEntry) * old(lastEntry, fn)) * 100
+            }
             const style = {
                 cubicInterpolationMode: "monotone",
                 backgroundColor: [
@@ -168,7 +194,7 @@
                 let lastValidEntry;
                 return Object.assign(oldDatasets.pop() || {}, {
                     label,
-                    yAxisID: sizeType ? "size-axis" : memoryType ? "memory-axis" : "time-axis",
+                    yAxisID: percentage ? "percentage-axis" : sizeType ? "size-axis" : memoryType ? "memory-axis" : "time-axis",
                     data: allDates.slice().reverse().map(date => {
                         const outside = new Date(date).getTime() < min.getTime();
                         let entry = ds.entries.find(entry => entry.date === date);
@@ -176,7 +202,7 @@
                         const x = new Date(date);
                         if(entry) {
                             if(!lastValidEntry || !outside) lastValidEntry = entry;
-                            return { x, y: fn(entry) * scale(entry) };
+                            return { x, y: fn(entry) * scale(entry, fn) };
                         } else {
                             return { x, y: undefined };
                         }
@@ -201,7 +227,24 @@
         const cacheEntry = cache.get(filename);
         if(cacheEntry) return cacheEntry;
         const promise = (async () => {
-            return await (await fetch(filename)).json();
+            const data = await (await fetch(filename)).json();
+            let totalSize = { base: 0, low: 0, high: 0 };
+            let totalGzipSize = { base: 0, low: 0, high: 0 };
+            const add = (a, b) => {
+                a.base += b.base;
+                a.low += b.low;
+                a.high += b.high;
+            }
+            for(const key of Object.keys(data)) {
+                if(key.endsWith("gzip size")) {
+                    add(totalGzipSize, data[key]);
+                } else if(key.endsWith(" size")) {
+                    add(totalSize, data[key]);
+                }
+            }
+            data["total size"] = totalSize;
+            data["total gzip size"] = totalGzipSize;
+            return data;
         })();
         cache.set(filename, promise);
         return promise;
@@ -228,54 +271,63 @@
     }
     
     const update = enqueued(async (ctx) => {
-        const testCase = caseSelect.value;
-        const scenario = scenarioSelect.value;
-        const metric = metricSelect.value;
-        const data = await loadData(testCase, scenario, metric);
-        if(ctx.cancelled) return;
-        if(data) {
-            while(metricSelect.hasChildNodes()) metricSelect.removeChild(metricSelect.firstChild);
-            for(const metric of data.metrics) {
-                const option = document.createElement("option");
-                option.innerText = option.value = metric;
-                metricSelect.appendChild(option);
+        const datasetsForChart = [];
+        const chartIt = ds => datasetsForChart.push(ds);
+
+        for(const testCase of caseSelect.value === "all" ? testCases.keys() : [caseSelect.value]) {
+            const scenario = scenarioSelect.value;
+            const metric = metricSelect.value;
+            const data = await loadData(testCase, scenario, metric);
+            if(ctx.cancelled) return;
+            if(data) {
+                while(metricSelect.hasChildNodes()) metricSelect.removeChild(metricSelect.firstChild);
+                for(const metric of data.metrics) {
+                    const option = document.createElement("option");
+                    option.innerText = option.value = metric;
+                    metricSelect.appendChild(option);
+                }
+                metricSelect.value = metric;
+                if(!data.metrics.has(metric) && metric !== "stats") {
+                    metricSelect.value = "stats";
+                    update();
+                    return;
+                }
             }
-            metricSelect.value = metric;
-            if(!data.metrics.has(metric) && metric !== "stats") {
-                metricSelect.value = "stats";
-                update();
-                return;
+            if(data && data.datasets) {
+                data.datasets.forEach(chartIt);
+            }
+
+            if(caseSelect.value !== "all") {
+                const compareTestCase = compareCaseSelect.value;
+                const compareScenario = compareScenarioSelect.value;
+                const compareMetric = compareMetricSelect.value;
+                const compareData = await loadData(compareTestCase || testCase, compareScenario || scenario, compareMetric || metric);
+                if(ctx.cancelled) return;
+                if(compareData) {
+                    while(compareMetricSelect.hasChildNodes()) compareMetricSelect.removeChild(compareMetricSelect.firstChild);
+                    const option = document.createElement("option");
+                    option.innerText = "-";
+                    option.value = "";
+                    compareMetricSelect.appendChild(option);
+                    for(const metric of compareData.metrics) {
+                        const option = document.createElement("option");
+                        option.innerText = option.value = metric;
+                        compareMetricSelect.appendChild(option);
+                    }
+                    compareMetricSelect.value = compareMetric;
+                    if(!compareData.metrics.has(compareMetric) && compareMetric) {
+                        compareMetricSelect.value = "";
+                        update();
+                        return;
+                    }
+                }
+                if((compareTestCase || compareScenario || compareMetric) && compareData && compareData.metrics.has(compareMetric || metric) && compareData.datasets) {
+                    compareData.datasets.forEach(chartIt);
+                }
             }
         }
 
-        const compareTestCase = compareCaseSelect.value;
-        const compareScenario = compareScenarioSelect.value;
-        const compareMetric = compareMetricSelect.value;
-        const compareData = await loadData(compareTestCase || testCase, compareScenario || scenario, compareMetric || metric);
-        if(ctx.cancelled) return;
-        if(compareData) {
-            while(compareMetricSelect.hasChildNodes()) compareMetricSelect.removeChild(compareMetricSelect.firstChild);
-            const option = document.createElement("option");
-            option.innerText = "-";
-            option.value = "";
-            compareMetricSelect.appendChild(option);
-            for(const metric of compareData.metrics) {
-                const option = document.createElement("option");
-                option.innerText = option.value = metric;
-                compareMetricSelect.appendChild(option);
-            }
-            compareMetricSelect.value = compareMetric;
-            if(!compareData.metrics.has(compareMetric) && compareMetric) {
-                compareMetricSelect.value = "";
-                update();
-                return;
-            }
-        }
-
-        updateChart([
-            ...data && data.datasets || [],
-            ...(compareTestCase || compareScenario || compareMetric) && compareData && compareData.metrics.has(compareMetric || metric) && compareData.datasets || []
-        ]);
+        updateChart(datasetsForChart);
     });
     
     caseSelect.addEventListener("change", update);
