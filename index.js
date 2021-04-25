@@ -168,7 +168,8 @@
             let scale = sizeType || memoryType ? () => 1 : entry => base / entry.data.base;
             if(percentage) {
                 const old = scale;
-                scale = (entry, fn) => old(entry, fn) / (fn(lastEntry) * old(lastEntry, fn)) * 100
+                const midFn = (entry) => (entry.data.low + entry.data.high) / 2;
+                scale = (entry, fn) => old(entry, fn) / (midFn(lastEntry) * old(lastEntry, fn)) * 100
             }
             const style = {
                 cubicInterpolationMode: "monotone",
