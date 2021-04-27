@@ -3867,4 +3867,5 @@
 2020-11-25/esbuild-three_production-build+persistent-cache.json
 2020-03-01/esbuild-three_production-build+persistent-cache.json
 2020-11-10/esbuild-three_production-build+persistent-cache.json
+2020-12-05/esbuild-three_production-build+persistent-cache.json
 
