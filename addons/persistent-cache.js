@@ -6,3 +6,4 @@ if(!require("webpack").version.startsWith("4")) {
 `;
 
 export const keepBuildCache = true;
+export const warmupTwice = true;

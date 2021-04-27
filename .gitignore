@@ -8,3 +8,5 @@ cases/**/yarn.lock
 .pnp.js
 /output
 .gh-pages
+*.cpuprofile
+*.heapprofile
