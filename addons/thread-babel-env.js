@@ -42,7 +42,7 @@ module.exports.module.rules.unshift({
 		{
 			loader: "thread-loader",
 			options: {
-				poolTimeout: 2000
+				poolRespawn: true
 			}
 		},
 		{
