@@ -8,6 +8,7 @@ export const packageJson = (json) => {
 		"babel-loader": "*",
 		"core-js": "*",
 		"regenerator-runtime": "*",
+		"thread-loader": "*",
 	});
 	return json;
 };
@@ -38,6 +39,12 @@ module.exports.module.rules = module.exports.module.rules || [];
 module.exports.module.rules.unshift({
 	test: /\.(js|tsx?)$/,
 	use: [
+		{
+			loader: "thread-loader",
+			options: {
+				poolTimeout: 2000
+			}
+		},
 		{
 			loader: "babel-loader"
 		}
