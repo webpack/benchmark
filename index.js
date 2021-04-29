@@ -122,6 +122,7 @@
     });
 
     let percentage = false;
+    let confidence = false;
     document.querySelector("#relative").addEventListener("change", e => {
         for(const axis of chart.options.scales.yAxes) {
             axis.ticks.beginAtZero = !e.target.checked;
@@ -135,6 +136,10 @@
     });
     document.querySelector("#percentage").addEventListener("change", e => {
         percentage = e.target.checked;
+        update();
+    });
+    document.querySelector("#confidence").addEventListener("change", e => {
+        confidence = e.target.checked;
         update();
     });
 
@@ -196,30 +201,109 @@
                 ][i % 6],
                 borderWidth: 1
             }
-            const createDataset = (label, fn) => {
+            const createData = fn => {
                 let lastValidEntry;
+                return allDates.slice().reverse().map(date => {
+                    const outside = new Date(date).getTime() < min.getTime();
+                    let entry = ds.entries.find(entry => entry.date === date);
+                    if(outside && lastValidEntry && entry) entry = lastValidEntry;
+                    const x = new Date(date);
+                    if(entry) {
+                        if(!lastValidEntry || !outside) lastValidEntry = entry;
+                        const y = fn(entry) * scale(entry, fn);
+                        return { x, y };
+                    } else {
+                        return { x, y: undefined };
+                    }
+                })
+            }
+            const createDataset = (label, data) => {
                 return Object.assign(oldDatasets.pop() || {}, {
                     label,
                     yAxisID: percentage ? "percentage-axis" : sizeType ? "size-axis" : memoryType ? "memory-axis" : "time-axis",
-                    data: allDates.slice().reverse().map(date => {
-                        const outside = new Date(date).getTime() < min.getTime();
-                        let entry = ds.entries.find(entry => entry.date === date);
-                        if(outside && lastValidEntry && entry) entry = lastValidEntry;
-                        const x = new Date(date);
-                        if(entry) {
-                            if(!lastValidEntry || !outside) lastValidEntry = entry;
-                            return { x, y: fn(entry) * scale(entry, fn) };
-                        } else {
-                            return { x, y: undefined };
-                        }
-                    }),
+                    data,
                     ...style
                 })
             }
-            const datasetLow = createDataset(ds.name + " (low)", entry => entry.data.low);
-            const datasetHigh = createDataset(ds.name + " (high)", entry => entry.data.high);
-            datasets.push(datasetLow);
-            datasets.push(datasetHigh);
+            // const createDataset = (label, fn, fn2) => {
+            //     let lastValidEntry;
+            //     let prevY;
+            //     return Object.assign(oldDatasets.pop() || {}, {
+            //         label,
+            //         yAxisID: percentage ? "percentage-axis" : sizeType ? "size-axis" : memoryType ? "memory-axis" : "time-axis",
+            //         data: allDates.slice().reverse().map(date => {
+            //             const outside = new Date(date).getTime() < min.getTime();
+            //             let entry = ds.entries.find(entry => entry.date === date);
+            //             if(outside && lastValidEntry && entry) entry = lastValidEntry;
+            //             const x = new Date(date);
+            //             if(entry) {
+            //                 if(!lastValidEntry || !outside) lastValidEntry = entry;
+            //                 let y;
+            //                 if(fn2) {
+            //                     const yl = fn(entry) * scale(entry, fn);
+            //                     const yh = fn2(entry) * scale(entry, fn2);
+            //                     if(prevY === undefined) prevY = (yl + yh) / 2;
+            //                     else if(prevY < yl) prevY = yl;
+            //                     else if(prevY > yh) prevY = yh;
+            //                     y = prevY * 0.9 + (yl + yh) * 0.05;
+            //                     prevY = y;
+            //                 } else {
+            //                     y = fn(entry) * scale(entry, fn);
+            //                 }
+            //                 return { x, y };
+            //             } else {
+            //                 return { x, y: undefined };
+            //             }
+            //         }),
+            //         ...style
+            //     })
+            // }
+            const dataLow = createData(entry => entry.data.low);
+            const dataHigh = createData(entry => entry.data.high);
+            if(confidence) {
+                const datasetLow = createDataset(ds.name + " (low)", dataLow);
+                const datasetHigh = createDataset(ds.name + " (high)", dataHigh);
+                datasets.push(datasetLow);
+                datasets.push(datasetHigh);
+            } else {
+                const smooth = (direction) => {
+                    if(direction) {
+                        dataLow.reverse();
+                        dataHigh.reverse();
+                    }
+                    let y;
+                    const result = dataLow.map((low, i) => {
+                        const high = dataHigh[i];
+                        const yl = low.y;
+                        const yh = high.y;
+                        if(yl === undefined) {
+                            return {
+                                x: low.x,
+                                y: undefined
+                            };
+                        }
+                        if(y === undefined) y = (yl + yh) / 2;
+                        else if(y < yl) y = yl;
+                        else if(y > yh) y = yh;
+                        return {
+                            x: low.x,
+                            y
+                        };
+                    })
+                    if(direction) {
+                        result.reverse();
+                        dataLow.reverse();
+                        dataHigh.reverse();
+                    }
+                    return result;
+                }
+                const data1 = smooth(true);
+                const data2 = smooth(false);
+                const dataset1 = createDataset(ds.name + " (>>)", data1);
+                const dataset2 = createDataset(ds.name + " (<<)", data2);
+                datasets.push(dataset1);
+                datasets.push(dataset2);
+            }
             i++;
         }
         Object.assign(chart.data, {
