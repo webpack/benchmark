@@ -47,6 +47,16 @@
     const metricSelect = document.querySelector("#metric-select");
     const compareMetricSelect = document.querySelector("#compare-metric-select");
 
+    const formatTime = (value, maxValue) => {
+        if(maxValue > 10000) return `${value / 1000} s`;
+        return `${value} ms`;
+    }
+    const formatSize = (value, maxValue) => {
+        if(maxValue > 10000000) return `${value / 1000000} MB`;
+        if(maxValue > 10000) return `${value / 1000} kB`;
+        return `${value} B`;
+    }
+
     const chart = new Chart("chart", {
         type: 'line',
         data: {
@@ -63,8 +73,7 @@
                     display: 'auto',
                     ticks: {
                         callback(value, index, values) {
-                            if(values[0] > 10000) return `${value / 1000} s`;
-                            return `${value} ms`;
+                            return formatTime(value, values[0]);
                         },
                         beginAtZero: true
                     }
@@ -73,9 +82,7 @@
                     display: 'auto',
                     ticks: {
                         callback(value, index, values) {
-                            if(values[0] > 10000000) return `${value / 1000000} MB`;
-                            if(values[0] > 10000) return `${value / 1000} kB`;
-                            return `${value} B`;
+                            return formatSize(value, values[0]);
                         },
                         beginAtZero: true
                     }
@@ -84,9 +91,7 @@
                     display: 'auto',
                     ticks: {
                         callback(value, index, values) {
-                            if(values[0] > 10000000) return `${value / 1000000} MB`;
-                            if(values[0] > 10000) return `${value / 1000} kB`;
-                            return `${value} B`;
+                            return formatSize(value, values[0]);
                         },
                         beginAtZero: true
                     }
@@ -256,10 +261,12 @@
         if(!scenarios) return;
         const dates = scenarios.get(scenario);
         if(!dates) return;
-        const metrics = new Set();
+        const metrics = new Map();
         const entries = (await Promise.all(dates.map(async date => {
             const data = await loadFile(`results/${date}/${testCase}_${scenario}.json`);
-            for(const m of Object.keys(data)) metrics.add(m)
+            for(const m of Object.keys(data)) {
+                metrics.set(m, data[m].median);
+            }
             return {
                 date,
                 data: data[metric]
@@ -275,58 +282,94 @@
         const datasetsForChart = [];
         const chartIt = ds => datasetsForChart.push(ds);
 
+        const metrics = new Map();
+        const compareMetrics = new Map();
+
+        const addToMetrics = (metrics, rawMetrics) => {
+            for(const [key, value] of rawMetrics) {
+                let entry = metrics.get(key);
+                if(entry === undefined) {
+                    metrics.set(key, entry = {
+                        sum: 0,
+                        count: 0
+                    });
+                }
+                entry.sum += value;
+                entry.count++;
+            }
+        }
+
+        const scenario = scenarioSelect.value;
+        const metric = metricSelect.value;
+        const compareTestCase = compareCaseSelect.value;
+        const compareScenario = compareScenarioSelect.value;
+        const compareMetric = compareMetricSelect.value;
+
         for(const testCase of caseSelect.value === "all" ? testCases.keys() : [caseSelect.value]) {
-            const scenario = scenarioSelect.value;
-            const metric = metricSelect.value;
             const data = await loadData(testCase, scenario, metric);
             if(ctx.cancelled) return;
             if(data) {
-                while(metricSelect.hasChildNodes()) metricSelect.removeChild(metricSelect.firstChild);
-                for(const metric of data.metrics) {
-                    const option = document.createElement("option");
-                    option.innerText = option.value = metric;
-                    metricSelect.appendChild(option);
-                }
-                metricSelect.value = metric;
-                if(!data.metrics.has(metric) && metric !== "stats") {
-                    metricSelect.value = "stats";
-                    update();
-                    return;
-                }
+                addToMetrics(metrics, data.metrics);
             }
             if(data && data.datasets) {
                 data.datasets.forEach(chartIt);
             }
 
             if(caseSelect.value !== "all") {
-                const compareTestCase = compareCaseSelect.value;
-                const compareScenario = compareScenarioSelect.value;
-                const compareMetric = compareMetricSelect.value;
                 const compareData = await loadData(compareTestCase || testCase, compareScenario || scenario, compareMetric || metric);
                 if(ctx.cancelled) return;
                 if(compareData) {
-                    while(compareMetricSelect.hasChildNodes()) compareMetricSelect.removeChild(compareMetricSelect.firstChild);
-                    const option = document.createElement("option");
-                    option.innerText = "-";
-                    option.value = "";
-                    compareMetricSelect.appendChild(option);
-                    for(const metric of compareData.metrics) {
-                        const option = document.createElement("option");
-                        option.innerText = option.value = metric;
-                        compareMetricSelect.appendChild(option);
-                    }
-                    compareMetricSelect.value = compareMetric;
-                    if(!compareData.metrics.has(compareMetric) && compareMetric) {
-                        compareMetricSelect.value = "";
-                        update();
-                        return;
-                    }
+                    addToMetrics(compareMetrics, compareData.metrics);
                 }
                 if((compareTestCase || compareScenario || compareMetric) && compareData && compareData.metrics.has(compareMetric || metric) && compareData.datasets) {
                     compareData.datasets.forEach(chartIt);
                 }
             }
         }
+
+        const updateSelect = (metricSelect, metrics, metric, includeDash = false) => {
+            if(metrics.size === 0) return;
+            while(metricSelect.hasChildNodes()) metricSelect.removeChild(metricSelect.firstChild);
+            const sortedMetrics = Array.from(metrics, ([name, entry]) => [
+                name,
+                name.endsWith(" size") ? "Size" : name.endsWith(" memory") ? "Memory" : "Performance",
+                entry.sum / entry.count
+            ]).sort(([, ga, a], [, gb, b]) => {
+                if(ga < gb) return -1;
+                if(ga > gb) return 1;
+                return b - a;
+            });
+            if(includeDash) {
+                const option = document.createElement("option");
+                option.innerText = "-";
+                option.value = "";
+                metricSelect.appendChild(option);
+            }
+            const groups = new Map();
+            for(const [metric, groupName, value] of sortedMetrics) {
+                let group = groups.get(groupName);
+                if(!group) {
+                    group = document.createElement("optgroup");
+                    group.label = groupName;
+                    metricSelect.appendChild(group);
+                    groups.set(groupName, group);
+                }
+                const option = document.createElement("option");
+                const format = groupName === "Performance" ? formatTime : formatSize;
+                option.innerText = `${metric} (${format(+value.toPrecision(4), value)})`
+                option.value = metric;
+                group.appendChild(option);
+            }
+            metricSelect.value = metric;
+            const fallbackValue = includeDash ? "" : "stats";
+            if(!metrics.has(metric) && metric !== fallbackValue) {
+                metricSelect.value = fallbackValue;
+                update();
+                return;
+            }
+        }
+        updateSelect(metricSelect, metrics, metric);
+        updateSelect(compareMetricSelect, compareMetrics, compareMetric, true);
 
         updateChart(datasetsForChart);
     });
