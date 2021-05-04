@@ -5142,4 +5142,5 @@
 2021-03-13/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-02-18/common-libs-chunks_development-build+persistent-cache.json
 2021-05-03/esbuild-three_development-rebuild+unsafe-cache.json
+2021-02-26/rome_development-build+initial-persistent-cache.json
 
