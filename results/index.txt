@@ -5636,4 +5636,5 @@
 2021-05-05/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-05-05/atlaskit-editor_development-build+initial-persistent-cache.json
 2021-05-05/atlaskit-editor_development-rebuild.json
+2021-03-13/atlaskit-editor_production-build+no-minimize.json
 
