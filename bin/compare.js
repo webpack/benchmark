@@ -22,7 +22,7 @@ const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
 const isDate = (str) => str.startsWith("20");
 
 (async () => {
-	const { diff, result } = await compare(caseName, scenarioName, {
+	const { diff, result, baseResult } = await compare(caseName, scenarioName, {
 		runs: 3,
 		verboseSetup: true,
 		baselineDependencies: isDate(baseline)
@@ -32,6 +32,7 @@ const isDate = (str) => str.startsWith("20");
 		dependencies: isDate(current) ? undefined : parseDependencies(current),
 		date: isDate(current) ? current : undefined,
 	});
+	console.log(formatResultTable(baseResult, { colors: true, verbose: true }));
 	console.log(formatResultTable(result, { colors: true, verbose: true }));
 	console.log();
 	console.log(formatDiffTable(diff, { colors: true, verbose: true }));
