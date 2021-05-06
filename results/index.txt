@@ -5548,4 +5548,5 @@
 2020-12-25/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2020-12-15/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2020-12-20/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-01-05/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 
