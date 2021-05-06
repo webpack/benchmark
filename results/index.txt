@@ -5238,4 +5238,5 @@
 2020-11-01/atlaskit-editor_development-build.json
 2020-10-25/atlaskit-editor_development-build.json
 2020-10-15/atlaskit-editor_development-build.json
+2020-10-10/atlaskit-editor_development-build.json
 
