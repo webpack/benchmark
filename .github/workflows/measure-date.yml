@@ -16,6 +16,7 @@ jobs:
           - common-libs
           - esbuild-three
           - rome
+          - atlaskit-editor
           - common-libs-chunks
         scenario:
           - development-build

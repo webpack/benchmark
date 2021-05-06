@@ -1,0 +1,17 @@
+{
+  "name": "atlaskit-editor",
+  "dependenciesDate": "2021-05-05",
+  "dependencies": {
+    "@atlaskit/editor-core": "^120.1.0",
+    "@atlaskit/media-core": "^31.1.0",
+    "@atlaskit/smart-card": "^13.0.0",
+    "assert": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intl": "^2.6.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack": "*"
+  }
+}

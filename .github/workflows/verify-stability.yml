@@ -15,6 +15,7 @@ jobs:
           - common-libs
           - esbuild-three
           - rome
+          - atlaskit-editor
         scenario:
           - development-build
     runs-on: ubuntu-latest
@@ -57,6 +58,7 @@ jobs:
           - common-libs
           - esbuild-three
           - rome
+          - atlaskit-editor
         scenario:
           - development-build
           - development-build+persistent-cache
