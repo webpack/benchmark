@@ -5,7 +5,7 @@ on:
     inputs:
       base:
         description: "Base versions (dep@version, comma-separated) or date"
-        default: "webpack@webpack/webpack#v5.21.2"
+        default: "webpack@webpack/webpack#master"
         required: true
       current:
         description: "current versions (dep@version, comma-separated) or date"
