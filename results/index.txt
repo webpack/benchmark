@@ -5398,4 +5398,5 @@
 2020-10-20/atlaskit-editor_production-build.json
 2020-10-10/atlaskit-editor_production-build.json
 2020-05-01/atlaskit-editor_production-build.json
+2020-11-20/atlaskit-editor_production-build.json
 
