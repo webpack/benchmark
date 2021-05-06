@@ -5551,4 +5551,5 @@
 2021-01-05/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-01-20/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-01-10/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-01-01/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 
