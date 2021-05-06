@@ -5588,4 +5588,5 @@
 2020-01-01/atlaskit-editor_development-rebuild.json
 2020-10-15/atlaskit-editor_production-build+initial-persistent-cache.json
 2021-02-10/atlaskit-editor_production-build+initial-persistent-cache.json
+2020-11-20/atlaskit-editor_production-build+initial-persistent-cache.json
 
