@@ -5993,4 +5993,5 @@
 2020-09-01/atlaskit-editor_production-build+babel-env.json
 2020-10-10/atlaskit-editor_production-build+babel-env.json
 2020-10-25/atlaskit-editor_production-build+babel-env.json
+2020-10-20/atlaskit-editor_production-build+babel-env.json
 
