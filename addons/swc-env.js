@@ -5,6 +5,7 @@ export const packageJson = (json) => {
 	Object.assign(json.devDependencies, {
 		"@swc/core": "*",
 		"swc-loader": "*",
+		"regenerator-runtime": "*",
 	});
 	return json;
 };
