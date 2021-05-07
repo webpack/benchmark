@@ -6018,4 +6018,5 @@
 2021-05-01/atlaskit-editor_production-build+babel-env.json
 2021-02-05/atlaskit-editor_production-build+babel-env.json
 2021-02-25/atlaskit-editor_production-build+babel-env.json
+2020-11-25/atlaskit-editor_production-build+babel-env.json
 
