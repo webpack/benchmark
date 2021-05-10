@@ -6261,4 +6261,5 @@
 2021-05-05/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-05-03/atlaskit-editor_production-build+babel-env.json
 2021-05-10/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-02-25/atlaskit-editor_production-build+no-minimize.json
 
