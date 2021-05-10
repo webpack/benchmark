@@ -6189,4 +6189,5 @@
 2020-11-10/atlaskit-editor_production-build+swc-env.json
 2020-11-01/atlaskit-editor_production-build+swc-env.json
 2020-12-10/atlaskit-editor_production-build+swc-env.json
+2020-10-20/atlaskit-editor_production-build+swc-env.json
 
