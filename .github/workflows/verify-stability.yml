@@ -62,6 +62,8 @@ jobs:
         scenario:
           - development-build
           - development-build+persistent-cache
+          - development-build+swc-env
+          - development-build+babel-env
           - development-rebuild
           - production-build
           - production-build+source-map
