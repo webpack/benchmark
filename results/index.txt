@@ -6394,4 +6394,5 @@
 2021-03-21/common-libs_production-build+source-map+persistent-cache.json
 2021-05-13/atlaskit-editor_production-build+babel-env.json
 2021-01-11/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-01-11/rome_development-build+initial-persistent-cache.json
 
