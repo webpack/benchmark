@@ -6438,4 +6438,5 @@
 2021-05-15/esbuild-three_development-build+persistent-cache.json
 2021-05-06/common-libs-chunks_production-build+no-exports-analysis.json
 2021-05-10/atlaskit-editor_development-build+persistent-cache.json
+2021-05-15/atlaskit-editor_production-build+no-minimize.json
 
