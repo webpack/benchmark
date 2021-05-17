@@ -6511,4 +6511,5 @@
 2020-10-11/atlaskit-editor_production-build+source-map.json
 2021-05-17/common-libs_development-build+pnp.json
 2021-03-27/atlaskit-editor_production-build+persistent-cache.json
+2021-04-11/common-libs_production-build+swc-env.json
 
