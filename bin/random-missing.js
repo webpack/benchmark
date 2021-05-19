@@ -65,7 +65,7 @@ const dirExist = async (p) => {
 	}
 
 	const missing = [];
-	const randomOrder = () => (Math.random() < 0 ? -1 : 1);
+	const randomOrder = () => (Math.random() < 0.5 ? -1 : 1);
 	for (const date of Array.from(dates).sort((a, b) => (a < b ? 1 : -1))) {
 		for (const testCase of Array.from(testCases).sort(randomOrder)) {
 			for (const scenario of Array.from(scenarios).sort(randomOrder)) {
