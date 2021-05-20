@@ -6588,4 +6588,5 @@
 2021-04-22/atlaskit-editor_production-build+babel-env.json
 2021-05-20/esbuild-three_development-rebuild.json
 2020-11-11/atlaskit-editor_development-build+initial-persistent-cache.json
+2021-05-18/atlaskit-editor_production-build+persistent-cache.json
 
