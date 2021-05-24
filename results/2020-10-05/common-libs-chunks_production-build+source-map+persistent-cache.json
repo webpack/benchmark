@@ -1,133 +1,133 @@
 {
   "stats": {
-    "min": 26362,
-    "max": 29048,
-    "mean": 27217.636363636364,
-    "median": 26854,
-    "variance": 793310.2314049586,
-    "stdDev": 890.6796457789741,
-    "confidence": 1196.6588783670668,
-    "low": 26619.30692445283,
-    "high": 27815.965802819897,
-    "count": 11,
-    "base": 6281.5
+    "min": 27875,
+    "max": 31584,
+    "mean": 29492.8,
+    "median": 29089,
+    "variance": 1713564.7600000002,
+    "stdDev": 1309.0319934974852,
+    "confidence": 1872.7200375780085,
+    "low": 28556.439981210995,
+    "high": 30429.160018789004,
+    "count": 10,
+    "base": 7160.5
   },
   "heap memory": {
-    "min": 386587704,
-    "max": 1063878736,
-    "mean": 755796934.5454545,
-    "median": 645577272,
-    "variance": 48761834748236680,
-    "stdDev": 220820820.45911494,
-    "confidence": 296680401.9638219,
-    "low": 607456733.5635436,
-    "high": 904137135.5273654,
-    "count": 11,
-    "base": 6281.5
+    "min": 279049688,
+    "max": 1075022320,
+    "mean": 648549803.2,
+    "median": 360318844,
+    "variance": 105025639857653400,
+    "stdDev": 324076595.6647493,
+    "confidence": 463628648.82309556,
+    "low": 416735478.78845227,
+    "high": 880364127.6115478,
+    "count": 10,
+    "base": 7160.5
   },
   "rss memory": {
-    "min": 761253888,
-    "max": 1198817280,
-    "mean": 948557637.8181819,
-    "median": 768335872,
-    "variance": 21974902942884176,
-    "stdDev": 148239343.43784776,
-    "confidence": 199164679.79130864,
-    "low": 848975297.9225276,
-    "high": 1048139977.7138362,
-    "count": 11,
-    "base": 6281.5
+    "min": 809111552,
+    "max": 1204858880,
+    "mean": 1003252121.6,
+    "median": 833546240,
+    "variance": 21141622150230180,
+    "stdDev": 145401589.2286951,
+    "confidence": 208013609.29058683,
+    "low": 899245316.9547065,
+    "high": 1107258926.2452934,
+    "count": 10,
+    "base": 7160.5
   },
   "external memory": {
-    "min": 30233284,
-    "max": 30266052,
-    "mean": 30239986.545454547,
-    "median": 30233284,
-    "variance": 119797641.52066113,
-    "stdDev": 10945.210894298069,
-    "confidence": 14705.269009269774,
-    "low": 30232633.910949912,
-    "high": 30247339.17995918,
-    "count": 11,
-    "base": 6281.5
+    "min": 29020379,
+    "max": 30321275,
+    "mean": 30147767.8,
+    "median": 30259835,
+    "variance": 141671717775.36005,
+    "stdDev": 376393.03630030144,
+    "confidence": 538473.30285725,
+    "low": 29878531.148571376,
+    "high": 30417004.451428626,
+    "count": 10,
+    "base": 7160.5
   },
   "array buffers memory": {
-    "min": 14182733,
-    "max": 14215501,
-    "mean": 14189435.545454545,
-    "median": 14182733,
-    "variance": 119797641.52066118,
-    "stdDev": 10945.21089429807,
-    "confidence": 14705.269009269774,
-    "low": 14182082.91094991,
-    "high": 14196788.17995918,
-    "count": 11,
-    "base": 6281.5
+    "min": 10975224,
+    "max": 14248325,
+    "mean": 13876778.1,
+    "median": 14182789,
+    "variance": 935916005962.0901,
+    "stdDev": 967427.5197460997,
+    "confidence": 1384015.753726799,
+    "low": 13184770.2231366,
+    "high": 14568785.9768634,
+    "count": 10,
+    "base": 7160.5
   },
   "buildChunkGraph.visitModules.prepare": {
-    "min": 52.302078,
-    "max": 63.713486,
-    "mean": 58.55083090909091,
-    "median": 58.176495,
-    "variance": 10.46238975085281,
-    "stdDev": 3.2345617556096853,
-    "confidence": 4.345745477423236,
-    "low": 56.377958170379294,
-    "high": 60.72370364780253,
-    "count": 11,
-    "base": 6281.5
+    "min": 59.80867,
+    "max": 85.923615,
+    "mean": 68.9562228,
+    "median": 66.4122845,
+    "variance": 69.60881042397136,
+    "stdDev": 8.343189463506828,
+    "confidence": 11.935887100721935,
+    "low": 62.98827924963904,
+    "high": 74.92416635036098,
+    "count": 10,
+    "base": 7160.5
   },
   "buildChunkGraph.visitModules.visiting": {
-    "min": 33.993908000000005,
-    "max": 43.355402999999995,
-    "mean": 39.026517454545456,
-    "median": 38.750317,
-    "variance": 11.231625912820595,
-    "stdDev": 3.351361799749558,
-    "confidence": 4.502670372334691,
-    "low": 36.77518226837811,
-    "high": 41.2778526407128,
-    "count": 11,
-    "base": 6281.5
+    "min": 36.145978,
+    "max": 47.014208,
+    "mean": 41.2955504,
+    "median": 40.7527605,
+    "variance": 20.842539641242844,
+    "stdDev": 4.565363034988876,
+    "confidence": 6.531274160533371,
+    "low": 38.02991331973332,
+    "high": 44.56118748026669,
+    "count": 10,
+    "base": 7160.5
   },
   "buildChunkGraph.visitModules.calculating available modules": {
-    "min": 0.088105,
-    "max": 0.098905,
-    "mean": 0.09229654545454545,
-    "median": 0.090912,
-    "variance": 0.000011202696611570252,
-    "stdDev": 0.0033470429653009014,
-    "confidence": 0.004496867869030974,
-    "low": 0.09004811152002996,
-    "high": 0.09454497938906094,
-    "count": 11,
-    "base": 6281.5
+    "min": 0.0912,
+    "max": 0.1112,
+    "mean": 0.09897,
+    "median": 0.0971005,
+    "variance": 0.000035664220599999994,
+    "stdDev": 0.00597195282968645,
+    "confidence": 0.008543561794653709,
+    "low": 0.09469821910267315,
+    "high": 0.10324178089732686,
+    "count": 10,
+    "base": 7160.5
   },
   "buildChunkGraph.visitModules.merging available modules": {
-    "min": 0.033702,
-    "max": 0.040402,
-    "mean": 0.03520218181818181,
-    "median": 0.034702,
-    "variance": 0.0000029799276033057847,
-    "stdDev": 0.0017262466808963847,
-    "confidence": 0.0023192720600903466,
-    "low": 0.03404254578813664,
-    "high": 0.036361817848226986,
-    "count": 11,
-    "base": 6281.5
+    "min": 0.0326,
+    "max": 0.0472,
+    "mean": 0.0370001,
+    "median": 0.036000000000000004,
+    "variance": 0.000015097400089999997,
+    "stdDev": 0.0038855372974660784,
+    "confidence": 0.005558705661792063,
+    "low": 0.03422074716910397,
+    "high": 0.03977945283089603,
+    "count": 10,
+    "base": 7160.5
   },
   "exec": {
-    "min": 27324,
-    "max": 30002,
-    "mean": 28175.81818181818,
-    "median": 27816,
-    "variance": 791635.2396694216,
-    "stdDev": 889.7388603795057,
-    "confidence": 1195.3949006773983,
-    "low": 27578.12073147948,
-    "high": 28773.51563215688,
-    "count": 11,
-    "base": 6281.5
+    "min": 28875,
+    "max": 32575,
+    "mean": 30496.8,
+    "median": 30083.5,
+    "variance": 1627185.36,
+    "stdDev": 1275.6117591179536,
+    "confidence": 1824.9085685734317,
+    "low": 29584.345715713283,
+    "high": 31409.254284286715,
+    "count": 10,
+    "base": 7160.5
   },
   "0.js size": {
     "min": 75321,
@@ -139,8 +139,8 @@
     "confidence": 0,
     "low": 75321,
     "high": 75321,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "0.js gzip size": {
     "min": 23739,
@@ -152,8 +152,8 @@
     "confidence": 0,
     "low": 23739,
     "high": 23739,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "0.js.map size": {
     "min": 314808,
@@ -165,8 +165,8 @@
     "confidence": 0,
     "low": 314808,
     "high": 314808,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "0.js.map gzip size": {
     "min": 89056,
@@ -178,8 +178,8 @@
     "confidence": 0,
     "low": 89056,
     "high": 89056,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "1.js size": {
     "min": 123484,
@@ -191,8 +191,8 @@
     "confidence": 0,
     "low": 123484,
     "high": 123484,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "1.js gzip size": {
     "min": 40130,
@@ -204,8 +204,8 @@
     "confidence": 0,
     "low": 40130,
     "high": 40130,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "1.js.map size": {
     "min": 301430,
@@ -217,8 +217,8 @@
     "confidence": 0,
     "low": 301430,
     "high": 301430,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "1.js.map gzip size": {
     "min": 91673,
@@ -230,8 +230,8 @@
     "confidence": 0,
     "low": 91673,
     "high": 91673,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "10.js size": {
     "min": 69671,
@@ -243,8 +243,8 @@
     "confidence": 0,
     "low": 69671,
     "high": 69671,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "10.js gzip size": {
     "min": 24788,
@@ -256,8 +256,8 @@
     "confidence": 0,
     "low": 24788,
     "high": 24788,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "10.js.map size": {
     "min": 368514,
@@ -269,8 +269,8 @@
     "confidence": 0,
     "low": 368514,
     "high": 368514,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "10.js.map gzip size": {
     "min": 113601,
@@ -282,8 +282,8 @@
     "confidence": 0,
     "low": 113601,
     "high": 113601,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "11.js size": {
     "min": 7484,
@@ -295,8 +295,8 @@
     "confidence": 0,
     "low": 7484,
     "high": 7484,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "11.js gzip size": {
     "min": 2721,
@@ -308,8 +308,8 @@
     "confidence": 0,
     "low": 2721,
     "high": 2721,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "11.js.map size": {
     "min": 34564,
@@ -321,8 +321,8 @@
     "confidence": 0,
     "low": 34564,
     "high": 34564,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "11.js.map gzip size": {
     "min": 11032,
@@ -334,8 +334,8 @@
     "confidence": 0,
     "low": 11032,
     "high": 11032,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "12.js size": {
     "min": 73051,
@@ -347,8 +347,8 @@
     "confidence": 0,
     "low": 73051,
     "high": 73051,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "12.js gzip size": {
     "min": 25046,
@@ -360,8 +360,8 @@
     "confidence": 0,
     "low": 25046,
     "high": 25046,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "12.js.map size": {
     "min": 690670,
@@ -373,8 +373,8 @@
     "confidence": 0,
     "low": 690670,
     "high": 690670,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "12.js.map gzip size": {
     "min": 145409,
@@ -386,8 +386,8 @@
     "confidence": 0,
     "low": 145409,
     "high": 145409,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "13.js size": {
     "min": 7331,
@@ -399,8 +399,8 @@
     "confidence": 0,
     "low": 7331,
     "high": 7331,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "13.js gzip size": {
     "min": 3020,
@@ -412,8 +412,8 @@
     "confidence": 0,
     "low": 3020,
     "high": 3020,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "13.js.map size": {
     "min": 19270,
@@ -425,8 +425,8 @@
     "confidence": 0,
     "low": 19270,
     "high": 19270,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "13.js.map gzip size": {
     "min": 6994,
@@ -438,8 +438,8 @@
     "confidence": 0,
     "low": 6994,
     "high": 6994,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "14.js size": {
     "min": 7331,
@@ -451,8 +451,8 @@
     "confidence": 0,
     "low": 7331,
     "high": 7331,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "14.js gzip size": {
     "min": 3020,
@@ -464,8 +464,8 @@
     "confidence": 0,
     "low": 3020,
     "high": 3020,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "14.js.map size": {
     "min": 19270,
@@ -477,8 +477,8 @@
     "confidence": 0,
     "low": 19270,
     "high": 19270,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "14.js.map gzip size": {
     "min": 6994,
@@ -490,8 +490,8 @@
     "confidence": 0,
     "low": 6994,
     "high": 6994,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "15.js size": {
     "min": 39521,
@@ -503,8 +503,8 @@
     "confidence": 0,
     "low": 39521,
     "high": 39521,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "15.js gzip size": {
     "min": 12634,
@@ -516,8 +516,8 @@
     "confidence": 0,
     "low": 12634,
     "high": 12634,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "15.js.map size": {
     "min": 182151,
@@ -529,8 +529,8 @@
     "confidence": 0,
     "low": 182151,
     "high": 182151,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "15.js.map gzip size": {
     "min": 45564,
@@ -542,8 +542,8 @@
     "confidence": 0,
     "low": 45564,
     "high": 45564,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "16.js size": {
     "min": 2206289,
@@ -555,8 +555,8 @@
     "confidence": 0,
     "low": 2206289,
     "high": 2206289,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "16.js gzip size": {
     "min": 339841,
@@ -568,8 +568,8 @@
     "confidence": 0,
     "low": 339841,
     "high": 339841,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "16.js.map size": {
     "min": 3524698,
@@ -581,8 +581,8 @@
     "confidence": 0,
     "low": 3524698,
     "high": 3524698,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "16.js.map gzip size": {
     "min": 359778,
@@ -594,8 +594,8 @@
     "confidence": 0,
     "low": 359778,
     "high": 359778,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "17.js size": {
     "min": 67711,
@@ -607,8 +607,8 @@
     "confidence": 0,
     "low": 67711,
     "high": 67711,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "17.js gzip size": {
     "min": 19812,
@@ -620,8 +620,8 @@
     "confidence": 0,
     "low": 19812,
     "high": 19812,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "17.js.map size": {
     "min": 322416,
@@ -633,8 +633,8 @@
     "confidence": 0,
     "low": 322416,
     "high": 322416,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "17.js.map gzip size": {
     "min": 72751,
@@ -646,8 +646,8 @@
     "confidence": 0,
     "low": 72751,
     "high": 72751,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "18.js size": {
     "min": 103158,
@@ -659,8 +659,8 @@
     "confidence": 0,
     "low": 103158,
     "high": 103158,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "18.js gzip size": {
     "min": 29762,
@@ -672,8 +672,8 @@
     "confidence": 0,
     "low": 29762,
     "high": 29762,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "18.js.map size": {
     "min": 314761,
@@ -685,8 +685,8 @@
     "confidence": 0,
     "low": 314761,
     "high": 314761,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "18.js.map gzip size": {
     "min": 84941,
@@ -698,8 +698,8 @@
     "confidence": 0,
     "low": 84941,
     "high": 84941,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "19.js size": {
     "min": 680,
@@ -711,8 +711,8 @@
     "confidence": 0,
     "low": 680,
     "high": 680,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "19.js gzip size": {
     "min": 454,
@@ -724,8 +724,8 @@
     "confidence": 0,
     "low": 454,
     "high": 454,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "19.js.map size": {
     "min": 2223,
@@ -737,8 +737,8 @@
     "confidence": 0,
     "low": 2223,
     "high": 2223,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "19.js.map gzip size": {
     "min": 1044,
@@ -750,8 +750,8 @@
     "confidence": 0,
     "low": 1044,
     "high": 1044,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "2.js size": {
     "min": 85755,
@@ -763,8 +763,8 @@
     "confidence": 0,
     "low": 85755,
     "high": 85755,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "2.js gzip size": {
     "min": 26423,
@@ -776,8 +776,8 @@
     "confidence": 0,
     "low": 26423,
     "high": 26423,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "2.js.map size": {
     "min": 432474,
@@ -789,8 +789,8 @@
     "confidence": 0,
     "low": 432474,
     "high": 432474,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "2.js.map gzip size": {
     "min": 110666,
@@ -802,8 +802,8 @@
     "confidence": 0,
     "low": 110666,
     "high": 110666,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "20.js size": {
     "min": 90081,
@@ -815,8 +815,8 @@
     "confidence": 0,
     "low": 90081,
     "high": 90081,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "20.js gzip size": {
     "min": 31167,
@@ -828,8 +828,8 @@
     "confidence": 0,
     "low": 31167,
     "high": 31167,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "20.js.map size": {
     "min": 462323,
@@ -841,8 +841,8 @@
     "confidence": 0,
     "low": 462323,
     "high": 462323,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "20.js.map gzip size": {
     "min": 141239,
@@ -854,8 +854,8 @@
     "confidence": 0,
     "low": 141239,
     "high": 141239,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "21.js size": {
     "min": 4017,
@@ -867,8 +867,8 @@
     "confidence": 0,
     "low": 4017,
     "high": 4017,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "21.js gzip size": {
     "min": 1295,
@@ -880,8 +880,8 @@
     "confidence": 0,
     "low": 1295,
     "high": 1295,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "21.js.map size": {
     "min": 9441,
@@ -893,8 +893,8 @@
     "confidence": 0,
     "low": 9441,
     "high": 9441,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "21.js.map gzip size": {
     "min": 1901,
@@ -906,8 +906,8 @@
     "confidence": 0,
     "low": 1901,
     "high": 1901,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "22.js size": {
     "min": 48809,
@@ -919,8 +919,8 @@
     "confidence": 0,
     "low": 48809,
     "high": 48809,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "22.js gzip size": {
     "min": 11698,
@@ -932,8 +932,8 @@
     "confidence": 0,
     "low": 11698,
     "high": 11698,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "22.js.map size": {
     "min": 235442,
@@ -945,8 +945,8 @@
     "confidence": 0,
     "low": 235442,
     "high": 235442,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "22.js.map gzip size": {
     "min": 46276,
@@ -958,8 +958,8 @@
     "confidence": 0,
     "low": 46276,
     "high": 46276,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "23.js size": {
     "min": 7076,
@@ -971,8 +971,8 @@
     "confidence": 0,
     "low": 7076,
     "high": 7076,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "23.js gzip size": {
     "min": 1343,
@@ -984,8 +984,8 @@
     "confidence": 0,
     "low": 1343,
     "high": 1343,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "23.js.map size": {
     "min": 1111,
@@ -997,8 +997,8 @@
     "confidence": 0,
     "low": 1111,
     "high": 1111,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "23.js.map gzip size": {
     "min": 601,
@@ -1010,8 +1010,8 @@
     "confidence": 0,
     "low": 601,
     "high": 601,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "24.js size": {
     "min": 8319,
@@ -1023,8 +1023,8 @@
     "confidence": 0,
     "low": 8319,
     "high": 8319,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "24.js gzip size": {
     "min": 3401,
@@ -1036,8 +1036,8 @@
     "confidence": 0,
     "low": 3401,
     "high": 3401,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "24.js.map size": {
     "min": 34435,
@@ -1049,8 +1049,8 @@
     "confidence": 0,
     "low": 34435,
     "high": 34435,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "24.js.map gzip size": {
     "min": 10357,
@@ -1062,8 +1062,8 @@
     "confidence": 0,
     "low": 10357,
     "high": 10357,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "25.js size": {
     "min": 3382,
@@ -1075,8 +1075,8 @@
     "confidence": 0,
     "low": 3382,
     "high": 3382,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "25.js gzip size": {
     "min": 1459,
@@ -1088,8 +1088,8 @@
     "confidence": 0,
     "low": 1459,
     "high": 1459,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "25.js.map size": {
     "min": 18258,
@@ -1101,8 +1101,8 @@
     "confidence": 0,
     "low": 18258,
     "high": 18258,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "25.js.map gzip size": {
     "min": 2529,
@@ -1114,8 +1114,8 @@
     "confidence": 0,
     "low": 2529,
     "high": 2529,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "3.js size": {
     "min": 24432,
@@ -1127,8 +1127,8 @@
     "confidence": 0,
     "low": 24432,
     "high": 24432,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "3.js gzip size": {
     "min": 7720,
@@ -1140,8 +1140,8 @@
     "confidence": 0,
     "low": 7720,
     "high": 7720,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "3.js.map size": {
     "min": 116476,
@@ -1153,8 +1153,8 @@
     "confidence": 0,
     "low": 116476,
     "high": 116476,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "3.js.map gzip size": {
     "min": 31743,
@@ -1166,8 +1166,8 @@
     "confidence": 0,
     "low": 31743,
     "high": 31743,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "4.js size": {
     "min": 85455,
@@ -1179,8 +1179,8 @@
     "confidence": 0,
     "low": 85455,
     "high": 85455,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "4.js gzip size": {
     "min": 18479,
@@ -1192,8 +1192,8 @@
     "confidence": 0,
     "low": 18479,
     "high": 18479,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "4.js.map size": {
     "min": 651714,
@@ -1205,8 +1205,8 @@
     "confidence": 0,
     "low": 651714,
     "high": 651714,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "4.js.map gzip size": {
     "min": 102839,
@@ -1218,8 +1218,8 @@
     "confidence": 0,
     "low": 102839,
     "high": 102839,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "6.js size": {
     "min": 71890,
@@ -1231,8 +1231,8 @@
     "confidence": 0,
     "low": 71890,
     "high": 71890,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "6.js gzip size": {
     "min": 11900,
@@ -1244,8 +1244,8 @@
     "confidence": 0,
     "low": 11900,
     "high": 11900,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "6.js.map size": {
     "min": 209304,
@@ -1257,8 +1257,8 @@
     "confidence": 0,
     "low": 209304,
     "high": 209304,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "6.js.map gzip size": {
     "min": 43537,
@@ -1270,8 +1270,8 @@
     "confidence": 0,
     "low": 43537,
     "high": 43537,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "7.js size": {
     "min": 296594,
@@ -1283,8 +1283,8 @@
     "confidence": 0,
     "low": 296594,
     "high": 296594,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "7.js gzip size": {
     "min": 71474,
@@ -1296,8 +1296,8 @@
     "confidence": 0,
     "low": 71474,
     "high": 71474,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "7.js.map size": {
     "min": 945775,
@@ -1309,8 +1309,8 @@
     "confidence": 0,
     "low": 945775,
     "high": 945775,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "7.js.map gzip size": {
     "min": 162710,
@@ -1322,8 +1322,8 @@
     "confidence": 0,
     "low": 162710,
     "high": 162710,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "8.js size": {
     "min": 206522,
@@ -1335,8 +1335,8 @@
     "confidence": 0,
     "low": 206522,
     "high": 206522,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "8.js gzip size": {
     "min": 54072,
@@ -1348,8 +1348,8 @@
     "confidence": 0,
     "low": 54072,
     "high": 54072,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "8.js.map size": {
     "min": 1015840,
@@ -1361,8 +1361,8 @@
     "confidence": 0,
     "low": 1015840,
     "high": 1015840,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "8.js.map gzip size": {
     "min": 213306,
@@ -1374,8 +1374,8 @@
     "confidence": 0,
     "low": 213306,
     "high": 213306,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "9.js size": {
     "min": 101039,
@@ -1387,8 +1387,8 @@
     "confidence": 0,
     "low": 101039,
     "high": 101039,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "9.js gzip size": {
     "min": 31167,
@@ -1400,8 +1400,8 @@
     "confidence": 0,
     "low": 31167,
     "high": 31167,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "9.js.map size": {
     "min": 774248,
@@ -1413,8 +1413,8 @@
     "confidence": 0,
     "low": 774248,
     "high": 774248,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "9.js.map gzip size": {
     "min": 164578,
@@ -1426,8 +1426,8 @@
     "confidence": 0,
     "low": 164578,
     "high": 164578,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "main.js size": {
     "min": 2962,
@@ -1439,8 +1439,8 @@
     "confidence": 0,
     "low": 2962,
     "high": 2962,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "main.js gzip size": {
     "min": 1235,
@@ -1452,8 +1452,8 @@
     "confidence": 0,
     "low": 1235,
     "high": 1235,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "main.js.map size": {
     "min": 11784,
@@ -1465,8 +1465,8 @@
     "confidence": 0,
     "low": 11784,
     "high": 11784,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   },
   "main.js.map gzip size": {
     "min": 4136,
@@ -1478,7 +1478,7 @@
     "confidence": 0,
     "low": 4136,
     "high": 4136,
-    "count": 11,
-    "base": 6281.5
+    "count": 10,
+    "base": 7160.5
   }
 }
