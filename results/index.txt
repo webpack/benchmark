@@ -6798,4 +6798,5 @@
 2021-04-28/esbuild-three_development-build+swc-env.json
 2021-04-16/common-libs_development-build+babel-env.json
 2021-05-24/atlaskit-editor_development-build+swc-env.json
+2021-05-24/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
