@@ -29,12 +29,14 @@ jobs:
           - development-build
           - development-build+persistent-cache
           - development-rebuild
+          - development-rebuild+unsafe-cache
           - production-build
           - production-build+source-map
           - production-build+no-minimize
           - production-build+persistent-cache
           - production-build+initial-persistent-cache
           - production-build+source-map+persistent-cache
+          - production-build+source-map+initial-persistent-cache
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
