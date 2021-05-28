@@ -1,3 +1,4 @@
+import { parseDependencies } from "../lib/utils.js";
 import measure from "../lib/measure.js";
 
 const [
@@ -5,8 +6,10 @@ const [
 	,
 	caseName = "minimal",
 	scenarioName = "development-default-build",
-	date = undefined,
+	current = "",
 ] = process.argv;
+
+const isDate = (str) => str.startsWith("20");
 
 (async () => {
 	console.log(
@@ -14,7 +17,8 @@ const [
 			verbose: true,
 			verboseSetup: true,
 			noStatistics: true,
-			date,
+			dependencies: isDate(current) ? undefined : parseDependencies(current),
+			date: isDate(current) ? current : undefined,
 		})
 	);
 })().catch((err) => {
