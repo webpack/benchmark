@@ -28,6 +28,7 @@ jobs:
           - development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis
           - production-build
           - production-build+source-map
+          - production-build+source-map+babel-env
           - production-build+no-minimize
           - production-build+persistent-cache
           - production-build+initial-persistent-cache

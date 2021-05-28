@@ -27,11 +27,13 @@ jobs:
           - rome
         scenario:
           - development-build
+          - development-build+initial-persistent-cache
           - development-build+persistent-cache
           - development-rebuild
           - development-rebuild+unsafe-cache
           - production-build
           - production-build+source-map
+          - production-build+source-map+babel-env
           - production-build+no-minimize
           - production-build+persistent-cache
           - production-build+initial-persistent-cache
