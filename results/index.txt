@@ -7358,4 +7358,5 @@
 2021-03-09/common-libs-chunks_development-build+babel-env.json
 2021-05-27/atlaskit-editor_development-build+no-exports-analysis.json
 2021-06-02/rome_development-build+persistent-cache.json
+2021-05-30/rome_production-build+no-exports-analysis.json
 
