@@ -7357,4 +7357,5 @@
 2021-05-26/atlaskit-editor_production-build+initial-persistent-cache.json
 2021-03-09/common-libs-chunks_development-build+babel-env.json
 2021-05-27/atlaskit-editor_development-build+no-exports-analysis.json
+2021-06-02/rome_development-build+persistent-cache.json
 
