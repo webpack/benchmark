@@ -7430,4 +7430,5 @@
 2020-02-01/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-05-02/common-libs-chunks_development-build+babel-env.json
 2021-05-18/rome_development-build+babel-env.json
+2021-04-08/rome_production-build+no-exports-analysis.json
 
