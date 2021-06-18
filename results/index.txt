@@ -7821,4 +7821,5 @@
 2021-06-18/common-libs_production-build+no-minimize+no-concatenation.json
 2021-06-15/atlaskit-editor_development-build.json
 2021-04-23/esbuild-three_development-build.json
+2021-06-15/esbuild-three_production-build+babel-env.json
 
