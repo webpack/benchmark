@@ -7810,4 +7810,5 @@
 2021-06-17/atlaskit-editor_production-build+babel-env.json
 2021-06-18/rome_development-build+swc-env.json
 2021-06-17/atlaskit-editor_development-build+no-exports-analysis.json
+2021-06-18/rome_production-build+babel-env.json
 
