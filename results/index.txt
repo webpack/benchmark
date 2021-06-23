@@ -8027,4 +8027,5 @@
 2021-06-20/atlaskit-editor_development-rebuild.json
 2021-06-15/common-libs-chunks_development-build+persistent-cache.json
 2021-05-26/common-libs-chunks_production-build+no-minimize.json
+2021-06-23/atlaskit-editor_production-build+no-minimize.json
 
