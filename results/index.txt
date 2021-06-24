@@ -8059,4 +8059,5 @@
 2021-05-29/atlaskit-editor_production-build+babel-env.json
 2021-06-24/common-libs_production-build+swc-env.json
 2021-06-15/common-libs_production-build+source-map.json
+2021-06-22/atlaskit-editor_development-build.json
 
