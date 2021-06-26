@@ -8156,4 +8156,5 @@
 2021-06-22/atlaskit-editor_development-build+babel-env.json
 2020-12-15/common-libs-chunks_development-build+no-exports-analysis.json
 2021-03-31/esbuild-three_production-build+source-map+persistent-cache.json
+2021-06-26/atlaskit-editor_production-build+babel-env.json
 
