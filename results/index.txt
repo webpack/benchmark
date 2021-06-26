@@ -8170,4 +8170,5 @@
 2021-06-23/atlaskit-editor_development-build+no-exports-analysis.json
 2021-04-16/rome_development-build+pnp.json
 2021-06-26/esbuild-three_production-build+no-minimize+no-concatenation.json
+2021-06-24/rome_production-build+no-minimize.json
 
