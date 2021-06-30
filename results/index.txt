@@ -8345,4 +8345,5 @@
 2021-06-18/rome_production-build+no-concatenation.json
 2021-03-29/rome_development-build+pnp.json
 2021-06-10/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-06-30/rome_production-build+no-minimize.json
 
