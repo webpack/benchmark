@@ -8367,4 +8367,5 @@
 2021-03-29/esbuild-three_production-build+source-map+babel-env.json
 2021-06-27/atlaskit-editor_production-build+no-concatenation.json
 2021-06-30/esbuild-three_development-build+pnp.json
+2021-06-26/atlaskit-editor_production-build+swc-env.json
 
