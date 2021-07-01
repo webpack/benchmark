@@ -8387,4 +8387,5 @@
 2021-01-20/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-06-29/common-libs_production-build+babel-env.json
 2021-06-27/atlaskit-editor_development-rebuild.json
+2021-04-15/rome_production-build+no-minimize.json
 
