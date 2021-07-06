@@ -8583,4 +8583,5 @@
 2021-03-11/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-06-21/common-libs-chunks_production-build+initial-persistent-cache.json
 2021-06-23/rome_production-build+source-map+persistent-cache.json
+2021-06-21/rome_production-build+no-exports-analysis.json
 
