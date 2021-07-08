@@ -8705,4 +8705,5 @@
 2021-07-04/esbuild-three_development-build+persistent-cache.json
 2021-04-09/atlaskit-editor_development-build+persistent-cache.json
 2021-06-20/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-07-08/atlaskit-editor_development-build+babel-env.json
 
