@@ -8710,4 +8710,5 @@
 2021-07-07/atlaskit-editor_development-build+persistent-cache.json
 2021-07-09/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2021-05-23/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-07-09/esbuild-three_production-build+initial-persistent-cache.json
 
