@@ -1,133 +1,133 @@
 {
   "stats": {
-    "min": 18631,
-    "max": 20291,
-    "mean": 19502.666666666668,
-    "median": 19384,
-    "variance": 180524.35555555552,
-    "stdDev": 424.8815782727647,
-    "confidence": 470.62995315356966,
-    "low": 19267.351690089883,
-    "high": 19737.981643243453,
-    "count": 15,
-    "base": 6173
+    "min": 14230,
+    "max": 14797,
+    "mean": 14554.631578947368,
+    "median": 14574,
+    "variance": 28862.337950138502,
+    "stdDev": 169.8891931528857,
+    "confidence": 163.77401698800531,
+    "low": 14472.744570453366,
+    "high": 14636.518587441371,
+    "count": 19,
+    "base": 5221.5
   },
   "heap memory": {
-    "min": 247929632,
-    "max": 543876152,
-    "mean": 439978030.93333334,
-    "median": 503891632,
-    "variance": 11329506199781448,
-    "stdDev": 106440153.13678128,
-    "confidence": 117900908.97342503,
-    "low": 381027576.4466208,
-    "high": 498928485.42004585,
-    "count": 15,
-    "base": 6173
+    "min": 252003128,
+    "max": 542215512,
+    "mean": 505379065.68421054,
+    "median": 519324104,
+    "variance": 3812304649212001.5,
+    "stdDev": 61743863.25143578,
+    "confidence": 59521387.56669295,
+    "low": 475618371.90086406,
+    "high": 535139759.467557,
+    "count": 19,
+    "base": 5221.5
   },
   "rss memory": {
-    "min": 536817664,
-    "max": 659333120,
-    "mean": 618243959.4666667,
-    "median": 633626624,
-    "variance": 1521694642937236.8,
-    "stdDev": 39008904.66210551,
-    "confidence": 43209119.69949651,
-    "low": 596639399.6169184,
-    "high": 639848519.316415,
-    "count": 15,
-    "base": 6173
+    "min": 591654912,
+    "max": 652353536,
+    "mean": 629296074.1052631,
+    "median": 630980608,
+    "variance": 266064466001602.3,
+    "stdDev": 16311482.642653987,
+    "confidence": 15724349.417643785,
+    "low": 621433899.3964412,
+    "high": 637158248.814085,
+    "count": 19,
+    "base": 5221.5
   },
   "external memory": {
-    "min": 18399194,
-    "max": 20084347,
-    "mean": 19833169.066666666,
-    "median": 20067963,
-    "variance": 261837087603.39545,
-    "stdDev": 511700.1930851653,
-    "confidence": 566796.6092560068,
-    "low": 19549770.762038663,
-    "high": 20116567.37129467,
-    "count": 15,
-    "base": 6173
+    "min": 19626253,
+    "max": 20136773,
+    "mean": 20091165.684210528,
+    "median": 20120389,
+    "variance": 12092606985.268705,
+    "stdDev": 109966.39025297096,
+    "confidence": 106008.14054836333,
+    "low": 20038161.613936346,
+    "high": 20144169.75448471,
+    "count": 19,
+    "base": 5221.5
   },
   "array buffers memory": {
-    "min": 13359382,
-    "max": 15044535,
-    "mean": 14793357.066666666,
-    "median": 15028151,
-    "variance": 261837087603.39545,
-    "stdDev": 511700.1930851653,
-    "confidence": 566796.6092560105,
-    "low": 14509958.762038661,
-    "high": 15076755.371294672,
-    "count": 15,
-    "base": 6173
+    "min": 18356154,
+    "max": 18866674,
+    "mean": 18820635.52631579,
+    "median": 18850290,
+    "variance": 12084881588.880882,
+    "stdDev": 109931.25847037722,
+    "confidence": 105974.2733373195,
+    "low": 18767648.38964713,
+    "high": 18873622.66298445,
+    "count": 19,
+    "base": 5221.5
   },
   "buildChunkGraph.visitModules.prepare": {
-    "min": 51.775718,
-    "max": 65.23854,
-    "mean": 57.635167733333326,
-    "median": 57.113748,
-    "variance": 10.334033018075798,
-    "stdDev": 3.2146590827140282,
-    "confidence": 3.5607918320505547,
-    "low": 55.85477181730805,
-    "high": 59.4155636493586,
-    "count": 15,
-    "base": 6173
+    "min": 42.700142,
+    "max": 50.83882,
+    "mean": 48.48067905263158,
+    "median": 49.274416,
+    "variance": 4.173295251443629,
+    "stdDev": 2.04286447211841,
+    "confidence": 1.9693313891945365,
+    "low": 47.49601335803431,
+    "high": 49.46534474722885,
+    "count": 19,
+    "base": 5221.5
   },
   "buildChunkGraph.visitModules.visiting": {
-    "min": 31.923295000000003,
-    "max": 44.314969000000005,
-    "mean": 36.85181306666666,
-    "median": 35.105816999999995,
-    "variance": 16.292695688376863,
-    "stdDev": 4.036421148539491,
-    "confidence": 4.471035679559833,
-    "low": 34.61629522688674,
-    "high": 39.087330906446574,
-    "count": 15,
-    "base": 6173
+    "min": 26.369121,
+    "max": 34.733435,
+    "mean": 30.14779236842105,
+    "median": 28.907459,
+    "variance": 8.690222000087601,
+    "stdDev": 2.9479182485421136,
+    "confidence": 2.841807676851545,
+    "low": 28.72688852999528,
+    "high": 31.568696206846823,
+    "count": 19,
+    "base": 5221.5
   },
   "buildChunkGraph.visitModules.calculating available modules": {
-    "min": 0.0773,
-    "max": 0.154201,
-    "mean": 0.09562713333333335,
-    "median": 0.0899,
-    "variance": 0.0003704521709155556,
-    "stdDev": 0.01924713409615976,
-    "confidence": 0.02131953532756123,
-    "low": 0.08496736566955274,
-    "high": 0.10628690099711396,
-    "count": 15,
-    "base": 6173
+    "min": 0.064701,
+    "max": 0.073801,
+    "mean": 0.06747984210526316,
+    "median": 0.067201,
+    "variance": 0.000004545794554016627,
+    "stdDev": 0.002132086901140905,
+    "confidence": 0.0020553422491866313,
+    "low": 0.06645217098066984,
+    "high": 0.06850751322985647,
+    "count": 19,
+    "base": 5221.5
   },
   "buildChunkGraph.visitModules.merging available modules": {
-    "min": 0.0299,
-    "max": 0.0529,
-    "mean": 0.03494680000000001,
-    "median": 0.0343,
-    "variance": 0.00002680356989333334,
-    "stdDev": 0.005177216423265821,
-    "confidence": 0.005734664074287729,
-    "low": 0.03207946796285614,
-    "high": 0.03781413203714387,
-    "count": 15,
-    "base": 6173
+    "min": 0.0272,
+    "max": 0.042701,
+    "mean": 0.029642578947368426,
+    "median": 0.028601,
+    "variance": 0.000011713861191135737,
+    "stdDev": 0.0034225518536810714,
+    "confidence": 0.0032993568044240792,
+    "low": 0.027992900545156386,
+    "high": 0.031292257349580466,
+    "count": 19,
+    "base": 5221.5
   },
   "exec": {
-    "min": 19997,
-    "max": 21657,
-    "mean": 20830.133333333335,
-    "median": 20752,
-    "variance": 176500.64888888889,
-    "stdDev": 420.119803019197,
-    "confidence": 465.3554621445146,
-    "low": 20597.455602261078,
-    "high": 21062.811064405592,
-    "count": 15,
-    "base": 6173
+    "min": 15386,
+    "max": 15954,
+    "mean": 15701.421052631578,
+    "median": 15732,
+    "variance": 25721.717451523542,
+    "stdDev": 160.37991598552338,
+    "confidence": 154.6070270727032,
+    "low": 15624.117539095227,
+    "high": 15778.72456616793,
+    "count": 19,
+    "base": 5221.5
   },
   "0.js size": {
     "min": 75291,
@@ -139,8 +139,8 @@
     "confidence": 0,
     "low": 75291,
     "high": 75291,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "0.js gzip size": {
     "min": 23716,
@@ -152,8 +152,8 @@
     "confidence": 0,
     "low": 23716,
     "high": 23716,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "1.js size": {
     "min": 123454,
@@ -165,8 +165,8 @@
     "confidence": 0,
     "low": 123454,
     "high": 123454,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "1.js gzip size": {
     "min": 40106,
@@ -178,8 +178,8 @@
     "confidence": 0,
     "low": 40106,
     "high": 40106,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "10.js size": {
     "min": 69640,
@@ -191,8 +191,8 @@
     "confidence": 0,
     "low": 69640,
     "high": 69640,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "10.js gzip size": {
     "min": 24762,
@@ -204,8 +204,8 @@
     "confidence": 0,
     "low": 24762,
     "high": 24762,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "11.js size": {
     "min": 7453,
@@ -217,8 +217,8 @@
     "confidence": 0,
     "low": 7453,
     "high": 7453,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "11.js gzip size": {
     "min": 2695,
@@ -230,8 +230,8 @@
     "confidence": 0,
     "low": 2695,
     "high": 2695,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "12.js size": {
     "min": 73020,
@@ -243,8 +243,8 @@
     "confidence": 0,
     "low": 73020,
     "high": 73020,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "12.js gzip size": {
     "min": 25028,
@@ -256,8 +256,8 @@
     "confidence": 0,
     "low": 25028,
     "high": 25028,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "13.js size": {
     "min": 7300,
@@ -269,8 +269,8 @@
     "confidence": 0,
     "low": 7300,
     "high": 7300,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "13.js gzip size": {
     "min": 2997,
@@ -282,8 +282,8 @@
     "confidence": 0,
     "low": 2997,
     "high": 2997,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "14.js size": {
     "min": 7300,
@@ -295,8 +295,8 @@
     "confidence": 0,
     "low": 7300,
     "high": 7300,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "14.js gzip size": {
     "min": 2997,
@@ -308,8 +308,8 @@
     "confidence": 0,
     "low": 2997,
     "high": 2997,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "15.js size": {
     "min": 39490,
@@ -321,8 +321,8 @@
     "confidence": 0,
     "low": 39490,
     "high": 39490,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "15.js gzip size": {
     "min": 12613,
@@ -334,8 +334,8 @@
     "confidence": 0,
     "low": 12613,
     "high": 12613,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "16.js size": {
     "min": 2206258,
@@ -347,8 +347,8 @@
     "confidence": 0,
     "low": 2206258,
     "high": 2206258,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "16.js gzip size": {
     "min": 339806,
@@ -360,8 +360,8 @@
     "confidence": 0,
     "low": 339806,
     "high": 339806,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "17.js size": {
     "min": 67680,
@@ -373,8 +373,8 @@
     "confidence": 0,
     "low": 67680,
     "high": 67680,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "17.js gzip size": {
     "min": 19781,
@@ -386,8 +386,8 @@
     "confidence": 0,
     "low": 19781,
     "high": 19781,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "18.js size": {
     "min": 103127,
@@ -399,8 +399,8 @@
     "confidence": 0,
     "low": 103127,
     "high": 103127,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "18.js gzip size": {
     "min": 29733,
@@ -412,8 +412,8 @@
     "confidence": 0,
     "low": 29733,
     "high": 29733,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "19.js size": {
     "min": 649,
@@ -425,8 +425,8 @@
     "confidence": 0,
     "low": 649,
     "high": 649,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "19.js gzip size": {
     "min": 431,
@@ -438,8 +438,8 @@
     "confidence": 0,
     "low": 431,
     "high": 431,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "2.js size": {
     "min": 85725,
@@ -451,8 +451,8 @@
     "confidence": 0,
     "low": 85725,
     "high": 85725,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "2.js gzip size": {
     "min": 26395,
@@ -464,8 +464,8 @@
     "confidence": 0,
     "low": 26395,
     "high": 26395,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "20.js size": {
     "min": 90050,
@@ -477,8 +477,8 @@
     "confidence": 0,
     "low": 90050,
     "high": 90050,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "20.js gzip size": {
     "min": 31140,
@@ -490,8 +490,8 @@
     "confidence": 0,
     "low": 31140,
     "high": 31140,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "21.js size": {
     "min": 3986,
@@ -503,8 +503,8 @@
     "confidence": 0,
     "low": 3986,
     "high": 3986,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "21.js gzip size": {
     "min": 1265,
@@ -516,8 +516,8 @@
     "confidence": 0,
     "low": 1265,
     "high": 1265,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "22.js size": {
     "min": 48778,
@@ -529,8 +529,8 @@
     "confidence": 0,
     "low": 48778,
     "high": 48778,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "22.js gzip size": {
     "min": 11669,
@@ -542,8 +542,8 @@
     "confidence": 0,
     "low": 11669,
     "high": 11669,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "23.js size": {
     "min": 7045,
@@ -555,8 +555,8 @@
     "confidence": 0,
     "low": 7045,
     "high": 7045,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "23.js gzip size": {
     "min": 1313,
@@ -568,8 +568,8 @@
     "confidence": 0,
     "low": 1313,
     "high": 1313,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "24.js size": {
     "min": 8288,
@@ -581,8 +581,8 @@
     "confidence": 0,
     "low": 8288,
     "high": 8288,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "24.js gzip size": {
     "min": 3373,
@@ -594,8 +594,8 @@
     "confidence": 0,
     "low": 3373,
     "high": 3373,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "25.js size": {
     "min": 3351,
@@ -607,8 +607,8 @@
     "confidence": 0,
     "low": 3351,
     "high": 3351,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "25.js gzip size": {
     "min": 1429,
@@ -620,8 +620,8 @@
     "confidence": 0,
     "low": 1429,
     "high": 1429,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "3.js size": {
     "min": 24402,
@@ -633,8 +633,8 @@
     "confidence": 0,
     "low": 24402,
     "high": 24402,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "3.js gzip size": {
     "min": 7693,
@@ -646,8 +646,8 @@
     "confidence": 0,
     "low": 7693,
     "high": 7693,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "4.js size": {
     "min": 85425,
@@ -659,8 +659,8 @@
     "confidence": 0,
     "low": 85425,
     "high": 85425,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "4.js gzip size": {
     "min": 18448,
@@ -672,8 +672,8 @@
     "confidence": 0,
     "low": 18448,
     "high": 18448,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "6.js size": {
     "min": 71860,
@@ -685,8 +685,8 @@
     "confidence": 0,
     "low": 71860,
     "high": 71860,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "6.js gzip size": {
     "min": 11870,
@@ -698,8 +698,8 @@
     "confidence": 0,
     "low": 11870,
     "high": 11870,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "7.js size": {
     "min": 296564,
@@ -711,8 +711,8 @@
     "confidence": 0,
     "low": 296564,
     "high": 296564,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "7.js gzip size": {
     "min": 71447,
@@ -724,8 +724,8 @@
     "confidence": 0,
     "low": 71447,
     "high": 71447,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "8.js size": {
     "min": 206492,
@@ -737,8 +737,8 @@
     "confidence": 0,
     "low": 206492,
     "high": 206492,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "8.js gzip size": {
     "min": 54044,
@@ -750,8 +750,8 @@
     "confidence": 0,
     "low": 54044,
     "high": 54044,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "9.js size": {
     "min": 101009,
@@ -763,8 +763,8 @@
     "confidence": 0,
     "low": 101009,
     "high": 101009,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "9.js gzip size": {
     "min": 31150,
@@ -776,8 +776,8 @@
     "confidence": 0,
     "low": 31150,
     "high": 31150,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "main.js size": {
     "min": 2929,
@@ -789,8 +789,8 @@
     "confidence": 0,
     "low": 2929,
     "high": 2929,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   },
   "main.js gzip size": {
     "min": 1203,
@@ -802,7 +802,7 @@
     "confidence": 0,
     "low": 1203,
     "high": 1203,
-    "count": 15,
-    "base": 6173
+    "count": 19,
+    "base": 5221.5
   }
 }
