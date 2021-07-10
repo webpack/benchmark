@@ -8766,4 +8766,5 @@
 2021-06-28/common-libs_development-build+pnp.json
 2021-07-10/atlaskit-editor_production-build+no-minimize.json
 2021-03-16/atlaskit-editor_production-build+no-concatenation.json
+2021-06-17/atlaskit-editor_development-rebuild.json
 
