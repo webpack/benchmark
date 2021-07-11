@@ -8820,4 +8820,5 @@
 2021-07-11/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-06-12/atlaskit-editor_production-build+source-map.json
 2021-02-01/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-07-11/rome_production-build+swc-env.json
 
