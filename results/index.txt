@@ -8842,4 +8842,5 @@
 2021-03-11/atlaskit-editor_production-build.json
 2021-07-08/rome_production-build+no-minimize+no-concatenation.json
 2021-07-11/rome_production-build+source-map+babel-env.json
+2021-07-12/rome_development-build+swc-env.json
 
