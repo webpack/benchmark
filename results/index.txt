@@ -9279,4 +9279,5 @@
 2021-07-15/rome_development-build+swc-env.json
 2021-06-22/common-libs_production-build+no-minimize+no-concatenation.json
 2021-07-03/atlaskit-editor_development-build+babel-env.json
+2021-06-12/rome_development-build+babel-env.json
 
