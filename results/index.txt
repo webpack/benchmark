@@ -9281,4 +9281,5 @@
 2021-07-03/atlaskit-editor_development-build+babel-env.json
 2021-06-12/rome_development-build+babel-env.json
 2021-05-26/common-libs-chunks_production-build+no-minimize+no-concatenation.json
+2021-06-08/atlaskit-editor_production-build+no-minimize.json
 
