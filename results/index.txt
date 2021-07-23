@@ -9501,4 +9501,5 @@
 2021-07-23/common-libs-chunks_development-build+babel-env.json
 2021-07-07/atlaskit-editor_development-build+thread-babel-env.json
 2021-07-12/common-libs_development-rebuild.json
+2021-06-16/atlaskit-editor_production-build+swc-env.json
 
