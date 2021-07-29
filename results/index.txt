@@ -9794,4 +9794,5 @@
 2021-07-06/atlaskit-editor_production-build+source-map.json
 2021-07-29/atlaskit-editor_development-rebuild.json
 2021-07-29/esbuild-three_development-rebuild+hmr.json
+2021-07-21/atlaskit-editor_production-build+no-minimize.json
 
