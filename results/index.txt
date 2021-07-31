@@ -9888,4 +9888,5 @@
 2021-07-31/common-libs_production-build.json
 2021-07-15/esbuild-three_development-rebuild+unsafe-cache.json
 2021-07-30/atlaskit-editor_production-build+babel-env.json
+2021-07-30/atlaskit-editor_production-build+swc-env.json
 
