@@ -9874,4 +9874,5 @@
 2021-07-30/rome_development-rebuild+hmr.json
 2021-07-20/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-07-31/common-libs-chunks_production-build+no-concatenation.json
+2021-07-31/rome_development-build+initial-persistent-cache.json
 
