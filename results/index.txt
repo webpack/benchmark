@@ -10142,4 +10142,5 @@
 2021-08-02/common-libs-chunks_production-build+no-concatenation.json
 2021-07-18/common-libs-chunks_development-rebuild+hmr.json
 2021-07-14/atlaskit-editor_production-build+no-exports-analysis.json
+2021-08-01/atlaskit-editor_development-build+swc-env.json
 
