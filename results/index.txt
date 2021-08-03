@@ -10172,4 +10172,5 @@
 2021-04-21/atlaskit-editor_development-build+babel-env.json
 2021-06-19/atlaskit-editor_production-build+no-minimize.json
 2021-03-28/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-05-09/esbuild-three_production-build+no-minimize+no-concatenation.json
 
