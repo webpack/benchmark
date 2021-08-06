@@ -10308,4 +10308,5 @@
 2021-07-19/atlaskit-editor_production-build+initial-persistent-cache.json
 2021-07-14/rome_development-rebuild+hmr.json
 2021-08-06/common-libs_development-rebuild+hmr.json
+2021-08-06/common-libs_production-build+persistent-cache.json
 
