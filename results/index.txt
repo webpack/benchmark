@@ -10358,4 +10358,5 @@
 2021-08-07/common-libs_production-build+no-minimize+no-concatenation.json
 2021-08-07/common-libs_production-build+swc-env.json
 2021-08-07/rome_production-build+persistent-cache.json
+2021-08-05/atlaskit-editor_production-build+swc-env.json
 
