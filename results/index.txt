@@ -10458,4 +10458,5 @@
 2021-08-07/common-libs_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-08-09/rome_development-rebuild.json
 2021-08-02/esbuild-three_production-build+swc-env.json
+2021-08-07/esbuild-three_development-build+persistent-cache.json
 
