@@ -10499,4 +10499,5 @@
 2021-04-18/atlaskit-editor_development-rebuild.json
 2021-04-09/common-libs_production-build+babel-env.json
 2021-08-10/rome_development-rebuild+hmr.json
+2021-08-10/rome_production-build+no-minimize.json
 
