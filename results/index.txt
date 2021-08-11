@@ -10542,4 +10542,5 @@
 2020-05-01/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2021-08-10/common-libs_production-build+source-map+persistent-cache.json
 2021-07-31/esbuild-three_production-build+source-map.json
+2021-02-27/atlaskit-editor_production-build+source-map+babel-env.json
 
