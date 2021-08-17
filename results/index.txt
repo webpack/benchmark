@@ -10784,4 +10784,5 @@
 2021-05-23/rome_development-rebuild+unsafe-cache.json
 2021-08-16/atlaskit-editor_development-build+babel-env.json
 2021-08-15/atlaskit-editor_production-build+no-concatenation.json
+2021-06-22/atlaskit-editor_production-build+swc-env.json
 
