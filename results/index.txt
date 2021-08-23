@@ -11058,4 +11058,5 @@
 2021-07-31/common-libs-chunks_production-build+babel-env.json
 2021-03-23/common-libs_production-build+source-map+persistent-cache.json
 2021-08-12/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-08-13/rome_production-build+swc-env.json
 
