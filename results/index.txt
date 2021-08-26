@@ -11186,4 +11186,5 @@
 2021-08-26/atlaskit-editor_production-build+no-concatenation.json
 2021-08-18/atlaskit-editor_development-build+babel-env.json
 2021-08-20/atlaskit-editor_production-build+no-minimize.json
+2021-08-23/rome_production-build+swc-env.json
 
