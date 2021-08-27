@@ -11242,4 +11242,5 @@
 2021-08-13/atlaskit-editor_development-rebuild+hmr.json
 2021-06-06/common-libs-chunks_production-build+no-minimize.json
 2021-08-27/esbuild-three_production-build+no-concatenation.json
+2021-06-30/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
