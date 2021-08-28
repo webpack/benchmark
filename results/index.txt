@@ -11281,4 +11281,5 @@
 2021-08-27/atlaskit-editor_development-build+no-exports-analysis.json
 2021-03-21/atlaskit-editor_development-build+babel-env.json
 2021-08-23/rome_production-build+source-map.json
+2021-08-21/atlaskit-editor_production-build.json
 
