@@ -11370,4 +11370,5 @@
 2020-05-01/common-libs-chunks_production-build+source-map+babel-env.json
 2021-08-20/rome_production-build+source-map+babel-env.json
 2020-10-20/atlaskit-editor_development-rebuild+hmr.json
+2021-08-29/atlaskit-editor_production-build+swc-env.json
 
