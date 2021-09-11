@@ -11938,4 +11938,5 @@
 2021-05-14/common-libs-chunks_development-build+no-exports-analysis.json
 2021-09-06/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2021-07-22/rome_development-build+initial-persistent-cache.json
+2021-09-03/esbuild-three_development-build+persistent-cache.json
 
