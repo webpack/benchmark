@@ -12178,4 +12178,5 @@
 2021-06-05/atlaskit-editor_production-build+no-concatenation.json
 2021-09-11/common-libs-chunks_development-build+babel-env.json
 2021-09-17/atlaskit-editor_development-build+babel-env.json
+2021-08-04/atlaskit-editor_production-build+initial-persistent-cache.json
 
