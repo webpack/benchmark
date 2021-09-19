@@ -12282,4 +12282,5 @@
 2021-08-11/esbuild-three_development-build+thread-babel-env.json
 2021-04-15/esbuild-three_production-build.json
 2021-09-13/common-libs_production-build+source-map+babel-env.json
+2021-08-26/atlaskit-editor_development-rebuild+hmr.json
 
