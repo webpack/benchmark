@@ -12324,4 +12324,5 @@
 2021-08-20/esbuild-three_production-build+source-map.json
 2021-09-20/atlaskit-editor_development-build+thread-babel-env.json
 2021-09-16/common-libs_production-build+source-map.json
+2021-01-05/atlaskit-editor_production-build+no-minimize.json
 
