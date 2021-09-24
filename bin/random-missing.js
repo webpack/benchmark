@@ -69,6 +69,9 @@ const dirExist = async (p) => {
 	for (const date of Array.from(dates).sort((a, b) => (a < b ? 1 : -1))) {
 		for (const testCase of Array.from(testCases).sort(randomOrder)) {
 			for (const scenario of Array.from(scenarios).sort(randomOrder)) {
+				if (scenario.includes("future-defaults") && date < "2021-09-11") {
+					continue;
+				}
 				if (!existing.has(`${date}/${testCase}_${scenario}`)) {
 					missing.push({
 						testCase,
