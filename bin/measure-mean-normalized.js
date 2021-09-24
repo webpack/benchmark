@@ -10,7 +10,11 @@ const [
 	caseName = "minimal",
 	scenarioName = "development-default-build",
 	date = undefined,
-	normalDate = scenarioName.includes("swc-env") ? "2021-05-10" : "2021-02-15",
+	normalDate = scenarioName.includes("future-defaults")
+		? "2021-09-20"
+		: scenarioName.includes("swc-env")
+		? "2021-05-10"
+		: "2021-02-15",
 ] = process.argv;
 
 const rootDir = resolve(fileURLToPath(import.meta.url), "../..");
