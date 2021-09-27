@@ -12640,4 +12640,5 @@
 2021-08-17/rome_production-build+no-minimize.json
 2021-09-27/common-libs_production-build+source-map.json
 2021-09-12/atlaskit-editor_production-build+source-map+persistent-cache.json
+2021-08-12/esbuild-three_production-build+babel-env.json
 
