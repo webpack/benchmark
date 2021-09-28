@@ -12709,4 +12709,5 @@
 2021-09-14/atlaskit-editor_production-build+source-map+babel-env.json
 2021-09-25/common-libs-chunks_production-build+future-defaults.json
 2021-09-28/atlaskit-editor_development-build+future-defaults.json
+2021-09-28/atlaskit-editor_production-build+source-map.json
 
