@@ -12744,4 +12744,5 @@
 2021-09-07/common-libs-chunks_production-build+no-concatenation.json
 2021-07-30/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-09-29/esbuild-three_development-build+future-defaults.json
+2021-09-29/esbuild-three_production-build+source-map+persistent-cache.json
 
