@@ -12760,4 +12760,5 @@
 2021-09-11/common-libs-chunks_production-build.json
 2021-09-02/atlaskit-editor_development-build+no-exports-analysis.json
 2021-04-02/esbuild-three_development-rebuild+hmr.json
+2021-09-24/atlaskit-editor_production-build+swc-env.json
 
