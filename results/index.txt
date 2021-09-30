@@ -12807,4 +12807,5 @@
 2021-07-05/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-06-17/atlaskit-editor_production-build+no-concatenation.json
 2021-09-30/esbuild-three_development-build+no-exports-analysis.json
+2021-08-22/rome_production-build+no-concatenation.json
 
