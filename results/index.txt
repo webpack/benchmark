@@ -12783,4 +12783,5 @@
 2021-09-30/rome_development-rebuild+future-defaults.json
 2021-09-30/common-libs_development-rebuild+future-defaults.json
 2021-09-30/atlaskit-editor_development-rebuild+future-defaults.json
+2021-09-30/rome_development-rebuild+unsafe-cache.json
 
