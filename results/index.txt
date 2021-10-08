@@ -13182,4 +13182,9 @@
 2021-07-05/common-libs_production-build+no-concatenation.json
 2021-09-21/rome_production-build+persistent-cache.json
 2021-09-06/common-libs_development-rebuild+unsafe-cache.json
+2021-10-08/atlaskit-editor_development-rebuild+unsafe-cache+future-defaults.json
+2021-10-08/common-libs-chunks_development-rebuild+unsafe-cache+future-defaults.json
+2021-10-08/common-libs_development-rebuild+unsafe-cache+future-defaults.json
+2021-10-08/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
+2021-10-08/rome_development-rebuild+unsafe-cache+future-defaults.json
 
