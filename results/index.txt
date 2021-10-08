@@ -13269,4 +13269,5 @@
 2021-09-24/rome_development-rebuild+hmr.json
 2021-09-27/common-libs-chunks_production-build+no-exports-analysis.json
 2021-10-08/rome_development-build+babel-env.json
+2021-10-01/rome_development-build+initial-persistent-cache.json
 
