@@ -13535,4 +13535,5 @@
 2021-06-07/atlaskit-editor_development-rebuild+eval-source-map.json
 2021-10-09/atlaskit-editor_development-rebuild+hmr.json
 2021-10-14/common-libs_production-build+no-minimize.json
+2021-10-14/common-libs_production-build+persistent-cache.json
 
