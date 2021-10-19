@@ -13751,4 +13751,5 @@
 2021-10-05/atlaskit-editor_development-build+babel-env.json
 2021-10-19/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2021-08-09/common-libs-chunks_production-build+source-map+babel-env.json
+2021-10-12/atlaskit-editor_production-build+source-map+persistent-cache.json
 
