@@ -13874,4 +13874,5 @@
 2021-10-21/rome_development-rebuild+future-defaults.json
 2021-08-10/common-libs-chunks_development-build+thread-babel-env.json
 2021-09-25/esbuild-three_production-build+no-minimize+no-concatenation.json
+2021-10-13/rome_development-build+persistent-cache.json
 
