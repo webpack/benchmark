@@ -13916,4 +13916,5 @@
 2021-09-10/atlaskit-editor_development-build+no-exports-analysis.json
 2021-10-07/esbuild-three_development-build+swc-env.json
 2021-10-22/common-libs_development-build+no-exports-analysis.json
+2021-10-19/atlaskit-editor_development-build+initial-persistent-cache.json
 
