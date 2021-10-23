@@ -13929,4 +13929,5 @@
 2021-08-30/common-libs-chunks_development-build+persistent-cache.json
 2021-10-03/atlaskit-editor_development-build.json
 2021-10-23/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-10-18/atlaskit-editor_production-build+future-defaults.json
 
