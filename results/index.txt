@@ -13930,4 +13930,5 @@
 2021-10-03/atlaskit-editor_development-build.json
 2021-10-23/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-10-18/atlaskit-editor_production-build+future-defaults.json
+2021-05-20/atlaskit-editor_production-build+initial-persistent-cache.json
 
