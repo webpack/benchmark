@@ -14084,4 +14084,5 @@
 2021-10-05/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2021-07-18/common-libs-chunks_development-build+no-exports-analysis.json
 2021-10-24/esbuild-three_development-rebuild+future-defaults.json
+2021-10-23/esbuild-three_production-build+no-minimize.json
 
