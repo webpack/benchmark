@@ -14123,4 +14123,5 @@
 2021-10-26/esbuild-three_development-build+no-exports-analysis.json
 2021-10-15/rome_development-rebuild+unsafe-cache+future-defaults.json
 2021-10-21/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2021-03-17/esbuild-three_development-build+initial-persistent-cache.json
 
