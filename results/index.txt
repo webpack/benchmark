@@ -14234,4 +14234,5 @@
 2021-10-22/common-libs-chunks_development-rebuild+eval-source-map.json
 2021-09-18/common-libs-chunks_production-build+no-concatenation.json
 2021-10-21/atlaskit-editor_development-rebuild+hmr.json
+2021-10-14/rome_production-build+no-minimize+no-concatenation.json
 
