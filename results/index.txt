@@ -14381,4 +14381,5 @@
 2021-03-15/common-libs-chunks_production-build+source-map+persistent-cache.json
 2021-03-03/rome_development-build+babel-env.json
 2021-09-22/common-libs-chunks_development-rebuild+unsafe-cache+future-defaults.json
+2021-11-01/rome_production-build+swc-env.json
 
