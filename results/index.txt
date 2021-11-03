@@ -14443,4 +14443,5 @@
 2021-10-30/common-libs-chunks_production-build+swc-env.json
 2021-03-06/rome_development-rebuild+hmr.json
 2021-10-31/common-libs-chunks_development-rebuild+hmr.json
+2021-10-07/rome_development-build+initial-persistent-cache.json
 
