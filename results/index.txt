@@ -14475,4 +14475,5 @@
 2021-10-31/rome_development-build+future-defaults.json
 2021-11-03/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-11-03/rome_development-rebuild+unsafe-cache.json
+2021-09-22/esbuild-three_production-build+swc-env.json
 
