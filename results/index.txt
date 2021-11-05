@@ -14556,4 +14556,5 @@
 2021-10-18/esbuild-three_development-build+persistent-cache.json
 2021-07-14/esbuild-three_production-build+initial-persistent-cache.json
 2021-11-03/common-libs_development-rebuild+unsafe-cache.json
+2021-07-06/rome_development-build+swc-env.json
 
