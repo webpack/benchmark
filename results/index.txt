@@ -14664,4 +14664,5 @@
 2021-11-07/common-libs-chunks_production-build+no-minimize.json
 2021-11-07/esbuild-three_development-build+future-defaults.json
 2021-10-09/atlaskit-editor_development-build+future-defaults.json
+2021-11-07/atlaskit-editor_production-build+no-minimize.json
 
