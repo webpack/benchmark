@@ -14666,4 +14666,5 @@
 2021-10-09/atlaskit-editor_development-build+future-defaults.json
 2021-11-07/atlaskit-editor_production-build+no-minimize.json
 2021-09-01/common-libs_production-build+no-concatenation.json
+2021-11-08/common-libs_production-build+swc-env.json
 
