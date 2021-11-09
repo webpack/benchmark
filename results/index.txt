@@ -14753,4 +14753,5 @@
 2021-10-21/esbuild-three_production-build+source-map+babel-env.json
 2021-04-18/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2021-11-08/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-11-08/esbuild-three_development-build+future-defaults.json
 
