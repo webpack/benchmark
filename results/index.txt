@@ -14735,4 +14735,5 @@
 2021-11-08/common-libs-chunks_development-build+thread-babel-env.json
 2021-11-01/atlaskit-editor_production-build+no-minimize.json
 2021-11-09/common-libs_production-build+no-concatenation.json
+2021-11-06/atlaskit-editor_development-rebuild+future-defaults.json
 
