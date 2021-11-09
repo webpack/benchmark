@@ -14749,4 +14749,5 @@
 2021-11-08/esbuild-three_production-build+future-defaults.json
 2021-08-01/rome_production-build+no-minimize+no-concatenation.json
 2021-11-08/atlaskit-editor_production-build+no-concatenation.json
+2021-11-08/esbuild-three_production-build+persistent-cache.json
 
