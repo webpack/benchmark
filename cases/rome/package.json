@@ -1,5 +1,5 @@
 {
-  "name": "minimal",
+  "name": "rome",
   "dependenciesDate": "2021-02-15",
   "dependencies": {
     "webpack-cli": "^4.5.0"
