@@ -14967,4 +14967,5 @@
 2021-11-14/atlaskit-editor_development-rebuild+unsafe-cache.json
 2021-11-11/common-libs-chunks_production-build+no-exports-analysis.json
 2021-06-09/common-libs_development-rebuild+eval-source-map.json
+2021-10-28/atlaskit-editor_development-build+future-defaults.json
 
