@@ -15059,4 +15059,5 @@
 2021-04-16/atlaskit-editor_production-build+no-minimize.json
 2021-10-14/esbuild-three_production-build+persistent-cache.json
 2021-11-13/common-libs_production-build+no-minimize.json
+2021-10-06/atlaskit-editor_production-build+no-minimize.json
 
