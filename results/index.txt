@@ -15182,4 +15182,5 @@
 2021-10-04/atlaskit-editor_production-build+no-concatenation.json
 2021-05-05/common-libs_production-build+initial-persistent-cache.json
 2021-11-12/common-libs_development-rebuild+hmr.json
+2021-10-16/atlaskit-editor_production-build+swc-env.json
 
