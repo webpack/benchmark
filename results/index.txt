@@ -15194,4 +15194,5 @@
 2021-11-07/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-11-16/common-libs-chunks_production-build.json
 2021-11-19/common-libs_production-build+no-minimize+no-concatenation.json
+2021-11-19/esbuild-three_development-build+initial-persistent-cache.json
 
