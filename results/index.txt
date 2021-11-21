@@ -15263,4 +15263,5 @@
 2021-06-07/esbuild-three_production-build+no-minimize+no-concatenation.json
 2021-10-17/common-libs_development-build+no-exports-analysis.json
 2021-11-21/common-libs_production-build+source-map+persistent-cache.json
+2021-11-21/atlaskit-editor_production-build+swc-env.json
 
