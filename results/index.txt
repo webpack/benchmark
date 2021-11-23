@@ -15333,4 +15333,5 @@
 2021-08-24/atlaskit-editor_development-build+persistent-cache.json
 2021-11-01/common-libs_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2021-08-12/esbuild-three_development-build+initial-persistent-cache.json
+2021-11-15/rome_development-rebuild+unsafe-cache.json
 
