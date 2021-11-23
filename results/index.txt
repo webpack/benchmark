@@ -15361,4 +15361,5 @@
 2021-07-30/atlaskit-editor_development-build+persistent-cache.json
 2021-08-24/rome_production-build+no-minimize.json
 2021-09-24/common-libs-chunks_development-rebuild+hmr.json
+2021-11-07/common-libs_production-build+babel-env.json
 
