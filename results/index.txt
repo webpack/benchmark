@@ -15561,4 +15561,5 @@
 2021-11-24/esbuild-three_production-build+no-exports-analysis.json
 2021-11-28/common-libs_development-rebuild+future-defaults.json
 2021-11-28/common-libs-chunks_development-build+future-defaults.json
+2021-11-28/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
