@@ -15948,4 +15948,5 @@
 2021-04-08/esbuild-three_development-build+persistent-cache.json
 2021-10-29/atlaskit-editor_development-build+no-exports-analysis.json
 2021-12-08/esbuild-three_development-build+thread-babel-env.json
+2021-12-04/esbuild-three_production-build+no-minimize.json
 
