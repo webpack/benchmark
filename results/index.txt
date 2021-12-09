@@ -15989,4 +15989,5 @@
 2021-12-06/esbuild-three_development-rebuild.json
 2021-10-14/esbuild-three_production-build+babel-env.json
 2021-11-02/atlaskit-editor_production-build+no-concatenation.json
+2021-12-08/esbuild-three_production-build+persistent-cache.json
 
