@@ -16049,4 +16049,5 @@
 2021-11-27/common-libs_development-build+no-exports-analysis.json
 2021-12-01/atlaskit-editor_production-build+babel-env.json
 2021-08-06/common-libs_production-build+no-concatenation.json
+2021-11-12/esbuild-three_development-rebuild+future-defaults.json
 
