@@ -16018,4 +16018,5 @@
 2021-12-01/esbuild-three_development-build+babel-env.json
 2021-11-11/rome_development-build+persistent-cache.json
 2021-10-24/esbuild-three_production-build+no-minimize.json
+2021-11-16/rome_production-build+swc-env.json
 
