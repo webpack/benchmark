@@ -16074,4 +16074,5 @@
 2021-12-11/atlaskit-editor_development-rebuild.json
 2021-11-27/esbuild-three_development-rebuild+future-defaults.json
 2021-12-11/atlaskit-editor_production-build+babel-env.json
+2021-08-19/esbuild-three_production-build.json
 
