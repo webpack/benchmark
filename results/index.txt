@@ -16142,4 +16142,5 @@
 2021-12-05/common-libs_production-build+source-map+persistent-cache.json
 2021-12-13/common-libs_development-rebuild+eval-source-map.json
 2021-12-12/atlaskit-editor_development-build+no-exports-analysis.json
+2021-06-13/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
