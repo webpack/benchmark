@@ -16230,4 +16230,5 @@
 2021-12-01/common-libs_production-build+swc-env.json
 2021-12-15/atlaskit-editor_production-build+swc-env.json
 2021-03-24/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-12-14/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 
