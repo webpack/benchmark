@@ -16328,4 +16328,5 @@
 2021-03-30/common-libs_production-build+no-exports-analysis.json
 2021-12-11/common-libs_production-build+initial-persistent-cache.json
 2021-11-12/common-libs_production-build+persistent-cache.json
+2020-12-01/atlaskit-editor_production-build+no-minimize.json
 
