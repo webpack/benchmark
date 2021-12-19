@@ -16389,4 +16389,5 @@
 2021-08-13/common-libs_development-rebuild.json
 2021-08-14/atlaskit-editor_production-build+source-map.json
 2021-11-20/common-libs_development-rebuild+hmr.json
+2021-12-18/atlaskit-editor_production-build+swc-env.json
 
