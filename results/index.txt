@@ -16407,4 +16407,5 @@
 2021-10-23/atlaskit-editor_development-build.json
 2021-11-22/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2021-12-14/common-libs_development-build+future-defaults.json
+2021-12-19/esbuild-three_production-build+initial-persistent-cache.json
 
