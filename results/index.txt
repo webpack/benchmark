@@ -16384,4 +16384,5 @@
 2021-11-20/common-libs-chunks_development-build.json
 2021-12-08/common-libs-chunks_development-rebuild+unsafe-cache.json
 2021-05-21/common-libs-chunks_production-build+no-concatenation.json
+2021-12-01/atlaskit-editor_development-build+babel-env.json
 
