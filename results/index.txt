@@ -16542,4 +16542,5 @@
 2021-07-29/rome_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-09-03/atlaskit-editor_production-build+source-map.json
 2021-05-26/common-libs_development-rebuild+hmr.json
+2021-10-14/rome_development-rebuild+future-defaults.json
 
