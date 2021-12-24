@@ -16601,4 +16601,5 @@
 2021-11-16/esbuild-three_development-build+no-exports-analysis.json
 2021-12-19/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2021-06-26/esbuild-three_development-rebuild+hmr.json
+2021-12-23/esbuild-three_development-rebuild+future-defaults.json
 
