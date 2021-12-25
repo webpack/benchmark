@@ -16652,4 +16652,5 @@
 2021-11-12/atlaskit-editor_development-rebuild+eval-source-map.json
 2021-08-26/common-libs_production-build+source-map+persistent-cache.json
 2021-12-14/esbuild-three_development-build+initial-persistent-cache.json
+2021-11-09/atlaskit-editor_production-build+future-defaults.json
 
