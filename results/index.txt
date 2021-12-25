@@ -16621,4 +16621,5 @@
 2021-12-25/common-libs_development-build+no-exports-analysis.json
 2021-09-21/atlaskit-editor_development-rebuild+eval-source-map.json
 2021-12-21/common-libs_production-build+source-map.json
+2021-09-14/atlaskit-editor_production-build.json
 
