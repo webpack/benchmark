@@ -16873,4 +16873,5 @@
 2021-11-12/atlaskit-editor_development-build+initial-persistent-cache.json
 2020-12-10/common-libs-chunks_production-build+source-map+babel-env.json
 2021-11-10/common-libs-chunks_development-rebuild+hmr.json
+2021-12-30/atlaskit-editor_production-build+babel-env.json
 
