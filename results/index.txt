@@ -17221,4 +17221,5 @@
 2021-10-21/common-libs_production-build+persistent-cache.json
 2022-01-07/atlaskit-editor_production-build+no-minimize.json
 2022-01-05/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-12-29/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
