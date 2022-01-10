@@ -17247,4 +17247,5 @@
 2021-10-28/common-libs_development-build+thread-babel-env.json
 2022-01-07/common-libs-chunks_development-build+no-exports-analysis.json
 2021-12-27/common-libs-chunks_production-build+babel-env.json
+2021-11-04/atlaskit-editor_production-build+no-concatenation.json
 
