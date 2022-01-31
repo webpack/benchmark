@@ -17351,4 +17351,5 @@
 2021-12-13/common-libs-chunks_production-build.json
 2021-10-25/rome_production-build+no-concatenation.json
 2021-07-03/common-libs-chunks_production-build+source-map+persistent-cache.json
+2021-12-05/esbuild-three_development-rebuild+future-defaults.json
 
