@@ -17594,4 +17594,5 @@
 2022-01-31/esbuild-three_development-build+initial-persistent-cache.json
 2021-11-04/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-03-12/atlaskit-editor_development-rebuild+eval-source-map.json
+2021-12-23/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 
