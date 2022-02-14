@@ -17920,4 +17920,5 @@
 2021-07-04/rome_production-build+no-exports-analysis.json
 2021-09-28/rome_production-build+no-exports-analysis.json
 2022-02-03/common-libs_development-rebuild+unsafe-cache+future-defaults.json
+2022-02-12/esbuild-three_production-build+source-map+persistent-cache.json
 
