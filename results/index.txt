@@ -18017,4 +18017,5 @@
 2021-07-22/common-libs-chunks_production-build+babel-env.json
 2021-07-28/esbuild-three_production-build+babel-env.json
 2021-10-28/atlaskit-editor_production-build+no-exports-analysis.json
+2021-09-30/atlaskit-editor_production-build+babel-env.json
 
