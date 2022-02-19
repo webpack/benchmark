@@ -18125,4 +18125,5 @@
 2021-11-06/common-libs_production-build+source-map+persistent-cache.json
 2020-11-05/atlaskit-editor_development-build+thread-babel-env.json
 2021-09-27/common-libs_development-build.json
+2022-01-02/atlaskit-editor_development-build+swc-env.json
 
