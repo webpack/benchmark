@@ -18323,4 +18323,5 @@
 2022-02-10/atlaskit-editor_development-build+swc-env.json
 2022-02-10/common-libs-chunks_development-build+persistent-cache.json
 2021-12-06/common-libs-chunks_development-rebuild+unsafe-cache+future-defaults.json
+2021-03-10/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
