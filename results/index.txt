@@ -18574,4 +18574,5 @@
 2022-03-01/atlaskit-editor_production-build+no-minimize.json
 2021-07-29/atlaskit-editor_production-build+source-map+babel-env.json
 2021-11-01/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-12-18/common-libs-chunks_development-rebuild+future-defaults.json
 
