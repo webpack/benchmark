@@ -18637,4 +18637,5 @@
 2021-12-21/common-libs-chunks_development-rebuild+eval-source-map.json
 2022-02-21/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2022-02-24/common-libs-chunks_production-build+persistent-cache.json
+2021-11-02/atlaskit-editor_production-build+initial-persistent-cache.json
 
