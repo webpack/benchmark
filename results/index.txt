@@ -18856,4 +18856,5 @@
 2022-03-11/common-libs_production-build+swc-env.json
 2022-03-11/esbuild-three_development-build+no-exports-analysis.json
 2021-11-24/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-07-20/esbuild-three_production-build+initial-persistent-cache.json
 
