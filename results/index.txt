@@ -18929,4 +18929,5 @@
 2022-03-13/esbuild-three_development-build+future-defaults.json
 2020-12-05/rome_development-rebuild+eval-source-map.json
 2021-09-29/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-07-18/esbuild-three_development-build+swc-env.json
 
