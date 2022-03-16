@@ -19046,4 +19046,5 @@
 2022-03-16/common-libs-chunks_development-rebuild+unsafe-cache+future-defaults.json
 2021-05-24/atlaskit-editor_development-rebuild+eval-source-map.json
 2021-11-11/atlaskit-editor_production-build+persistent-cache.json
+2021-12-12/esbuild-three_development-build+initial-persistent-cache.json
 
