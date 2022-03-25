@@ -19349,4 +19349,5 @@
 2020-12-05/common-libs-chunks_development-build+swc-env.json
 2021-10-07/atlaskit-editor_development-build+initial-persistent-cache.json
 2021-11-15/atlaskit-editor_development-build+initial-persistent-cache.json
+2021-10-29/rome_production-build+swc-env.json
 
