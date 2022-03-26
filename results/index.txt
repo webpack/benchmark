@@ -19377,4 +19377,5 @@
 2021-10-19/rome_development-build+persistent-cache.json
 2021-03-11/esbuild-three_production-build+source-map+persistent-cache.json
 2021-11-10/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-11-16/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
