@@ -19507,4 +19507,5 @@
 2021-10-28/atlaskit-editor_production-build.json
 2022-02-25/common-libs-chunks_production-build+no-minimize.json
 2021-11-12/atlaskit-editor_development-rebuild+hmr.json
+2022-03-21/atlaskit-editor_development-rebuild.json
 
