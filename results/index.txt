@@ -19607,4 +19607,5 @@
 2022-03-24/atlaskit-editor_development-build.json
 2021-08-01/common-libs_development-build+thread-babel-env.json
 2021-09-08/atlaskit-editor_production-build+swc-env.json
+2022-01-02/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
