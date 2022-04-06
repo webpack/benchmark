@@ -19760,4 +19760,5 @@
 2021-11-24/common-libs-chunks_production-build+future-defaults.json
 2021-11-22/atlaskit-editor_production-build+no-exports-analysis.json
 2022-03-24/common-libs_development-build.json
+2021-08-23/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
