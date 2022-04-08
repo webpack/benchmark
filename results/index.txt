@@ -19830,4 +19830,5 @@
 2021-11-14/esbuild-three_production-build+future-defaults.json
 2022-02-01/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2022-04-08/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-10-22/esbuild-three_development-build+persistent-cache.json
 
