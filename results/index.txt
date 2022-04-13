@@ -20004,4 +20004,5 @@
 2022-03-16/common-libs_development-rebuild+unsafe-cache.json
 2021-12-28/common-libs-chunks_development-rebuild+eval-source-map.json
 2021-04-02/atlaskit-editor_development-rebuild+eval-source-map.json
+2021-10-25/atlaskit-editor_production-build.json
 
