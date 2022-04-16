@@ -20118,4 +20118,5 @@
 2022-01-31/atlaskit-editor_production-build+babel-env.json
 2022-03-14/atlaskit-editor_production-build+source-map+babel-env.json
 2022-03-11/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
+2021-09-27/atlaskit-editor_production-build+persistent-cache.json
 
