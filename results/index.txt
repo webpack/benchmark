@@ -20121,4 +20121,5 @@
 2021-09-27/atlaskit-editor_production-build+persistent-cache.json
 2021-10-20/esbuild-three_production-build+no-concatenation.json
 2022-03-26/common-libs_development-build+thread-babel-env.json
+2022-02-07/atlaskit-editor_production-build.json
 
