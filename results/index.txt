@@ -20265,4 +20265,5 @@
 2022-03-23/atlaskit-editor_development-build+no-exports-analysis.json
 2021-05-26/atlaskit-editor_development-rebuild+hmr.json
 2022-03-20/common-libs_production-build+no-concatenation.json
+2022-02-11/atlaskit-editor_development-build+swc-env.json
 
