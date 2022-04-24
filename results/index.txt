@@ -20377,4 +20377,5 @@
 2021-09-27/common-libs_production-build+source-map+babel-env.json
 2022-04-10/atlaskit-editor_production-build+source-map+babel-env.json
 2022-04-24/common-libs_production-build.json
+2022-04-24/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
