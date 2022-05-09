@@ -20927,4 +20927,5 @@
 2022-05-09/esbuild-three_production-build+no-minimize.json
 2022-04-03/esbuild-three_production-build+persistent-cache.json
 2022-05-07/atlaskit-editor_development-rebuild+hmr.json
+2021-11-22/atlaskit-editor_production-build+persistent-cache.json
 
