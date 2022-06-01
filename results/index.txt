@@ -21695,4 +21695,5 @@
 2020-10-01/common-libs_development-rebuild+eval-source-map.json
 2022-05-29/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2022-04-21/esbuild-three_development-rebuild+eval-source-map.json
+2022-05-26/esbuild-three_production-build+future-defaults.json
 
