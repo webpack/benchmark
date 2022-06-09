@@ -21967,4 +21967,5 @@
 2021-09-11/common-libs_development-build+thread-babel-env.json
 2021-11-08/rome_production-build+source-map+babel-env.json
 2022-06-09/common-libs_production-build+source-map+babel-env.json
+2022-03-26/atlaskit-editor_production-build+source-map+persistent-cache.json
 
