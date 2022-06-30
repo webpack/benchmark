@@ -22691,4 +22691,5 @@
 2022-03-21/atlaskit-editor_development-build.json
 2022-06-21/esbuild-three_development-build+persistent-cache.json
 2022-02-11/atlaskit-editor_development-rebuild.json
+2022-06-30/atlaskit-editor_production-build+source-map.json
 
