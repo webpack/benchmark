@@ -22725,4 +22725,5 @@
 2021-12-16/common-libs_production-build+future-defaults.json
 2022-03-28/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-08-18/atlaskit-editor_production-build+babel-env.json
+2022-06-30/atlaskit-editor_production-build+no-minimize.json
 
