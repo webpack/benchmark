@@ -23076,4 +23076,5 @@
 2022-07-07/atlaskit-editor_production-build+no-minimize.json
 2021-08-05/rome_development-build.json
 2022-06-19/esbuild-three_production-build+no-minimize+no-concatenation.json
+2022-04-16/esbuild-three_development-build+future-defaults.json
 
