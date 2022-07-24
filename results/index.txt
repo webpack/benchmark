@@ -23454,4 +23454,5 @@
 2021-11-23/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2022-07-24/common-libs-chunks_development-build+no-exports-analysis.json
 2022-07-14/atlaskit-editor_development-build+no-exports-analysis.json
+2022-05-02/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 
