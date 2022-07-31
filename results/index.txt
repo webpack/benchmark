@@ -23735,4 +23735,5 @@
 2022-05-09/atlaskit-editor_development-build.json
 2022-07-30/common-libs_production-build+no-minimize+no-concatenation.json
 2022-05-22/common-libs_development-build+no-exports-analysis.json
+2021-08-27/atlaskit-editor_production-build+persistent-cache.json
 
