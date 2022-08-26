@@ -24568,4 +24568,5 @@
 2022-08-26/atlaskit-editor_development-build+no-exports-analysis.json
 2022-08-22/atlaskit-editor_development-build+no-exports-analysis.json
 2022-08-26/common-libs-chunks_development-build+thread-babel-env.json
+2022-08-26/common-libs-chunks_production-build+swc-env.json
 
