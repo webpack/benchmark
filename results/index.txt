@@ -24961,4 +24961,5 @@
 2021-09-26/esbuild-three_production-build+no-minimize+no-concatenation.json
 2022-05-02/common-libs_production-build+no-concatenation.json
 2022-03-07/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2021-10-07/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
