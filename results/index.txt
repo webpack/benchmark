@@ -25712,4 +25712,5 @@
 2022-09-14/atlaskit-editor_production-build+source-map+persistent-cache.json
 2022-09-29/esbuild-three_production-build+swc-env.json
 2021-02-19/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2022-08-23/esbuild-three_production-build+no-minimize.json
 
