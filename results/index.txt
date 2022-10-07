@@ -25999,4 +25999,5 @@
 2022-10-03/rome_production-build.json
 2022-10-06/common-libs-chunks_production-build+no-minimize.json
 2022-05-25/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2022-08-03/esbuild-three_production-build+persistent-cache.json
 
