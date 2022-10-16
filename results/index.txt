@@ -26350,4 +26350,5 @@
 2022-10-16/rome_production-build+source-map+persistent-cache.json
 2021-04-30/atlaskit-editor_development-build+thread-babel-env.json
 2022-10-16/common-libs_production-build+no-minimize+no-concatenation.json
+2022-10-06/rome_production-build+initial-persistent-cache.json
 
