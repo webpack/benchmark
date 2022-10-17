@@ -26390,4 +26390,5 @@
 2022-09-07/rome_production-build+no-minimize.json
 2021-12-03/atlaskit-editor_production-build+babel-env.json
 2022-09-20/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2022-10-14/esbuild-three_production-build+no-minimize.json
 
