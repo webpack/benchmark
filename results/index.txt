@@ -26689,4 +26689,5 @@
 2022-10-21/atlaskit-editor_development-build+thread-babel-env.json
 2022-06-07/esbuild-three_development-build+babel-env.json
 2022-05-17/common-libs_development-build+thread-babel-env.json
+2022-10-23/atlaskit-editor_production-build+source-map.json
 
