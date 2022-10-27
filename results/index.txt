@@ -26719,4 +26719,5 @@
 2022-10-10/esbuild-three_production-build+source-map+persistent-cache.json
 2022-10-19/common-libs-chunks_development-build+no-exports-analysis.json
 2022-07-27/atlaskit-editor_production-build+initial-persistent-cache.json
+2022-10-27/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
