@@ -27330,4 +27330,5 @@
 2022-08-05/common-libs-chunks_development-build+initial-persistent-cache.json
 2022-05-19/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2022-07-31/common-libs-chunks_production-build+no-minimize+no-concatenation.json
+2022-11-12/esbuild-three_development-build+swc-env.json
 
