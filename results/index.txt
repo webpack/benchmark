@@ -27374,4 +27374,5 @@
 2022-09-27/atlaskit-editor_development-build+no-exports-analysis.json
 2022-11-13/atlaskit-editor_production-build+babel-env.json
 2022-11-09/esbuild-three_development-rebuild.json
+2022-09-27/esbuild-three_development-build+future-defaults.json
 
