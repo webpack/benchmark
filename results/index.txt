@@ -27463,4 +27463,5 @@
 2022-06-05/atlaskit-editor_production-build+no-concatenation.json
 2022-09-25/common-libs_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2022-11-16/atlaskit-editor_production-build+source-map+babel-env.json
+2022-11-16/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 
