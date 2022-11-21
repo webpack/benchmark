@@ -27672,4 +27672,5 @@
 2021-12-29/esbuild-three_development-build+no-exports-analysis.json
 2021-06-18/atlaskit-editor_development-build+swc-env.json
 2022-10-18/atlaskit-editor_development-rebuild+unsafe-cache.json
+2022-10-25/esbuild-three_development-rebuild+future-defaults.json
 
