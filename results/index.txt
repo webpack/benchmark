@@ -27689,4 +27689,5 @@
 2022-08-21/common-libs-chunks_production-build+babel-env.json
 2022-10-24/atlaskit-editor_production-build+persistent-cache.json
 2022-11-21/atlaskit-editor_production-build+babel-env.json
+2022-11-21/atlaskit-editor_production-build+no-minimize.json
 
