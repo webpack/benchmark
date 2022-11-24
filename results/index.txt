@@ -27809,4 +27809,5 @@
 2022-09-25/common-libs-chunks_development-rebuild+hmr.json
 2022-11-24/atlaskit-editor_development-build+no-exports-analysis.json
 2022-10-27/atlaskit-editor_development-build+swc-env.json
+2022-11-24/atlaskit-editor_production-build+source-map+persistent-cache.json
 
