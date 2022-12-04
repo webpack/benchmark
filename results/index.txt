@@ -28157,4 +28157,5 @@
 2022-03-20/atlaskit-editor_production-build+persistent-cache.json
 2022-12-02/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2022-10-17/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
+2022-12-03/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
