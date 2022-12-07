@@ -28270,4 +28270,5 @@
 2021-11-12/rome_development-build+babel-env.json
 2022-11-15/atlaskit-editor_development-rebuild+hmr.json
 2021-02-05/atlaskit-editor_production-build+source-map.json
+2022-11-13/atlaskit-editor_development-build+no-exports-analysis.json
 
