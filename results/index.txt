@@ -28294,4 +28294,5 @@
 2022-11-30/atlaskit-editor_production-build+swc-env.json
 2021-01-01/common-libs-chunks_production-build+no-minimize.json
 2022-09-24/atlaskit-editor_production-build+source-map+babel-env.json
+2022-11-19/atlaskit-editor_development-build.json
 
