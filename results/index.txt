@@ -28358,4 +28358,5 @@
 2022-09-03/rome_development-rebuild+hmr.json
 2022-11-24/common-libs_development-rebuild+future-defaults.json
 2021-09-29/atlaskit-editor_development-build+no-exports-analysis.json
+2022-12-02/atlaskit-editor_production-build+initial-persistent-cache.json
 
