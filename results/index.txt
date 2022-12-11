@@ -28432,4 +28432,5 @@
 2022-08-13/atlaskit-editor_production-build.json
 2021-09-26/common-libs-chunks_development-build+babel-env.json
 2022-11-05/common-libs-chunks_development-build+no-exports-analysis.json
+2022-12-05/rome_production-build+no-minimize.json
 
