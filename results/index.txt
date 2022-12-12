@@ -28476,4 +28476,5 @@
 2021-12-04/esbuild-three_development-build+thread-babel-env.json
 2022-07-09/atlaskit-editor_development-rebuild+hmr.json
 2022-04-18/atlaskit-editor_development-build+babel-env.json
+2022-12-12/esbuild-three_production-build+source-map.json
 
