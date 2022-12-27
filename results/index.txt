@@ -29068,4 +29068,5 @@
 2022-08-03/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2022-07-07/esbuild-three_production-build+initial-persistent-cache.json
 2022-03-14/atlaskit-editor_production-build+babel-env.json
+2022-12-27/atlaskit-editor_production-build+source-map.json
 
