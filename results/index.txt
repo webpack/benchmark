@@ -29139,4 +29139,5 @@
 2021-01-20/atlaskit-editor_production-build+no-exports-analysis.json
 2022-07-18/atlaskit-editor_development-build+thread-babel-env.json
 2022-03-30/common-libs-chunks_production-build+no-minimize.json
+2021-12-22/atlaskit-editor_production-build+swc-env.json
 
