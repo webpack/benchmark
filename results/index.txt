@@ -29584,4 +29584,5 @@
 2022-11-15/rome_production-build+no-minimize+no-concatenation.json
 2021-12-14/common-libs-chunks_production-build+no-concatenation.json
 2021-03-08/common-libs-chunks_production-build+initial-persistent-cache.json
+2022-12-20/rome_production-build+persistent-cache.json
 
