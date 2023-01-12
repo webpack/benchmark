@@ -29664,4 +29664,5 @@
 2022-12-12/common-libs_production-build+no-minimize.json
 2022-03-28/atlaskit-editor_development-rebuild+hmr.json
 2021-08-15/esbuild-three_development-rebuild+hmr.json
+2022-11-30/esbuild-three_production-build+source-map+babel-env.json
 
