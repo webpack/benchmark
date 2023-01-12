@@ -29672,4 +29672,5 @@
 2021-03-04/common-libs-chunks_development-build+swc-env.json
 2023-01-08/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2022-10-28/common-libs_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-01-12/esbuild-three_production-build+source-map+babel-env.json
 
