@@ -30527,4 +30527,5 @@
 2022-02-20/esbuild-three_development-build+no-exports-analysis.json
 2022-12-13/atlaskit-editor_development-build+babel-env.json
 2022-05-20/common-libs_development-build.json
+2022-11-04/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
