@@ -30833,4 +30833,5 @@
 2022-11-14/esbuild-three_development-build+swc-env.json
 2022-12-30/rome_development-build+no-exports-analysis.json
 2022-03-20/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2022-12-30/rome_production-build+persistent-cache.json
 
