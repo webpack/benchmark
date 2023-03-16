@@ -32146,4 +32146,5 @@
 2022-08-17/esbuild-three_development-build+no-exports-analysis.json
 2022-11-24/atlaskit-editor_development-build+persistent-cache.json
 2022-05-25/atlaskit-editor_production-build+initial-persistent-cache.json
+2022-10-05/esbuild-three_production-build+no-minimize+no-concatenation.json
 
