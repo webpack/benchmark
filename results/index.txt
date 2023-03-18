@@ -32214,4 +32214,5 @@
 2022-10-07/esbuild-three_production-build+swc-env.json
 2022-07-15/atlaskit-editor_production-build+initial-persistent-cache.json
 2021-11-09/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2021-11-26/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
