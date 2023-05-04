@@ -34100,4 +34100,5 @@
 2023-03-25/atlaskit-editor_development-build.json
 2022-12-09/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2023-01-12/esbuild-three_production-build+no-minimize.json
+2022-09-21/esbuild-three_production-build+swc-env.json
 
