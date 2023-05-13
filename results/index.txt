@@ -34433,4 +34433,5 @@
 2023-02-23/atlaskit-editor_production-build+no-concatenation.json
 2023-05-12/common-libs-chunks_production-build+swc-env.json
 2023-01-05/common-libs-chunks_development-build+initial-persistent-cache.json
+2023-03-28/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
