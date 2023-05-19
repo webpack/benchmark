@@ -34678,4 +34678,5 @@
 2021-12-08/esbuild-three_development-build+initial-persistent-cache.json
 2023-04-28/common-libs_development-build+swc-env.json
 2023-04-05/atlaskit-editor_development-rebuild.json
+2023-04-13/esbuild-three_production-build+babel-env.json
 
