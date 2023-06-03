@@ -35305,4 +35305,5 @@
 2022-03-05/common-libs-chunks_production-build+future-defaults.json
 2023-06-03/common-libs_development-rebuild+future-defaults.json
 2023-06-03/atlaskit-editor_production-build+no-minimize.json
+2023-04-27/atlaskit-editor_production-build+babel-env.json
 
