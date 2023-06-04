@@ -35330,4 +35330,5 @@
 2021-10-10/common-libs-chunks_development-build.json
 2022-07-07/esbuild-three_development-build+initial-persistent-cache.json
 2022-12-08/rome_production-build+no-minimize+no-concatenation.json
+2022-12-24/esbuild-three_development-build+swc-env.json
 
