@@ -35394,4 +35394,5 @@
 2021-02-15/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-11-28/common-libs-chunks_development-build+thread-babel-env.json
 2022-03-11/atlaskit-editor_development-rebuild+eval-source-map.json
+2023-05-04/atlaskit-editor_production-build+swc-env.json
 
