@@ -7,9 +7,11 @@ export const packageJson = (json) => {
 
 export const config = (content) => `${content}
 
+var TerserPlugin = require("terser-webpack-plugin");
+
 module.exports.optimization = {
     minimizer: [new TerserPlugin({
-        minify: require("terser-webpack-plugin").swcMinify,
+        minify: TerserPlugin.swcMinify,
     })],
 };
 `;
