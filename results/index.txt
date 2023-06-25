@@ -36121,4 +36121,5 @@
 2022-10-22/atlaskit-editor_development-build+no-exports-analysis.json
 2023-06-21/rome_production-build+source-map.json
 2021-03-04/common-libs-chunks_development-rebuild.json
+2022-11-13/atlaskit-editor_production-build+no-minimize.json
 
