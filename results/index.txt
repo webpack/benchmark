@@ -36185,4 +36185,5 @@
 2022-05-06/common-libs_development-build.json
 2022-04-27/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2023-05-16/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-06-22/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 
