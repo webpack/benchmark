@@ -36487,4 +36487,5 @@
 2022-12-01/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2023-07-04/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2021-09-23/atlaskit-editor_production-build+no-exports-analysis.json
+2022-09-06/rome_production-build+source-map+persistent-cache.json
 
