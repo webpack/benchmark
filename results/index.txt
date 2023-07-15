@@ -36937,4 +36937,5 @@
 2023-07-11/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2023-04-29/rome_production-build+no-minimize+no-concatenation.json
 2023-07-03/atlaskit-editor_production-build+no-concatenation.json
+2022-03-22/esbuild-three_development-build+persistent-cache.json
 
