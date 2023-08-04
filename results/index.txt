@@ -37736,4 +37736,5 @@
 2023-04-08/common-libs-chunks_production-build+source-map.json
 2023-08-04/common-libs-chunks_production-build+source-map.json
 2023-08-04/atlaskit-editor_production-build+initial-persistent-cache.json
+2023-06-16/atlaskit-editor_production-build+no-minimize.json
 
