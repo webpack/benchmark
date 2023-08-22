@@ -38473,4 +38473,5 @@
 2021-08-24/common-libs-chunks_development-build+swc-env.json
 2023-08-21/esbuild-three_development-build+initial-persistent-cache.json
 2023-08-17/common-libs_production-build+no-concatenation.json
+2022-11-09/esbuild-three_development-build+future-defaults.json
 
