@@ -1,133 +1,133 @@
 {
   "stats": {
-    "min": 10813,
-    "max": 11442,
-    "mean": 11093.166666666666,
-    "median": 11081,
-    "variance": 23431.05555555555,
-    "stdDev": 153.0720600095117,
-    "confidence": 129.29472070368138,
-    "low": 11028.519306314825,
-    "high": 11157.814027018507,
-    "count": 24,
-    "base": 4495
+    "min": 11237,
+    "max": 12190,
+    "mean": 11575.521739130434,
+    "median": 11573,
+    "variance": 50329.29300567107,
+    "stdDev": 224.34191094325436,
+    "confidence": 194.0373097072079,
+    "low": 11478.50308427683,
+    "high": 11672.540393984038,
+    "count": 23,
+    "base": 4811.5
   },
   "heap memory": {
-    "min": 321019480,
-    "max": 502615176,
-    "mean": 397291763,
-    "median": 336086416,
-    "variance": 6698751612053979,
-    "stdDev": 81845901.62038647,
-    "confidence": 69132426.84583437,
-    "low": 362725549.5770828,
-    "high": 431857976.4229172,
-    "count": 24,
-    "base": 4495
+    "min": 319916984,
+    "max": 501686360,
+    "mean": 363636473.3913044,
+    "median": 325850216,
+    "variance": 4883223265577894,
+    "stdDev": 69880063.43427211,
+    "confidence": 60440509.99630153,
+    "low": 333416218.3931536,
+    "high": 393856728.38945514,
+    "count": 23,
+    "base": 4811.5
   },
   "rss memory": {
-    "min": 531939328,
-    "max": 626528256,
-    "mean": 605409792,
-    "median": 612847616,
-    "variance": 554040876072960,
-    "stdDev": 23538072.904827192,
-    "confidence": 19881803.132089376,
-    "low": 595468890.4339553,
-    "high": 615350693.5660447,
-    "count": 24,
-    "base": 4495
+    "min": 545939456,
+    "max": 629444608,
+    "mean": 608065803.1304348,
+    "median": 615657472,
+    "variance": 513437691267037.2,
+    "stdDev": 22659163.516490128,
+    "confidence": 19598313.62079978,
+    "low": 598266646.3200349,
+    "high": 617864959.9408346,
+    "count": 23,
+    "base": 4811.5
   },
   "external memory": {
-    "min": 32369294,
-    "max": 32369294,
-    "mean": 32369294,
-    "median": 32369294,
+    "min": 32452338,
+    "max": 32452338,
+    "mean": 32452338,
+    "median": 32452338,
     "variance": 0,
     "stdDev": 0,
     "confidence": 0,
-    "low": 32369294,
-    "high": 32369294,
-    "count": 24,
-    "base": 4495
+    "low": 32452338,
+    "high": 32452338,
+    "count": 23,
+    "base": 4811.5
   },
   "array buffers memory": {
-    "min": 10831577,
-    "max": 10831577,
-    "mean": 10831577,
-    "median": 10831577,
+    "min": 31203580,
+    "max": 31203580,
+    "mean": 31203580,
+    "median": 31203580,
     "variance": 0,
     "stdDev": 0,
     "confidence": 0,
-    "low": 10831577,
-    "high": 10831577,
-    "count": 24,
-    "base": 4495
+    "low": 31203580,
+    "high": 31203580,
+    "count": 23,
+    "base": 4811.5
   },
   "buildChunkGraph.visitModules.prepare": {
-    "min": 62.324736,
-    "max": 77.574942,
-    "mean": 66.23892595833334,
-    "median": 65.2185335,
-    "variance": 10.52127115256379,
-    "stdDev": 3.243650898688666,
-    "confidence": 2.73980069896578,
-    "low": 64.86902560885045,
-    "high": 67.60882630781623,
-    "count": 24,
-    "base": 4495
+    "min": 60.445673,
+    "max": 93.458548,
+    "mean": 69.72866282608696,
+    "median": 68.321387,
+    "variance": 49.4926262953157,
+    "stdDev": 7.035099593844831,
+    "confidence": 6.084782789682151,
+    "low": 66.68627143124588,
+    "high": 72.77105422092804,
+    "count": 23,
+    "base": 4811.5
   },
   "buildChunkGraph.visitModules.visiting": {
-    "min": 30.782439,
-    "max": 40.368999,
-    "mean": 35.442790374999994,
-    "median": 35.911125999999996,
-    "variance": 6.5064733009299855,
-    "stdDev": 2.550778959637621,
-    "confidence": 2.154555528570498,
-    "low": 34.365512610714745,
-    "high": 36.52006813928524,
-    "count": 24,
-    "base": 4495
+    "min": 29.52594,
+    "max": 42.00756,
+    "mean": 34.62345008695652,
+    "median": 34.260958,
+    "variance": 11.215626374051817,
+    "stdDev": 3.3489739285416684,
+    "confidence": 2.8965871273966854,
+    "low": 33.175156523258174,
+    "high": 36.07174365065486,
+    "count": 23,
+    "base": 4811.5
   },
   "buildChunkGraph.visitModules.calculating available modules": {
-    "min": 0.061503,
-    "max": 0.092606,
-    "mean": 0.07402104166666666,
-    "median": 0.07445399999999999,
-    "variance": 0.00004871071020659722,
-    "stdDev": 0.006979305854209086,
-    "confidence": 0.005895180355379337,
-    "low": 0.071073451488977,
-    "high": 0.07696863184435633,
-    "count": 24,
-    "base": 4495
+    "min": 0.055904,
+    "max": 0.095607,
+    "mean": 0.07711369565217394,
+    "median": 0.078805,
+    "variance": 0.00007708961186389414,
+    "stdDev": 0.00878006901247901,
+    "confidence": 0.007594037882007576,
+    "low": 0.07331667671117015,
+    "high": 0.08091071459317772,
+    "count": 23,
+    "base": 4811.5
   },
   "buildChunkGraph.visitModules.merging available modules": {
-    "min": 0.026002,
-    "max": 0.049503,
-    "mean": 0.03227275,
-    "median": 0.031202,
-    "variance": 0.000022193136270833335,
-    "stdDev": 0.004710959166755039,
-    "confidence": 0.003979185683358446,
-    "low": 0.03028315715832078,
-    "high": 0.03426234284167923,
-    "count": 24,
-    "base": 4495
+    "min": 0.023602,
+    "max": 0.077605,
+    "mean": 0.034789260869565214,
+    "median": 0.033102,
+    "variance": 0.00010791781236672965,
+    "stdDev": 0.010388349838483957,
+    "confidence": 0.008985068578945085,
+    "low": 0.03029672658009267,
+    "high": 0.039281795159037756,
+    "count": 23,
+    "base": 4811.5
   },
   "exec": {
-    "min": 11778,
-    "max": 12459,
-    "mean": 12072.833333333334,
-    "median": 12088.5,
-    "variance": 31828.388888888894,
-    "stdDev": 178.4051257360306,
-    "confidence": 150.6926927272798,
-    "low": 11997.486986969694,
-    "high": 12148.179679696974,
-    "count": 24,
-    "base": 4495
+    "min": 12114,
+    "max": 13260,
+    "mean": 12580.826086956522,
+    "median": 12598,
+    "variance": 70294.8393194707,
+    "stdDev": 265.1317395550195,
+    "confidence": 229.31715810453534,
+    "low": 12466.167507904254,
+    "high": 12695.48466600879,
+    "count": 23,
+    "base": 4811.5
   },
   "0.js size": {
     "min": 78274,
@@ -139,8 +139,8 @@
     "confidence": 0,
     "low": 78274,
     "high": 78274,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "0.js gzip size": {
     "min": 20648,
@@ -152,8 +152,8 @@
     "confidence": 0,
     "low": 20648,
     "high": 20648,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "1.js size": {
     "min": 958941,
@@ -165,8 +165,8 @@
     "confidence": 0,
     "low": 958941,
     "high": 958941,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "1.js gzip size": {
     "min": 214118,
@@ -178,8 +178,8 @@
     "confidence": 0,
     "low": 214118,
     "high": 214118,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "10.js size": {
     "min": 309800,
@@ -191,8 +191,8 @@
     "confidence": 0,
     "low": 309800,
     "high": 309800,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "10.js gzip size": {
     "min": 33398,
@@ -204,8 +204,8 @@
     "confidence": 0,
     "low": 33398,
     "high": 33398,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "11.js size": {
     "min": 380947,
@@ -217,8 +217,8 @@
     "confidence": 0,
     "low": 380947,
     "high": 380947,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "11.js gzip size": {
     "min": 50439,
@@ -230,8 +230,8 @@
     "confidence": 0,
     "low": 50439,
     "high": 50439,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "12.js size": {
     "min": 33540,
@@ -243,8 +243,8 @@
     "confidence": 0,
     "low": 33540,
     "high": 33540,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "12.js gzip size": {
     "min": 7528,
@@ -256,8 +256,8 @@
     "confidence": 0,
     "low": 7528,
     "high": 7528,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "13.js size": {
     "min": 251067,
@@ -269,8 +269,8 @@
     "confidence": 0,
     "low": 251067,
     "high": 251067,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "13.js gzip size": {
     "min": 67202,
@@ -282,8 +282,8 @@
     "confidence": 0,
     "low": 67202,
     "high": 67202,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "14.js size": {
     "min": 30564,
@@ -295,8 +295,8 @@
     "confidence": 0,
     "low": 30564,
     "high": 30564,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "14.js gzip size": {
     "min": 8452,
@@ -308,8 +308,8 @@
     "confidence": 0,
     "low": 8452,
     "high": 8452,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "15.js size": {
     "min": 562746,
@@ -321,8 +321,8 @@
     "confidence": 0,
     "low": 562746,
     "high": 562746,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "15.js gzip size": {
     "min": 97453,
@@ -334,8 +334,8 @@
     "confidence": 0,
     "low": 97453,
     "high": 97453,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "16.js size": {
     "min": 28672,
@@ -347,8 +347,8 @@
     "confidence": 0,
     "low": 28672,
     "high": 28672,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "16.js gzip size": {
     "min": 3067,
@@ -360,8 +360,8 @@
     "confidence": 0,
     "low": 3067,
     "high": 3067,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "17.js size": {
     "min": 130994,
@@ -373,8 +373,8 @@
     "confidence": 0,
     "low": 130994,
     "high": 130994,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "17.js gzip size": {
     "min": 25874,
@@ -386,8 +386,8 @@
     "confidence": 0,
     "low": 25874,
     "high": 25874,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "18.js size": {
     "min": 205539,
@@ -399,8 +399,8 @@
     "confidence": 0,
     "low": 205539,
     "high": 205539,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "18.js gzip size": {
     "min": 49508,
@@ -412,8 +412,8 @@
     "confidence": 0,
     "low": 49508,
     "high": 49508,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "19.js size": {
     "min": 1905,
@@ -425,8 +425,8 @@
     "confidence": 0,
     "low": 1905,
     "high": 1905,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "19.js gzip size": {
     "min": 799,
@@ -438,8 +438,8 @@
     "confidence": 0,
     "low": 799,
     "high": 799,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "2.js size": {
     "min": 483809,
@@ -451,8 +451,8 @@
     "confidence": 0,
     "low": 483809,
     "high": 483809,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "2.js gzip size": {
     "min": 78172,
@@ -464,8 +464,8 @@
     "confidence": 0,
     "low": 78172,
     "high": 78172,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "20.js size": {
     "min": 325724,
@@ -477,8 +477,8 @@
     "confidence": 0,
     "low": 325724,
     "high": 325724,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "20.js gzip size": {
     "min": 87175,
@@ -490,8 +490,8 @@
     "confidence": 0,
     "low": 87175,
     "high": 87175,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "21.js size": {
     "min": 16387,
@@ -503,8 +503,8 @@
     "confidence": 0,
     "low": 16387,
     "high": 16387,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "21.js gzip size": {
     "min": 1727,
@@ -516,8 +516,8 @@
     "confidence": 0,
     "low": 1727,
     "high": 1727,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "22.js size": {
     "min": 72140,
@@ -529,8 +529,8 @@
     "confidence": 0,
     "low": 72140,
     "high": 72140,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "22.js gzip size": {
     "min": 5018,
@@ -542,8 +542,8 @@
     "confidence": 0,
     "low": 5018,
     "high": 5018,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "3.js size": {
     "min": 1796565,
@@ -555,8 +555,8 @@
     "confidence": 0,
     "low": 1796565,
     "high": 1796565,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "3.js gzip size": {
     "min": 248642,
@@ -568,8 +568,8 @@
     "confidence": 0,
     "low": 248642,
     "high": 248642,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "4.js size": {
     "min": 886305,
@@ -581,8 +581,8 @@
     "confidence": 0,
     "low": 886305,
     "high": 886305,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "4.js gzip size": {
     "min": 95119,
@@ -594,8 +594,8 @@
     "confidence": 0,
     "low": 95119,
     "high": 95119,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "5.js size": {
     "min": 277112,
@@ -607,8 +607,8 @@
     "confidence": 0,
     "low": 277112,
     "high": 277112,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "5.js gzip size": {
     "min": 34902,
@@ -620,8 +620,8 @@
     "confidence": 0,
     "low": 34902,
     "high": 34902,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "6.js size": {
     "min": 11057063,
@@ -633,8 +633,8 @@
     "confidence": 0,
     "low": 11057063,
     "high": 11057063,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "6.js gzip size": {
     "min": 589051,
@@ -646,8 +646,8 @@
     "confidence": 0,
     "low": 589051,
     "high": 589051,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "7.js size": {
     "min": 1478655,
@@ -659,8 +659,8 @@
     "confidence": 0,
     "low": 1478655,
     "high": 1478655,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "7.js gzip size": {
     "min": 175717,
@@ -672,8 +672,8 @@
     "confidence": 0,
     "low": 175717,
     "high": 175717,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "8.js size": {
     "min": 256702,
@@ -685,8 +685,8 @@
     "confidence": 0,
     "low": 256702,
     "high": 256702,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "8.js gzip size": {
     "min": 34299,
@@ -698,8 +698,8 @@
     "confidence": 0,
     "low": 34299,
     "high": 34299,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "9.js size": {
     "min": 738388,
@@ -711,8 +711,8 @@
     "confidence": 0,
     "low": 738388,
     "high": 738388,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "9.js gzip size": {
     "min": 111716,
@@ -724,8 +724,8 @@
     "confidence": 0,
     "low": 111716,
     "high": 111716,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "main.js size": {
     "min": 12005,
@@ -737,8 +737,8 @@
     "confidence": 0,
     "low": 12005,
     "high": 12005,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   },
   "main.js gzip size": {
     "min": 2843,
@@ -750,7 +750,7 @@
     "confidence": 0,
     "low": 2843,
     "high": 2843,
-    "count": 24,
-    "base": 4495
+    "count": 23,
+    "base": 4811.5
   }
 }
