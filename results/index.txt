@@ -38640,4 +38640,5 @@
 2023-08-21/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-08-12/atlaskit-editor_development-build+initial-persistent-cache.json
 2022-05-23/atlaskit-editor_development-build+thread-babel-env.json
+2023-08-24/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
