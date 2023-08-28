@@ -38694,4 +38694,5 @@
 2021-07-28/common-libs-chunks_development-build+no-exports-analysis.json
 2023-04-15/rome_production-build+no-exports-analysis.json
 2023-05-19/atlaskit-editor_development-build+no-exports-analysis.json
+2021-11-14/atlaskit-editor_development-build+persistent-cache.json
 
