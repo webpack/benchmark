@@ -38818,4 +38818,5 @@
 2021-04-29/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2023-08-31/common-libs_production-build+future-defaults.json
 2023-08-29/common-libs-chunks_production-build+source-map+persistent-cache.json
+2023-08-31/esbuild-three_production-build+swc-env.json
 
