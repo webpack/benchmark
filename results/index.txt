@@ -38834,4 +38834,5 @@
 2023-08-14/common-libs_development-build+babel-env.json
 2023-04-08/atlaskit-editor_development-rebuild+unsafe-cache.json
 2022-02-17/esbuild-three_development-build+swc-env.json
+2023-04-18/esbuild-three_production-build+future-defaults.json
 
