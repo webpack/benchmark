@@ -39059,4 +39059,5 @@
 2022-01-31/common-libs_production-build+source-map+persistent-cache.json
 2022-10-02/common-libs-chunks_development-build+no-exports-analysis.json
 2023-09-06/rome_development-build+persistent-cache.json
+2023-09-06/atlaskit-editor_production-build+swc-env.json
 
