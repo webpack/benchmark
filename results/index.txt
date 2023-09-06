@@ -39092,4 +39092,5 @@
 2022-06-09/common-libs-chunks_production-build+swc-env.json
 2021-12-18/atlaskit-editor_development-build+babel-env.json
 2023-02-25/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-08-23/atlaskit-editor_production-build+no-minimize.json
 
