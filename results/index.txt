@@ -39317,4 +39317,5 @@
 2023-04-09/esbuild-three_production-build+source-map+babel-env.json
 2023-05-14/esbuild-three_production-build+no-concatenation.json
 2023-06-10/rome_production-build+source-map+babel-env.json
+2023-06-18/esbuild-three_production-build+future-defaults.json
 
