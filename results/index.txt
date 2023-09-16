@@ -39476,4 +39476,5 @@
 2023-09-15/rome_production-build+initial-persistent-cache.json
 2023-06-09/atlaskit-editor_development-build+initial-persistent-cache.json
 2023-08-24/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2022-12-20/common-libs-chunks_production-build+persistent-cache.json
 
