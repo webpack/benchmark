@@ -39725,4 +39725,5 @@
 2023-08-27/atlaskit-editor_development-build.json
 2022-08-01/atlaskit-editor_development-rebuild+eval-source-map.json
 2023-08-29/atlaskit-editor_development-rebuild+eval-source-map.json
+2022-12-31/esbuild-three_production-build+no-exports-analysis.json
 
