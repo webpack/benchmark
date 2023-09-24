@@ -39801,4 +39801,5 @@
 2021-06-22/rome_development-build+no-exports-analysis.json
 2023-07-31/common-libs_production-build+swc-env.json
 2023-03-22/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-09-24/rome_development-build+initial-persistent-cache.json
 
