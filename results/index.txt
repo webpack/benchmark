@@ -39831,4 +39831,5 @@
 2023-09-25/atlaskit-editor_development-build+babel-env.json
 2022-06-22/common-libs-chunks_production-build.json
 2023-08-05/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-11-27/atlaskit-editor_production-build+persistent-cache.json
 
