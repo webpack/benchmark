@@ -39842,4 +39842,5 @@
 2023-09-25/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2023-09-21/common-libs_production-build+initial-persistent-cache.json
 2023-04-21/common-libs_production-build+source-map.json
+2023-09-24/atlaskit-editor_development-build+swc-env.json
 
