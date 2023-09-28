@@ -39977,4 +39977,5 @@
 2021-08-14/atlaskit-editor_production-build+no-concatenation.json
 2022-12-16/rome_development-rebuild+hmr.json
 2023-09-28/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-09-28/esbuild-three_development-build+babel-env.json
 
