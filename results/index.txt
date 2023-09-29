@@ -40015,4 +40015,5 @@
 2023-05-18/common-libs_production-build+no-minimize.json
 2022-08-31/common-libs_production-build+babel-env.json
 2023-09-21/atlaskit-editor_production-build+source-map+babel-env.json
+2021-10-08/esbuild-three_development-build+future-defaults.json
 
