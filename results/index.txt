@@ -40393,4 +40393,5 @@
 2021-10-30/rome_development-build+future-defaults.json
 2021-11-28/atlaskit-editor_development-build+swc-env.json
 2023-07-04/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2021-05-27/esbuild-three_production-build+no-minimize+no-concatenation.json
 
