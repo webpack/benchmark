@@ -40539,4 +40539,5 @@
 2022-03-14/atlaskit-editor_production-build+persistent-cache.json
 2023-09-04/common-libs-chunks_production-build+persistent-cache.json
 2022-08-26/common-libs-chunks_development-rebuild+hmr.json
+2021-10-12/atlaskit-editor_production-build+future-defaults.json
 
