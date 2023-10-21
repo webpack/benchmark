@@ -40930,4 +40930,5 @@
 2022-06-07/atlaskit-editor_production-build+source-map+babel-env.json
 2023-10-06/common-libs_production-build+no-exports-analysis.json
 2023-08-31/atlaskit-editor_development-rebuild+hmr.json
+2023-10-16/atlaskit-editor_production-build+source-map.json
 
