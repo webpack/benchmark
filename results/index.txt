@@ -41212,4 +41212,5 @@
 2021-06-03/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2023-10-18/common-libs_development-rebuild+unsafe-cache+no-exports-analysis.json
 2023-10-03/common-libs_development-build+future-defaults.json
+2023-10-27/atlaskit-editor_development-build+initial-persistent-cache.json
 
