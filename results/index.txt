@@ -41456,4 +41456,5 @@
 2021-11-03/atlaskit-editor_production-build+future-defaults.json
 2023-05-28/atlaskit-editor_development-rebuild+unsafe-cache.json
 2023-04-01/atlaskit-editor_production-build+no-minimize.json
+2021-11-25/atlaskit-editor_development-build+swc-env.json
 
