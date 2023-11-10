@@ -41730,4 +41730,5 @@
 2023-09-17/esbuild-three_development-build+no-exports-analysis.json
 2023-05-09/atlaskit-editor_development-build+persistent-cache.json
 2023-08-10/common-libs_development-rebuild+unsafe-cache.json
+2023-10-09/esbuild-three_production-build+no-minimize.json
 
