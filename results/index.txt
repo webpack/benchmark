@@ -41764,4 +41764,5 @@
 2023-01-24/common-libs_development-build+no-exports-analysis.json
 2023-05-16/atlaskit-editor_production-build+source-map+persistent-cache.json
 2023-08-29/rome_development-rebuild+eval-source-map.json
+2023-11-07/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
