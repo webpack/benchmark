@@ -41987,4 +41987,5 @@
 2023-10-20/atlaskit-editor_development-rebuild+hmr.json
 2023-06-06/atlaskit-editor_development-build+initial-persistent-cache.json
 2023-08-16/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2023-11-17/atlaskit-editor_development-build+swc-env.json
 
