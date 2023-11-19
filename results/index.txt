@@ -42073,4 +42073,5 @@
 2023-11-17/atlaskit-editor_production-build+no-concatenation.json
 2023-10-03/esbuild-three_development-build+no-exports-analysis.json
 2022-09-15/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2023-11-01/rome_production-build+swc-env.json
 
