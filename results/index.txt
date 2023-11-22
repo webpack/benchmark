@@ -42181,4 +42181,5 @@
 2023-11-10/common-libs-chunks_production-build+no-minimize.json
 2021-05-08/atlaskit-editor_production-build+no-minimize.json
 2022-02-14/esbuild-three_production-build+swc-env.json
+2023-11-22/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
