@@ -42279,4 +42279,5 @@
 2023-06-17/common-libs_development-rebuild+unsafe-cache.json
 2023-08-20/esbuild-three_development-rebuild+eval-source-map.json
 2023-11-24/rome_development-build+persistent-cache.json
+2022-11-29/esbuild-three_production-build+initial-persistent-cache.json
 
