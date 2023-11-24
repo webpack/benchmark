@@ -42259,4 +42259,5 @@
 2022-09-23/atlaskit-editor_development-rebuild+hmr.json
 2023-10-01/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 2023-11-24/common-libs-chunks_production-build+no-minimize+no-concatenation.json
+2023-11-24/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
