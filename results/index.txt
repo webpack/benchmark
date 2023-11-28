@@ -42421,4 +42421,5 @@
 2021-09-11/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-07-12/esbuild-three_production-build+persistent-cache.json
 2021-10-19/esbuild-three_production-build+future-defaults.json
+2023-11-28/esbuild-three_development-build+future-defaults.json
 
