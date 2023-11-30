@@ -42519,4 +42519,5 @@
 2023-11-30/rome_development-rebuild+hmr.json
 2021-05-26/common-libs-chunks_production-build+persistent-cache.json
 2023-11-05/rome_development-rebuild+unsafe-cache.json
+2023-11-12/esbuild-three_development-build+swc-env.json
 
