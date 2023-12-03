@@ -42635,4 +42635,5 @@
 2021-03-16/atlaskit-editor_development-rebuild+hmr.json
 2023-11-06/atlaskit-editor_development-build+babel-env.json
 2022-02-14/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2022-08-13/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 
