@@ -42728,4 +42728,5 @@
 2023-07-07/rome_production-build+no-minimize.json
 2023-09-02/atlaskit-editor_development-build+no-exports-analysis.json
 2023-07-16/common-libs-chunks_production-build+no-exports-analysis.json
+2023-12-06/common-libs_production-build+initial-persistent-cache.json
 
