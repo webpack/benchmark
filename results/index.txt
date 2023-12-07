@@ -42787,4 +42787,5 @@
 2023-11-05/common-libs_production-build+no-concatenation.json
 2022-01-31/esbuild-three_development-build+no-exports-analysis.json
 2023-12-05/common-libs-chunks_production-build+source-map+babel-env.json
+2023-12-07/esbuild-three_production-build+no-minimize+no-concatenation.json
 
