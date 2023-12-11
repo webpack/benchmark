@@ -42948,4 +42948,5 @@
 2023-07-13/common-libs-chunks_production-build+source-map+persistent-cache.json
 2023-06-12/common-libs-chunks_production-build+source-map.json
 2023-04-01/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-12-01/rome_production-build+persistent-cache.json
 
