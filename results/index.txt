@@ -42971,4 +42971,5 @@
 2023-11-18/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2023-12-12/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2021-06-03/atlaskit-editor_development-rebuild+hmr.json
+2022-05-28/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 
