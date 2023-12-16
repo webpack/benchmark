@@ -43143,4 +43143,5 @@
 2023-10-08/atlaskit-editor_development-build+initial-persistent-cache.json
 2023-11-22/atlaskit-editor_production-build+source-map.json
 2023-11-25/atlaskit-editor_development-rebuild+unsafe-cache.json
+2023-12-16/esbuild-three_production-build+babel-env.json
 
