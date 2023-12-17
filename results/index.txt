@@ -43163,4 +43163,5 @@
 2022-10-13/atlaskit-editor_production-build+source-map+babel-env.json
 2023-01-23/common-libs-chunks_development-rebuild.json
 2023-10-17/common-libs-chunks_production-build+source-map.json
+2023-11-17/atlaskit-editor_production-build+swc-env.json
 
