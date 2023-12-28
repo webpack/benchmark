@@ -43642,4 +43642,5 @@
 2022-09-25/common-libs_development-build+babel-env.json
 2023-12-11/esbuild-three_development-build+babel-env.json
 2023-04-20/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2023-11-18/esbuild-three_development-build+future-defaults.json
 
