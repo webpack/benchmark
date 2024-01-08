@@ -44091,4 +44091,5 @@
 2023-11-03/rome_production-build+no-concatenation.json
 2023-10-28/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2022-08-01/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2021-06-08/atlaskit-editor_production-build+source-map+persistent-cache.json
 
