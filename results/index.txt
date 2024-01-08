@@ -44079,4 +44079,5 @@
 2023-12-15/common-libs_development-rebuild+unsafe-cache.json
 2023-12-09/common-libs-chunks_development-build+no-exports-analysis.json
 2024-01-05/rome_production-build+persistent-cache.json
+2024-01-06/esbuild-three_development-rebuild+future-defaults.json
 
