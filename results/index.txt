@@ -44412,4 +44412,5 @@
 2022-12-23/common-libs_development-build+swc-env.json
 2023-08-29/common-libs_production-build+source-map+babel-env.json
 2024-01-15/atlaskit-editor_production-build+source-map+babel-env.json
+2024-01-13/esbuild-three_development-build+persistent-cache.json
 
