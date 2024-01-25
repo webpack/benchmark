@@ -44776,4 +44776,5 @@
 2023-09-19/rome_production-build+source-map+persistent-cache.json
 2022-10-21/common-libs_development-rebuild+future-defaults.json
 2023-10-13/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2024-01-22/esbuild-three_production-build+swc-env.json
 
