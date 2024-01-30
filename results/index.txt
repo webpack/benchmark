@@ -44949,4 +44949,5 @@
 2021-05-04/atlaskit-editor_production-build+no-minimize.json
 2024-01-30/common-libs_development-rebuild+hmr.json
 2024-01-17/common-libs_production-build+no-minimize+no-concatenation.json
+2024-01-30/atlaskit-editor_production-build+persistent-cache.json
 
