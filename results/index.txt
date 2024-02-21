@@ -45834,4 +45834,5 @@
 2023-11-28/atlaskit-editor_production-build+source-map+persistent-cache.json
 2021-02-27/common-libs_development-build+babel-env.json
 2024-01-15/common-libs_development-rebuild+unsafe-cache+no-exports-analysis.json
+2024-01-28/atlaskit-editor_production-build+source-map+persistent-cache.json
 
