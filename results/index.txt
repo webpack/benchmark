@@ -47342,4 +47342,5 @@
 2022-11-02/common-libs_production-build+no-concatenation.json
 2023-10-13/esbuild-three_production-build+no-exports-analysis.json
 2023-10-11/atlaskit-editor_production-build+no-concatenation.json
+2021-12-10/esbuild-three_production-build+source-map.json
 
