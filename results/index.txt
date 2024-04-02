@@ -47532,4 +47532,5 @@
 2023-12-15/rome_development-build+initial-persistent-cache.json
 2023-07-10/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2023-12-26/rome_development-rebuild.json
+2022-03-27/esbuild-three_production-build+initial-persistent-cache.json
 
