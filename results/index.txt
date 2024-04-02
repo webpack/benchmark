@@ -47537,4 +47537,5 @@
 2022-12-14/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2022-12-08/atlaskit-editor_development-build+babel-env.json
 2023-08-29/esbuild-three_development-build+persistent-cache.json
+2023-12-23/esbuild-three_development-build+persistent-cache.json
 
