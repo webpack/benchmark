@@ -47783,4 +47783,5 @@
 2024-04-09/atlaskit-editor_development-rebuild+unsafe-cache.json
 2024-03-07/esbuild-three_production-build+no-minimize+no-concatenation.json
 2024-04-09/common-libs_production-build+no-concatenation.json
+2024-04-09/atlaskit-editor_production-build+no-minimize.json
 
