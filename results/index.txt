@@ -48440,4 +48440,5 @@
 2024-04-09/atlaskit-editor_development-build+initial-persistent-cache.json
 2024-03-14/common-libs-chunks_production-build+no-exports-analysis.json
 2021-10-20/common-libs-chunks_development-rebuild+hmr.json
+2022-12-17/atlaskit-editor_production-build+no-minimize.json
 
