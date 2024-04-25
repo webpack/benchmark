@@ -48406,4 +48406,5 @@
 2020-06-01/common-libs-chunks_production-build+swc-env.json
 2023-05-09/atlaskit-editor_development-build+swc-env.json
 2023-07-19/common-libs-chunks_production-build+no-concatenation.json
+2024-04-24/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
