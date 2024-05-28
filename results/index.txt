@@ -49757,4 +49757,5 @@
 2024-05-07/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2024-03-30/common-libs-chunks_production-build+no-minimize.json
 2023-09-25/atlaskit-editor_production-build+swc-env.json
+2022-12-10/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
