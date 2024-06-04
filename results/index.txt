@@ -50009,4 +50009,5 @@
 2024-05-21/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2024-04-27/rome_production-build+no-minimize+no-concatenation.json
 2024-02-21/common-libs-chunks_development-rebuild+future-defaults.json
+2024-05-17/esbuild-three_production-build+source-map+persistent-cache.json
 
