@@ -50392,4 +50392,5 @@
 2023-05-03/common-libs-chunks_development-build+persistent-cache.json
 2024-03-12/atlaskit-editor_production-build+no-exports-analysis.json
 2024-05-31/rome_production-build+no-concatenation.json
+2024-05-31/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
