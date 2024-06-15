@@ -50471,4 +50471,5 @@
 2021-03-27/common-libs-chunks_development-rebuild+hmr.json
 2024-04-20/atlaskit-editor_development-rebuild+unsafe-cache.json
 2022-09-06/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-05-12/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
