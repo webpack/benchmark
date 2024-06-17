@@ -50544,4 +50544,5 @@
 2024-06-06/atlaskit-editor_development-build+no-exports-analysis.json
 2024-04-30/common-libs_production-build+no-minimize+no-concatenation.json
 2024-05-16/common-libs_development-build+future-defaults.json
+2023-07-09/atlaskit-editor_development-build+initial-persistent-cache.json
 
