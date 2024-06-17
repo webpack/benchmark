@@ -50568,4 +50568,5 @@
 2024-06-04/common-libs_development-rebuild+eval-source-map.json
 2022-12-23/rome_development-build+no-exports-analysis.json
 2022-10-16/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
+2024-04-15/esbuild-three_production-build+future-defaults.json
 
