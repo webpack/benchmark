@@ -51123,4 +51123,5 @@
 2023-10-31/common-libs_development-build.json
 2023-06-11/common-libs-chunks_production-build+source-map+persistent-cache.json
 2024-03-22/atlaskit-editor_development-build+babel-env.json
+2020-09-01/atlaskit-editor_production-build+no-minimize.json
 
