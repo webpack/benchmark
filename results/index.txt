@@ -52334,4 +52334,5 @@
 2024-07-31/common-libs_development-build+persistent-cache.json
 2024-07-31/atlaskit-editor_development-rebuild+unsafe-cache.json
 2024-05-18/common-libs_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2024-01-03/atlaskit-editor_development-build+initial-persistent-cache.json
 
