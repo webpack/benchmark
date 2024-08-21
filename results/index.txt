@@ -53220,4 +53220,5 @@
 2024-01-12/common-libs-chunks_production-build+babel-env.json
 2023-11-28/esbuild-three_production-build+source-map+persistent-cache.json
 2023-10-03/rome_development-rebuild+hmr.json
+2024-08-21/esbuild-three_production-build+future-defaults.json
 
