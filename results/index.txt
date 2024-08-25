@@ -53345,4 +53345,5 @@
 2024-08-07/common-libs_development-rebuild+unsafe-cache+future-defaults.json
 2024-07-19/rome_development-rebuild+hmr.json
 2024-07-19/rome_development-rebuild+unsafe-cache+no-exports-analysis.json
+2024-08-14/rome_production-build+swc-env.json
 
