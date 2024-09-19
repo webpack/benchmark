@@ -54319,4 +54319,5 @@
 2023-06-13/atlaskit-editor_production-build+swc-env.json
 2022-07-27/esbuild-three_development-build+initial-persistent-cache.json
 2024-03-20/atlaskit-editor_development-build+no-exports-analysis.json
+2024-09-09/atlaskit-editor_production-build+persistent-cache.json
 
