@@ -55069,4 +55069,5 @@
 2024-09-25/common-libs-chunks_development-build.json
 2024-08-16/rome_development-build+persistent-cache.json
 2024-10-07/common-libs-chunks_production-build+no-concatenation.json
+2024-10-08/esbuild-three_development-rebuild+future-defaults.json
 
