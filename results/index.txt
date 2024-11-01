@@ -56021,4 +56021,5 @@
 2024-09-11/atlaskit-editor_development-rebuild.json
 2024-09-02/esbuild-three_development-build+swc-env.json
 2024-11-01/atlaskit-editor_development-build+swc-env.json
+2024-09-26/esbuild-three_production-build+source-map.json
 
