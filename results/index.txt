@@ -56179,4 +56179,5 @@
 2024-10-20/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2023-09-11/common-libs-chunks_production-build+source-map.json
 2024-10-29/common-libs-chunks_production-build+no-exports-analysis.json
+2024-04-24/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
