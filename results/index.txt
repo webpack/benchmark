@@ -56328,4 +56328,5 @@
 2024-09-18/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2024-11-09/common-libs-chunks_production-build+initial-persistent-cache.json
 2024-11-07/common-libs-chunks_development-build+babel-env.json
+2024-11-09/common-libs-chunks_development-build+future-defaults.json
 
