@@ -56588,4 +56588,5 @@
 2023-09-09/rome_development-rebuild+eval-source-map.json
 2024-09-21/rome_development-build+swc-env.json
 2024-10-28/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2023-05-20/esbuild-three_production-build+source-map.json
 
