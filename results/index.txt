@@ -56842,4 +56842,5 @@
 2024-10-10/common-libs-chunks_development-build+no-exports-analysis.json
 2024-11-16/atlaskit-editor_development-build.json
 2024-09-30/common-libs_production-build+future-defaults.json
+2021-10-21/common-libs-chunks_development-build+babel-env.json
 
