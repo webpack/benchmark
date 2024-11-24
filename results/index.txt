@@ -56937,4 +56937,5 @@
 2021-12-14/esbuild-three_development-build+no-exports-analysis.json
 2024-10-20/rome_development-build+initial-persistent-cache.json
 2024-11-24/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2024-11-12/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
