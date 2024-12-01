@@ -57204,4 +57204,5 @@
 2024-10-06/common-libs-chunks_development-build+babel-env.json
 2024-10-29/esbuild-three_production-build+source-map.json
 2024-08-15/atlaskit-editor_production-build+no-exports-analysis.json
+2024-06-14/esbuild-three_development-build+no-exports-analysis.json
 
