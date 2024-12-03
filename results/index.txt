@@ -57277,4 +57277,5 @@
 2024-11-09/esbuild-three_production-build+no-minimize.json
 2022-05-01/esbuild-three_development-build+babel-env.json
 2024-11-19/rome_production-build+source-map+babel-env.json
+2024-12-03/esbuild-three_production-build+babel-env.json
 
