@@ -57334,4 +57334,5 @@
 2022-09-27/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2023-08-13/common-libs_production-build+source-map.json
 2024-11-27/rome_development-build+swc-env.json
+2024-12-05/atlaskit-editor_development-build.json
 
