@@ -57378,4 +57378,5 @@
 2024-09-04/esbuild-three_development-build+no-exports-analysis.json
 2024-11-29/atlaskit-editor_development-build+babel-env.json
 2024-10-03/esbuild-three_development-rebuild+hmr.json
+2024-12-06/atlaskit-editor_production-build+no-minimize.json
 
