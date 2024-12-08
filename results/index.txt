@@ -57471,4 +57471,5 @@
 2021-11-05/atlaskit-editor_production-build+no-concatenation.json
 2024-04-19/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2024-08-26/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
+2024-12-04/rome_production-build+no-minimize.json
 
