@@ -57474,4 +57474,5 @@
 2024-12-04/rome_production-build+no-minimize.json
 2023-12-15/esbuild-three_development-rebuild+hmr.json
 2024-11-24/esbuild-three_production-build+no-concatenation.json
+2024-12-06/rome_production-build+babel-env.json
 
