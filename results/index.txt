@@ -57875,4 +57875,5 @@
 2024-10-25/common-libs_development-build+future-defaults.json
 2024-01-15/common-libs_development-build+swc-env.json
 2024-11-09/atlaskit-editor_development-build+swc-env.json
+2024-12-16/atlaskit-editor_development-rebuild.json
 
