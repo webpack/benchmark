@@ -57879,4 +57879,5 @@
 2024-11-14/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2024-03-24/common-libs_development-build+initial-persistent-cache.json
 2024-12-16/atlaskit-editor_development-build+initial-persistent-cache.json
+2024-12-16/esbuild-three_development-rebuild+hmr.json
 
