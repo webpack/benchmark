@@ -57915,4 +57915,5 @@
 2023-02-07/rome_production-build+persistent-cache.json
 2024-04-25/common-libs_production-build+future-defaults.json
 2024-12-13/rome_development-build+swc-env.json
+2024-12-20/esbuild-three_production-build+source-map.json
 
