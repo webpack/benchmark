@@ -57974,4 +57974,5 @@
 2024-09-18/common-libs_production-build+future-defaults.json
 2024-12-21/common-libs_development-build+persistent-cache.json
 2022-11-17/common-libs-chunks_production-build+future-defaults.json
+2024-12-02/atlaskit-editor_development-build+swc-env.json
 
