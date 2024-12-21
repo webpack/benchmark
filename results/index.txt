@@ -57977,4 +57977,5 @@
 2024-12-02/atlaskit-editor_development-build+swc-env.json
 2021-12-04/esbuild-three_development-build+no-exports-analysis.json
 2021-03-22/atlaskit-editor_development-build+babel-env.json
+2024-12-12/atlaskit-editor_development-build.json
 
