@@ -58023,4 +58023,5 @@
 2024-12-22/common-libs_development-build+swc-env.json
 2024-12-20/common-libs-chunks_production-build+initial-persistent-cache.json
 2024-12-22/atlaskit-editor_development-build+swc-env.json
+2024-12-22/atlaskit-editor_production-build+initial-persistent-cache.json
 
