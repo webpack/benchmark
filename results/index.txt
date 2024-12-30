@@ -58310,4 +58310,5 @@
 2024-10-10/atlaskit-editor_production-build+persistent-cache.json
 2021-05-13/common-libs_development-rebuild+hmr.json
 2024-12-16/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
+2023-09-27/atlaskit-editor_development-build+swc-env.json
 
