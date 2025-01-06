@@ -58591,4 +58591,5 @@
 2022-11-09/atlaskit-editor_production-build+source-map+persistent-cache.json
 2024-11-27/common-libs_production-build+future-defaults.json
 2023-11-28/atlaskit-editor_development-rebuild+eval-source-map.json
+2024-11-30/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
