@@ -58963,4 +58963,5 @@
 2024-07-25/common-libs_production-build+source-map.json
 2024-11-21/rome_production-build+initial-persistent-cache.json
 2025-01-15/atlaskit-editor_production-build+no-concatenation.json
+2025-01-03/esbuild-three_production-build+no-minimize+no-concatenation.json
 
