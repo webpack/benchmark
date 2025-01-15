@@ -58965,4 +58965,5 @@
 2025-01-15/atlaskit-editor_production-build+no-concatenation.json
 2025-01-03/esbuild-three_production-build+no-minimize+no-concatenation.json
 2024-10-17/esbuild-three_production-build+no-minimize.json
+2024-12-24/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
