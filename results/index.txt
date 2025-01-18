@@ -59079,4 +59079,5 @@
 2025-01-08/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2024-02-01/esbuild-three_production-build+no-concatenation.json
 2025-01-04/esbuild-three_development-build+future-defaults.json
+2024-09-13/rome_development-build+swc-env.json
 
