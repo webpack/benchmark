@@ -59217,4 +59217,5 @@
 2025-01-20/atlaskit-editor_development-build+no-exports-analysis.json
 2024-10-04/atlaskit-editor_production-build+babel-env.json
 2024-12-22/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2024-11-02/esbuild-three_development-rebuild.json
 
