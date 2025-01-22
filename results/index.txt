@@ -59234,4 +59234,5 @@
 2024-06-14/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2022-12-26/common-libs_development-rebuild+hmr.json
 2023-12-17/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2025-01-21/esbuild-three_production-build+initial-persistent-cache.json
 
