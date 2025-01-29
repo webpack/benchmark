@@ -59522,4 +59522,5 @@
 2024-10-13/esbuild-three_development-rebuild+hmr.json
 2024-12-03/common-libs-chunks_development-build+initial-persistent-cache.json
 2024-10-22/rome_production-build+source-map+babel-env.json
+2024-12-07/esbuild-three_production-build.json
 
