@@ -59496,4 +59496,5 @@
 2025-01-14/common-libs_production-build+no-minimize.json
 2024-02-21/atlaskit-editor_production-build.json
 2024-07-28/esbuild-three_development-rebuild+hmr.json
+2024-11-05/esbuild-three_development-build+future-defaults.json
 
