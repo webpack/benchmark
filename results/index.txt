@@ -59596,4 +59596,5 @@
 2024-10-02/esbuild-three_production-build.json
 2024-09-24/esbuild-three_development-build+swc-env.json
 2024-10-29/atlaskit-editor_production-build+no-exports-analysis.json
+2024-10-26/rome_production-build+persistent-cache.json
 
