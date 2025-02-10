@@ -59983,4 +59983,5 @@
 2025-01-26/common-libs-chunks_development-build+no-exports-analysis.json
 2025-01-17/atlaskit-editor_development-build+persistent-cache.json
 2022-09-13/rome_production-build+no-minimize+no-concatenation.json
+2025-02-02/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 
