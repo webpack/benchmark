@@ -60057,4 +60057,5 @@
 2023-06-27/common-libs_production-build+no-minimize+no-concatenation.json
 2024-09-18/atlaskit-editor_development-rebuild+hmr.json
 2024-06-24/common-libs_production-build+source-map.json
+2025-02-12/atlaskit-editor_production-build+source-map+persistent-cache.json
 
