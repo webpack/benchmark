@@ -60128,4 +60128,5 @@
 2024-08-11/atlaskit-editor_production-build+no-minimize.json
 2022-03-03/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 2024-07-29/common-libs-chunks_production-build+no-exports-analysis.json
+2024-12-05/rome_production-build+initial-persistent-cache.json
 
