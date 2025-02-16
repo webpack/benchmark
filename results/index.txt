@@ -60202,4 +60202,5 @@
 2021-12-22/common-libs_development-build+no-exports-analysis.json
 2022-07-12/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 2022-09-01/esbuild-three_production-build+initial-persistent-cache.json
+2024-10-09/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
