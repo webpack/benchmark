@@ -60243,4 +60243,5 @@
 2023-10-13/common-libs_production-build+no-minimize.json
 2024-08-12/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2024-10-13/esbuild-three_production-build+no-minimize.json
+2024-03-19/esbuild-three_production-build+persistent-cache.json
 
