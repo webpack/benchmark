@@ -60484,4 +60484,5 @@
 2021-09-13/atlaskit-editor_production-build.json
 2025-02-23/esbuild-three_production-build+source-map.json
 2025-02-22/atlaskit-editor_production-build+swc-env.json
+2022-10-03/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
