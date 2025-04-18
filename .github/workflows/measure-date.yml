@@ -52,9 +52,9 @@ jobs:
           max_attempts: 3
           timeout_minutes: 30
           command: node bin/measure-mean-normalized.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.date }}
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
-          name: measure-results
+          name: measure-results-${{ matrix.case }}-${{ matrix.scenario }}-${{ github.event.inputs.date }}
           path: output
   upload:
     needs: [bench]
@@ -73,10 +73,11 @@ jobs:
           max_attempts: 3
           timeout_minutes: 5
           command: yarn
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
-          name: measure-results
           path: output
+          pattern: measure-results-*
+          merge-multiple: true
       - name: Setup git user
         run: |
           git config --global user.name "github-actions[bot]"
