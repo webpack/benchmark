@@ -58,9 +58,9 @@ jobs:
           max_attempts: 3
           timeout_minutes: 25
           command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
-          name: compare-results
+          name: compare-results-${{ matrix.case }}-${{ matrix.scenario }}-${{ github.event.inputs.base }}-${{ github.event.inputs.current }}
           path: output
   report:
     needs: [bench]
@@ -79,8 +79,9 @@ jobs:
           max_attempts: 3
           timeout_minutes: 5
           command: yarn
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
-          name: compare-results
           path: output
+          pattern: compare-results-*
+          merge-multiple: true
       - run: node bin/report.js
