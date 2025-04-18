@@ -42,31 +42,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.x
-      - id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-${{ matrix.case }}-${{ github.event.inputs.base }}
-          restore-keys: |
-            yarn-${{ matrix.case }}-
-            yarn-
-      - uses: nick-invision/retry@v2.4.0
+          node-version: lts/*
+          cache: "yarn"
+      - uses: nick-invision/retry@v3
         with:
           max_attempts: 3
           timeout_minutes: 5
           command: yarn
-      - uses: nick-invision/retry@v2.4.0
+      - uses: nick-invision/retry@v3
         with:
           max_attempts: 3
           timeout_minutes: 25
           command: node bin/compare.js ${{ matrix.case }} ${{ matrix.scenario }} ${{ github.event.inputs.base }} ${{ github.event.inputs.current }}
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: compare-results
           path: output
@@ -76,26 +68,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ github.event.inputs.base }} vs ${{ github.event.inputs.current }}
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.x
-      - id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-report-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            yarn-report-
-            yarn-
-      - uses: nick-invision/retry@v2.4.0
+          node-version: lts/*
+          cache: "yarn"
+      - uses: nick-invision/retry@v3
         with:
           max_attempts: 3
           timeout_minutes: 5
           command: yarn
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: compare-results
           path: output
