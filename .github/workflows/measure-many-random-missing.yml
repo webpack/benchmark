@@ -33,13 +33,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 14.x
+          node-version: lts/*
+          cache: "yarn"
       - name: Yarn
-        uses: nick-invision/retry@v2.4.0
+        uses: nick-invision/retry@v3
         with:
           max_attempts: 3
           timeout_minutes: 5
@@ -49,19 +50,8 @@ jobs:
         run: node bin/random-missing.js ${{ secrets.GITHUB_TOKEN }}
       - name: Print Result
         run: echo ${{ steps.missing.outputs.case }} ${{ steps.missing.outputs.scenario }} ${{ steps.missing.outputs.date }}
-      - name: Yarn Cache Dir
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Yarn Cache
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: yarn-${{ steps.missing.outputs.case }}-${{ steps.missing.outputs.date }}
-          restore-keys: |
-            yarn-${{ steps.missing.outputs.case }}-
-            yarn-
       - name: Measure
-        uses: nick-invision/retry@v2.4.0
+        uses: nick-invision/retry@v3
         with:
           max_attempts: 3
           timeout_minutes: 30
