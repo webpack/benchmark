@@ -61083,4 +61083,5 @@
 2023-12-05/common-libs-chunks_development-build+no-exports-analysis.json
 2024-10-04/rome_development-rebuild+unsafe-cache.json
 2023-04-26/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2025-04-26/esbuild-three_production-build+source-map+persistent-cache.json
 
