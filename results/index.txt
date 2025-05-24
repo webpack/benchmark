@@ -62111,4 +62111,5 @@
 2025-05-24/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
 2024-06-04/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2021-08-02/esbuild-three_production-build+no-concatenation.json
+2025-05-24/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
