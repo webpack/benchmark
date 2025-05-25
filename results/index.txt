@@ -62173,4 +62173,5 @@
 2025-05-22/rome_production-build+swc-env.json
 2024-11-29/esbuild-three_development-build+future-defaults.json
 2024-11-25/rome_development-rebuild+unsafe-cache.json
+2024-05-29/esbuild-three_development-build+persistent-cache.json
 
