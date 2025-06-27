@@ -63376,4 +63376,5 @@
 2024-12-07/atlaskit-editor_development-build+babel-env.json
 2024-11-27/atlaskit-editor_production-build+no-exports-analysis.json
 2025-06-20/atlaskit-editor_production-build+no-concatenation.json
+2025-05-24/esbuild-three_development-build+initial-persistent-cache.json
 
