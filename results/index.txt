@@ -63426,4 +63426,5 @@
 2025-02-28/rome_development-build+persistent-cache.json
 2025-06-16/atlaskit-editor_development-build+no-exports-analysis.json
 2024-04-09/atlaskit-editor_development-rebuild+unsafe-cache+no-exports-analysis.json
+2023-03-18/esbuild-three_development-rebuild+unsafe-cache+future-defaults.json
 
