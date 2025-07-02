@@ -63572,4 +63572,5 @@
 2023-11-12/esbuild-three_development-rebuild+unsafe-cache.json
 2025-06-13/esbuild-three_development-rebuild+unsafe-cache.json
 2024-05-27/esbuild-three_development-rebuild+hmr.json
+2025-07-02/esbuild-three_development-build+future-defaults.json
 
