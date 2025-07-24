@@ -64379,4 +64379,5 @@
 2023-12-07/rome_production-build+no-concatenation.json
 2024-10-28/common-libs-chunks_development-build+swc-env.json
 2025-07-07/common-libs-chunks_development-rebuild+eval-source-map.json
+2025-06-15/esbuild-three_development-build+initial-persistent-cache.json
 
