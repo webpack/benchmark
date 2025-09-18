@@ -1,7 +1,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-// Get the total size of a directory (recursively)
+/**
+ * Get the total size of a directory
+ * @param {string} dirPath
+ */
 export async function getDirectorySize(dirPath) {
   let totalSize = 0;
   try {
@@ -22,8 +25,11 @@ export async function getDirectorySize(dirPath) {
   return totalSize;
 }
 
-// Check if a file exists
-async function exists(filePath) {
+/**
+ * Checks if a file exists
+ * @param {string} filePath
+ */
+export async function exists(filePath) {
   try {
     await fs.access(filePath);
     return true;
@@ -32,7 +38,10 @@ async function exists(filePath) {
   }
 }
 
-// Remove all contents
+/**
+ * Deletes a file, if it exists
+ * @param {string} filePath
+ */
 export async function removeIfExists(filePath) {
   if (await exists(filePath)) {
     await fs.rm(filePath, { recursive: true, force: true });

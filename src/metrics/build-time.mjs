@@ -3,7 +3,8 @@ import { formatDuration } from "../core/utils/formatting.mjs";
 export default class BuildTimeMetric {
   name = "Build Time";
 
-  async collect(_, { startTime, endTime }) {
+  /** @type {import('../types').Metric['collect']} */
+  async collect({ startTime, endTime }) {
     const buildTime = endTime - startTime;
 
     return {

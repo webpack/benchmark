@@ -5,15 +5,20 @@ import { removeIfExists } from "../core/utils/file.mjs";
 const BUNDLER_NAME = "parcel";
 const OUTPUT_DIR = "parcel-dist";
 
+/** @type {import('../types').Bundler['build']} */
 export async function build(fixture) {
   const outputPath = path.join(fixture, OUTPUT_DIR);
-  const config = createParcelConfig(fixture, outputPath);
 
   const bundler = new Parcel({
-    entries: config.entries,
+    entries: [path.join(fixture, "main.js")],
     defaultConfig: "@parcel/config-default",
-    targets: config.targets,
-    logLevel: "error",
+    targets: {
+      default: {
+        distDir: outputPath,
+        sourceMap: false,
+      },
+    },
+    mode: "production",
   });
 
   const { bundleGraph } = await bundler.run();
@@ -21,27 +26,13 @@ export async function build(fixture) {
   return {
     bundler: BUNDLER_NAME,
     outputPath,
-    success: true,
     buildResult: bundleGraph,
   };
 }
 
+/** @type {import('../types').Bundler['clean']} */
 export async function clean(fixture) {
   const outputPath = path.join(fixture, OUTPUT_DIR);
   await removeIfExists(outputPath);
   await removeIfExists(".parcel-cache");
-}
-
-export function createParcelConfig(fixture, distDir) {
-  return {
-    entries: [path.join(fixture, "main.js")],
-    targets: {
-      default: {
-        distDir,
-        optimize: true,
-        scopeHoist: true,
-        sourceMap: false,
-      },
-    },
-  };
 }

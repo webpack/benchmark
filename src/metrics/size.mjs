@@ -4,9 +4,10 @@ import { getDirectorySize } from "../core/utils/file.mjs";
 export default class SizeMetric {
   name = "Size";
 
-  async collect({ outputPath }) {
+  /** @type {import('../types').Metric['collect']} */
+  async collect({ buildResult }) {
     // Get total directory size
-    const totalSize = await getDirectorySize(outputPath);
+    const totalSize = await getDirectorySize(buildResult.outputPath);
 
     return {
       value: totalSize,

@@ -57,6 +57,7 @@ export default async function report(results, options) { ... }
 To run a benchmark on a bundler directly from it's source, install it directly from it's repository, and benchmark like normal.
 
 For example, to benchmark Webpack's bleeding edge, install it with:
+
 ```bash
 yarn add webpack@https://github.com/webpack/webpack
 ```

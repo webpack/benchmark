@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import { BenchmarkRunner } from "./runner.mjs";
+import runBenchmark from "./runner.mjs";
 import { consola } from "consola";
 
 new Command()
@@ -26,9 +26,7 @@ new Command()
     }
 
     consola.start("Starting bundler benchmarks...");
-    const runner = new BenchmarkRunner(options);
-    await runner.run();
-
+    await runBenchmark(options);
     consola.success("Benchmarking completed successfully!");
   })
   .parse();

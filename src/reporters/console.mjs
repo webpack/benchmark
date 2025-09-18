@@ -2,6 +2,10 @@ import Table from "cli-table3";
 import { consola } from "consola";
 import path from "path";
 
+/**
+ * Extracts the results from metrics
+ * @param {Array<import('../types').MetricResult>} bundlerResults
+ */
 function extractMetrics(bundlerResults) {
   const metrics = new Set();
   for (const [, bundlerMetrics] of bundlerResults) {
@@ -17,6 +21,12 @@ function formatValue(metricData) {
   return metricData.formatted || String(metricData.value) || "─";
 }
 
+/**
+ * Create a row for the summary table
+ * @param {string} bundler
+ * @param {Array<import('../types').MetricResult>} bundlerMetrics
+ * @param {Array} metricsList
+ */
 function createBundlerRow(bundler, bundlerMetrics, metricsList) {
   const row = [bundler];
 
@@ -28,6 +38,11 @@ function createBundlerRow(bundler, bundlerMetrics, metricsList) {
   return row;
 }
 
+/**
+ * Prints a summary table
+ * @param {Map<string, Array<import('../types').MetricResult>>} bundlerResults
+ * @param {Array<string>} bundlers
+ */
 function printSummaryTable(bundlerResults, bundlers) {
   const metricsList = extractMetrics(bundlerResults);
 
@@ -45,6 +60,7 @@ function printSummaryTable(bundlerResults, bundlers) {
   console.log(table.toString());
 }
 
+/** @type {import('../types').Reporter} */
 export default function displayResults(results) {
   consola.info("Benchmark Results");
   console.log("=".repeat(60));
