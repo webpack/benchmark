@@ -1,16 +1,5 @@
 # Webpack Benchmarker
 
-## CLI Options
-
-| Option       | Short | Description                          | Default                  |
-| ------------ | ----- | ------------------------------------ | ------------------------ |
-| `--bundlers` | `-b`  | Select bundlers to benchmark         | `["vite", "webpack"]`    |
-| `--metrics`  | `-m`  | Choose metrics to collect            | `["build-time", "size"]` |
-| `--reporter` | `-r`  | Choose output format                 | `"console"`              |
-| `--fixtures` |       | Glob pattern for fixture directories | `"./fixtures/*"`         |
-| `--verbose`  |       | Enable verbose logging               | `false`                  |
-| `--silent`   |       | Suppress all output except errors    | `false`                  |
-
 ## Fixtures
 
 Fixtures are test projects used to benchmark bundlers.

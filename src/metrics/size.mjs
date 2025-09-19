@@ -1,8 +1,7 @@
-import { formatBytes } from "../core/utils/formatting.mjs";
 import { getDirectorySize } from "../core/utils/file.mjs";
 
 export default class SizeMetric {
-  name = "Size";
+  name = "size";
 
   /** @type {import('../types').Metric['collect']} */
   async collect({ buildResult }) {
@@ -11,8 +10,8 @@ export default class SizeMetric {
 
     return {
       value: totalSize,
+      displayName: "Size",
       unit: "bytes",
-      formatted: formatBytes(totalSize),
     };
   }
 }

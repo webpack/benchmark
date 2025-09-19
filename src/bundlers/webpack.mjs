@@ -1,5 +1,7 @@
-import webpack from "webpack";
 import path from "node:path";
+
+import webpack from "webpack";
+
 import { removeIfExists } from "../core/utils/file.mjs";
 
 const BUNDLER_NAME = "webpack";

@@ -1,8 +1,9 @@
-import { exists } from "./file.mjs";
+import { execFile } from "node:child_process";
 import { join } from "node:path";
 import { join as posixJoin } from "node:path/posix";
-import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+
+import { exists } from "./file.mjs";
 
 const moduleCache = new Map();
 

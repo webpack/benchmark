@@ -1,67 +1,37 @@
+import path from "node:path";
+
 import Table from "cli-table3";
 import { consola } from "consola";
-import path from "path";
 
-/**
- * Extracts the results from metrics
- * @param {Array<import('../types').MetricResult>} bundlerResults
- */
-function extractMetrics(bundlerResults) {
-  const metrics = new Set();
-  for (const [, bundlerMetrics] of bundlerResults) {
-    for (const metricName of bundlerMetrics.keys()) {
-      metrics.add(metricName);
-    }
-  }
-  return Array.from(metrics).sort();
-}
-
-function formatValue(metricData) {
-  if (!metricData) return "─";
-  return metricData.formatted || String(metricData.value) || "─";
-}
-
-/**
- * Create a row for the summary table
- * @param {string} bundler
- * @param {Array<import('../types').MetricResult>} bundlerMetrics
- * @param {Array} metricsList
- */
-function createBundlerRow(bundler, bundlerMetrics, metricsList) {
-  const row = [bundler];
-
-  for (const metric of metricsList) {
-    const metricData = bundlerMetrics.get(metric);
-    row.push(formatValue(metricData));
-  }
-
-  return row;
-}
+import { formatValue } from "../core/utils/formatting.mjs";
 
 /**
  * Prints a summary table
- * @param {Map<string, Array<import('../types').MetricResult>>} bundlerResults
+ * @param {Map<string, Map<string, import('../types').MetricResult>>} bundlerResults
  * @param {Array<string>} bundlers
  */
 function printSummaryTable(bundlerResults, bundlers) {
-  const metricsList = extractMetrics(bundlerResults);
+  const headers = new Set();
+
+  const rows = bundlers.map((bundler) => ({
+    [bundler]: [...bundlerResults.get(bundler).values()].map((result) => {
+      headers.add(result.displayName);
+      return formatValue(result.value, result.unit);
+    }),
+  }));
 
   const table = new Table({
-    head: ["Bundler", ...metricsList],
-    colWidths: [15, ...Array(metricsList.length).fill(18)],
+    head: ["Bundler", ...headers],
     style: { head: ["cyan"], border: ["grey"] },
   });
 
-  for (const bundler of bundlers) {
-    const bundlerMetrics = bundlerResults.get(bundler);
-    table.push(createBundlerRow(bundler, bundlerMetrics, metricsList));
-  }
+  table.push(...rows);
 
   console.log(table.toString());
 }
 
 /** @type {import('../types').Reporter} */
-export default function displayResults(results) {
+export default function (results) {
   consola.info("Benchmark Results");
   console.log("=".repeat(60));
 

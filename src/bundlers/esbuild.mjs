@@ -1,5 +1,7 @@
-import { build as esbuild } from "esbuild";
 import path from "node:path";
+
+import { build as esbuild } from "esbuild";
+
 import { removeIfExists } from "../core/utils/file.mjs";
 
 const BUNDLER_NAME = "esbuild";

@@ -2,7 +2,7 @@
  * Formats milliseconds into a human-readable string
  * @param {number} milliseconds
  */
-export function formatDuration(milliseconds) {
+function formatDuration(milliseconds) {
   if (milliseconds < 1000) {
     return `${Math.round(milliseconds)}ms`;
   } else if (milliseconds < 60000) {
@@ -19,7 +19,23 @@ const sizes = ["B", "KB", "MB", "GB"];
  * Formats bytes into a human-readable string
  * @param {number} bytes
  */
-export function formatBytes(bytes) {
+function formatBytes(bytes) {
   const i = Math.floor(Math.log(bytes) / Math.log(1024));
   return parseFloat((bytes / Math.pow(1024, i)).toFixed(2)) + " " + sizes[i];
+}
+
+/**
+ * Formats a value
+ * @param {number} value
+ * @param {string} unit
+ */
+export function formatValue(value, unit) {
+  switch (unit) {
+    case "ms":
+      return formatDuration(value);
+    case "bytes":
+      return formatBytes(value);
+    default:
+      return String(value);
+  }
 }

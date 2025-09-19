@@ -1,7 +1,9 @@
-import { performance } from "node:perf_hooks";
 import { glob } from "node:fs/promises";
 import { isAbsolute, join } from "node:path";
+import { performance } from "node:perf_hooks";
+
 import { consola } from "consola";
+
 import { prepareFixture, loadModule } from "./utils/misc.mjs";
 
 /**

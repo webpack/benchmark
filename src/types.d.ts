@@ -5,6 +5,7 @@ export declare type Options = {
   fixtures: string;
   verbose: boolean;
   silent: boolean;
+  output: string;
 };
 
 export declare type BuildResult = {
@@ -15,8 +16,8 @@ export declare type BuildResult = {
 
 export declare type MetricResult = {
   value: number;
-  unit: string;
-  formatted: string;
+  unit: "ms" | "bytes";
+  displayName: string;
 };
 
 export declare type Bundler = {
@@ -39,5 +40,6 @@ export declare class Metric {
 }
 
 export declare type Reporter = (
-  results: Map<string, Map<string, MetricResult[]>>,
+  results: Map<string, Map<string, Map<string, MetricResult[]>>>,
+  options: Options,
 ) => Promise<void>;

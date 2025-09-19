@@ -10,5 +10,26 @@ export default [
     languageOptions: {
       globals: globals.nodeBuiltin,
     },
+    rules: {
+      "object-shorthand": "error",
+      "import-x/order": [
+        "error",
+        {
+          groups: [
+            "builtin",
+            "external",
+            "internal",
+            ["sibling", "parent"],
+            "index",
+            "unknown",
+          ],
+          "newlines-between": "always",
+          alphabetize: {
+            order: "asc",
+            caseInsensitive: true,
+          },
+        },
+      ],
+    },
   },
 ];

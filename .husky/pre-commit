@@ -1,2 +1,0 @@
-node --run format:fix
-node --run lint:fix

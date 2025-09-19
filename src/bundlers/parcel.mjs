@@ -1,5 +1,7 @@
-import { Parcel } from "@parcel/core";
 import path from "node:path";
+
+import { Parcel } from "@parcel/core";
+
 import { removeIfExists } from "../core/utils/file.mjs";
 
 const BUNDLER_NAME = "parcel";
