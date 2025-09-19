@@ -1,0 +1,37 @@
+name: Measure
+
+on:
+  workflow_dispatch:
+    inputs:
+      versions:
+        description: "Versions to install"
+        required: false
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: "yarn"
+
+      - name: Add and install Dependencies
+        run: yarn add ${{ github.event.inputs.versions || "webpack@latest vite@latest parcel@latest esbuild@latest" }}
+
+      - name: Run benchmark
+        run: yarn start --reporter json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: benchmark
+          path: output.json

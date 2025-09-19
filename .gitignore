@@ -1,12 +1,4 @@
+fixtures/*/*-dist
+.parcel-cache
 node_modules
-dist
-cases/**/yarn.lock
-*.log
-.cache
-.yarn
-.yarnrc.yml
-.pnp.js
-/output
-.gh-pages
-*.cpuprofile
-*.heapprofile
+output.json
