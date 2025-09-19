@@ -26,7 +26,7 @@ jobs:
           cache: "yarn"
 
       - name: Add and install Dependencies
-        run: yarn add ${{ github.event.inputs.versions || "webpack@latest vite@latest @parcel/core@latest esbuild@latest" }}
+        run: yarn add ${{ github.event.inputs.versions || "webpack@latest vite@latest parcel@latest esbuild@latest" }}
 
       - name: Run benchmark
         run: yarn start --reporter json

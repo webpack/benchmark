@@ -27,11 +27,11 @@
     "start": "node ./src/core/cli.mjs"
   },
   "dependencies": {
-    "@parcel/core": "^2.16.0",
     "cli-table3": "^0.6.5",
     "commander": "^14.0.1",
     "consola": "^3.4.2",
     "esbuild": "^0.25.10",
+    "parcel": "^2.16.0",
     "vite": "^7.1.6",
     "webpack": "^5.101.3"
   },

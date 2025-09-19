@@ -36,5 +36,10 @@ export async function build(fixture) {
 export async function clean(fixture) {
   const outputPath = path.join(fixture, OUTPUT_DIR);
   await removeIfExists(outputPath);
-  await removeIfExists(".parcel-cache");
+  
+  try {
+    await removeIfExists(".parcel-cache");
+  } catch {
+    // If this fails to delete, it's okay
+  }
 }

@@ -10,6 +10,7 @@ new Command()
     "vite",
     "webpack",
     "esbuild",
+    "parcel"
   ])
   .option("-m, --metrics <metrics...>", "Choose metrics to collect", [
     "build-time",
