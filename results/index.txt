@@ -67218,4 +67218,5 @@
 2022-03-24/atlaskit-editor_development-build+no-exports-analysis.json
 2025-08-07/rome_production-build+persistent-cache.json
 2025-09-28/common-libs_production-build+no-exports-analysis.json
+2021-06-01/esbuild-three_production-build+source-map+babel-env.json
 
