@@ -67383,4 +67383,5 @@
 2024-03-03/atlaskit-editor_development-build+no-exports-analysis.json
 2024-06-20/esbuild-three_development-build+future-defaults.json
 2024-12-27/atlaskit-editor_production-build+no-concatenation.json
+2024-10-04/esbuild-three_development-build+babel-env.json
 
