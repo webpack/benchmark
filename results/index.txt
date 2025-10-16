@@ -67500,4 +67500,5 @@
 2025-07-04/rome_production-build+initial-persistent-cache.json
 2023-08-07/common-libs_production-build+swc-env.json
 2024-06-24/common-libs_production-build+no-minimize.json
+2025-10-02/esbuild-three_production-build+swc-env.json
 
