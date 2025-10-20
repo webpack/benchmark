@@ -67640,4 +67640,5 @@
 2025-10-01/rome_production-build+no-minimize+no-concatenation.json
 2025-08-02/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2023-11-27/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2024-08-21/esbuild-three_development-rebuild+hmr.json
 
