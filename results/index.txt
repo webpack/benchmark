@@ -67756,4 +67756,5 @@
 2024-07-01/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2025-02-15/rome_production-build+swc-env.json
 2025-07-10/common-libs_production-build+persistent-cache.json
+2025-10-22/esbuild-three_development-rebuild+hmr.json
 
