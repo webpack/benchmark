@@ -67794,4 +67794,5 @@
 2023-04-27/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2025-10-24/common-libs_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2023-07-24/rome_production-build+no-minimize.json
+2025-10-05/rome_development-build+initial-persistent-cache.json
 
