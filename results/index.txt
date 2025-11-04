@@ -68184,4 +68184,5 @@
 2025-10-23/common-libs-chunks_production-build+source-map.json
 2024-08-04/rome_development-rebuild.json
 2023-12-21/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2025-06-19/atlaskit-editor_production-build+no-minimize.json
 
