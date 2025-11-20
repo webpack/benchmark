@@ -68746,4 +68746,5 @@
 2025-11-20/common-libs-chunks_development-rebuild+unsafe-cache+future-defaults.json
 2021-12-29/esbuild-three_production-build+source-map+babel-env.json
 2024-09-14/rome_production-build+no-minimize.json
+2025-11-11/rome_production-build+swc-env.json
 
