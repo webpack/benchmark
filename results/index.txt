@@ -68866,4 +68866,5 @@
 2024-02-27/common-libs-chunks_development-build+no-exports-analysis.json
 2023-12-01/common-libs_development-build+babel-env.json
 2025-07-01/common-libs-chunks_production-build+no-concatenation.json
+2025-02-17/esbuild-three_development-rebuild+future-defaults.json
 
