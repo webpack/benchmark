@@ -68975,4 +68975,5 @@
 2023-10-16/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2025-03-02/common-libs_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2025-08-24/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2024-11-19/esbuild-three_development-build+initial-persistent-cache.json
 
