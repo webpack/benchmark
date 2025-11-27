@@ -69017,4 +69017,5 @@
 2024-06-20/atlaskit-editor_production-build+swc-env.json
 2025-11-16/common-libs_development-rebuild+hmr.json
 2023-12-24/atlaskit-editor_production-build+source-map.json
+2025-08-24/esbuild-three_development-rebuild+future-defaults.json
 
