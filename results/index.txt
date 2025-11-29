@@ -69096,4 +69096,5 @@
 2025-11-29/common-libs_production-build+persistent-cache.json
 2025-02-03/common-libs_production-build+future-defaults.json
 2023-04-18/rome_development-build+no-exports-analysis.json
+2025-09-23/esbuild-three_development-rebuild+unsafe-cache.json
 
