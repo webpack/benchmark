@@ -69241,4 +69241,5 @@
 2025-12-01/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2021-12-23/atlaskit-editor_development-build+swc-env.json
 2025-01-28/rome_production-build+initial-persistent-cache.json
+2025-12-03/esbuild-three_production-build+no-concatenation.json
 
