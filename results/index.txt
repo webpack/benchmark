@@ -69671,4 +69671,5 @@
 2022-08-24/atlaskit-editor_production-build+source-map+babel-env.json
 2025-12-07/atlaskit-editor_production-build+no-concatenation.json
 2022-02-02/common-libs_development-rebuild+eval-source-map.json
+2025-12-13/esbuild-three_production-build+no-concatenation.json
 
