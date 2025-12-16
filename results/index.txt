@@ -69700,4 +69700,5 @@
 2025-12-10/rome_development-rebuild+hmr.json
 2023-10-29/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2023-04-19/common-libs_development-rebuild+unsafe-cache+no-exports-analysis.json
+2025-12-15/atlaskit-editor_development-build+persistent-cache.json
 
