@@ -69813,4 +69813,5 @@
 2025-01-26/atlaskit-editor_development-build+no-exports-analysis.json
 2025-01-17/common-libs_development-rebuild.json
 2024-08-01/common-libs-chunks_development-rebuild+hmr.json
+2025-12-19/common-libs-chunks_production-build+no-minimize+no-concatenation.json
 
