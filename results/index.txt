@@ -69797,4 +69797,5 @@
 2024-01-07/common-libs_development-rebuild+unsafe-cache.json
 2022-07-30/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
 2023-09-20/atlaskit-editor_development-build+babel-env.json
+2025-09-16/esbuild-three_development-build+persistent-cache.json
 
