@@ -70266,4 +70266,5 @@
 2026-01-01/atlaskit-editor_development-build+initial-persistent-cache.json
 2025-02-01/common-libs-chunks_production-build+source-map+babel-env.json
 2022-09-18/common-libs-chunks_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2025-05-25/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
