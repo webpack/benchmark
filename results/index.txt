@@ -70935,4 +70935,5 @@
 2026-01-20/common-libs-chunks_production-build+swc-env.json
 2023-03-21/rome_development-build+no-exports-analysis.json
 2026-01-14/atlaskit-editor_production-build+no-concatenation.json
+2025-11-26/esbuild-three_production-build+future-defaults.json
 
