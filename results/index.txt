@@ -71160,4 +71160,5 @@
 2025-09-28/common-libs_production-build+source-map+persistent-cache.json
 2023-02-13/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 2025-04-26/esbuild-three_production-build+no-concatenation.json
+2026-01-27/esbuild-three_production-build+future-defaults.json
 
