@@ -71303,4 +71303,5 @@
 2025-05-10/common-libs-chunks_development-rebuild+unsafe-cache.json
 2023-01-14/rome_development-rebuild+eval-source-map.json
 2025-10-01/atlaskit-editor_development-rebuild+hmr.json
+2025-12-19/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
