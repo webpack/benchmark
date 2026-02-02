@@ -71384,4 +71384,5 @@
 2023-05-18/common-libs-chunks_production-build+initial-persistent-cache.json
 2023-09-11/atlaskit-editor_production-build.json
 2025-02-11/common-libs_production-build+no-concatenation.json
+2025-11-23/esbuild-three_development-build+future-defaults.json
 
