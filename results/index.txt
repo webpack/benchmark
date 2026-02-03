@@ -71407,4 +71407,5 @@
 2026-01-08/common-libs_production-build+no-minimize+no-concatenation.json
 2024-11-14/atlaskit-editor_development-build+initial-persistent-cache.json
 2025-12-25/atlaskit-editor_production-build+no-concatenation.json
+2024-05-30/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 
