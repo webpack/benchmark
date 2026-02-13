@@ -71757,4 +71757,5 @@
 2026-01-04/esbuild-three_production-build+source-map.json
 2024-07-09/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis.json
 2024-12-18/common-libs-chunks_development-build+initial-persistent-cache.json
+2026-01-20/esbuild-three_production-build+future-defaults.json
 
