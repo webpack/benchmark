@@ -71981,4 +71981,5 @@
 2026-01-14/atlaskit-editor_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2024-07-29/common-libs-chunks_production-build+no-minimize.json
 2024-04-20/rome_development-build+initial-persistent-cache.json
+2024-11-23/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
