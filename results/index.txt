@@ -72130,4 +72130,5 @@
 2024-11-23/esbuild-three_development-build+future-defaults.json
 2026-02-24/esbuild-three_production-build+persistent-cache.json
 2025-12-23/esbuild-three_development-rebuild+unsafe-cache.json
+2026-01-25/rome_development-rebuild+unsafe-cache+no-exports-analysis.json
 
