@@ -72176,4 +72176,5 @@
 2025-08-20/common-libs_development-build+no-exports-analysis.json
 2026-02-23/common-libs_development-rebuild+unsafe-cache+future-defaults.json
 2025-10-10/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis.json
+2024-07-06/esbuild-three_production-build+initial-persistent-cache.json
 
