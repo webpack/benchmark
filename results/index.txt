@@ -72180,4 +72180,5 @@
 2023-11-18/atlaskit-editor_development-rebuild+unsafe-cache.json
 2026-02-26/atlaskit-editor_development-rebuild.json
 2021-11-12/atlaskit-editor_development-build+swc-env.json
+2026-01-05/atlaskit-editor_production-build+no-minimize+no-concatenation.json
 
