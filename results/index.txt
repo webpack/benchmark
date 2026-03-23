@@ -73047,4 +73047,5 @@
 2026-03-02/rome_production-build+no-minimize.json
 2025-10-08/common-libs_development-rebuild+hmr.json
 2026-01-23/rome_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
+2024-05-04/esbuild-three_production-build+source-map+persistent-cache.json
 
