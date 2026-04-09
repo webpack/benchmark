@@ -73578,4 +73578,5 @@
 2026-04-09/common-libs_development-build+no-exports-analysis.json
 2026-01-21/esbuild-three_development-build+no-exports-analysis.json
 2022-09-20/common-libs_development-build+swc-env.json
+2026-04-09/esbuild-three_development-build+future-defaults.json
 
