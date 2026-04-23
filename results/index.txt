@@ -73933,4 +73933,5 @@
 2026-03-26/common-libs-chunks_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2026-04-22/esbuild-three_development-rebuild+persistent-cache+unsafe-cache+no-exports-analysis.json
 2026-02-13/rome_development-rebuild+unsafe-cache+no-exports-analysis.json
+2026-04-21/esbuild-three_production-build+source-map+persistent-cache.json
 
