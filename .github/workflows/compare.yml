@@ -12,6 +12,9 @@ on:
         default: "webpack@webpack/webpack#master"
         required: true
 
+permissions:
+  contents: read
+
 jobs:
   bench:
     strategy:

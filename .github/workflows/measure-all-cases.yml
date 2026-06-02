@@ -12,6 +12,9 @@ on:
         default: "2021-10-01"
         required: true
 
+permissions:
+  contents: read
+
 jobs:
   bench:
     strategy:
