@@ -74943,4 +74943,5 @@
 2025-07-25/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 2026-03-21/esbuild-three_production-build+source-map+persistent-cache.json
 2026-03-13/esbuild-three_development-rebuild+unsafe-cache.json
+2025-11-27/rome_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
 
