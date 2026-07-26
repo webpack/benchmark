@@ -75654,4 +75654,5 @@
 2025-02-22/common-libs-chunks_production-build+no-concatenation.json
 2024-11-16/atlaskit-editor_production-build+babel-env.json
 2025-11-29/rome_development-rebuild+hmr.json
+2025-12-01/rome_production-build+no-exports-analysis.json
 
