@@ -75952,4 +75952,5 @@
 2025-02-02/common-libs-chunks_development-build+no-exports-analysis.json
 2023-11-20/esbuild-three_development-build+persistent-cache.json
 2026-04-04/esbuild-three_development-rebuild+unsafe-cache+no-exports-analysis+future-defaults.json
+2026-05-19/esbuild-three_production-build+swc-env.json
 
