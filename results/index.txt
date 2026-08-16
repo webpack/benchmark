@@ -76119,4 +76119,5 @@
 2026-04-18/esbuild-three_production-build+no-concatenation.json
 2025-11-30/rome_production-build+persistent-cache.json
 2023-11-27/rome_production-build+source-map.json
+2024-08-20/esbuild-three_production-build+future-defaults.json
 
