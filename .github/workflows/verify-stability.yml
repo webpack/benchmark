@@ -1,9 +1,8 @@
 name: Verify Stability
 
+# Dispatch-only since the repository was deprecated; a push to main would
+# otherwise start a benchmark run nobody reads. See README.md.
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
