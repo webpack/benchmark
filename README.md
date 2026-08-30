@@ -17,9 +17,29 @@ on every pull request and every push to `main`, in both simulation and memory
 mode. That is where a regression is caught and where the trend is tracked; this
 repository never gated anything.
 
-The scenarios it carried that webpack/webpack lacked — a loader in the pipeline,
-a cold persistent cache, and HMR — have been ported into `test/benchmarkCases/`
-there.
+Of the 21 addon scenarios this repository carried, webpack/webpack already
+covered eight (both source-map variants, `future-defaults`, `persistent-cache`,
+and the CPU and heap profiles through its own runner modes). Ten more were
+ported into `test/benchmarkCases/` there: a loader in the pipeline, a cold
+persistent cache and HMR in webpack/webpack#21858, then `no-minimize`,
+`no-concatenation`, `no-exports-analysis`, the three unsafe-cache variants and a
+modern `common-libs` in webpack/webpack#21864.
+
+Five are deliberately not ported, and stay recorded here rather than being lost
+quietly:
+
+| Scenario                                      | Why                                                                                                                                          |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `swc-env`, `swc-env-minimize`, `swc-minimize` | need `@swc/core` / `swc-loader` / `terser-webpack-plugin`, which webpack does not depend on                                                  |
+| `thread-babel-env`                            | needs `thread-loader`                                                                                                                        |
+| babel `preset-env`                            | needs `@babel/preset-env`; the ported `loader-babel` uses `preset-react`                                                                     |
+| `pnp`                                         | needs a Yarn PnP install layout the in-repo harness cannot produce                                                                           |
+| `no-cache`                                    | inexpressible there — the watch scenario overrides `cache`, and each iteration builds a fresh compiler, so a memory cache never carries over |
+
+The `cases/` fixtures are not ported. `rome` is an archived project whose case no
+longer builds, `atlaskit-editor` pins React 16 with `@atlaskit/editor-core` 120,
+and the old `common-libs` pinned Material-UI 4, Vue 2, moment and jQuery; the
+replacement uses the modern libraries webpack already depends on.
 
 ## What is kept, and why
 
